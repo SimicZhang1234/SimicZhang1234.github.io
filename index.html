@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>首席法师吉迪恩 Archmage Gideon</title>
+<link rel="icon" href="img/icon.png">
+<style>
+/* One column: key art, a few lines, one button, screenshots. Lapis and gold from the game's dome. */
+:root {
+  --night: #0b0e1c;
+  --marble: #eee7d7;
+  --dim: #b9b2a3;
+  --gold: #d9b45e;
+  --line: rgba(217, 180, 94, 0.3);
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--night) radial-gradient(ellipse 80% 40% at 50% 0%, rgba(29, 45, 99, 0.9), transparent 70%) no-repeat;
+  color: var(--marble);
+  font: 400 1rem/1.7 "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+}
+main { max-width: 960px; margin-inline: auto; padding: 32px 16px 48px; text-align: center; }
+img { max-width: 100%; height: auto; display: block; }
+.hero { border-radius: 6px; box-shadow: 0 0 0 1px #6b4f1c, 0 24px 60px rgba(0, 0, 0, 0.5); }
+h1 { margin: 28px 0 4px; font: 900 clamp(2rem, 6vw, 3rem)/1.15 "Noto Serif SC", "Songti SC", "STZhongsong", "SimSun", serif; letter-spacing: 0.08em; color: var(--gold); }
+.en-title { margin: 0; font: 600 1rem/1.4 "Palatino Linotype", "Book Antiqua", Palatino, serif; letter-spacing: 0.3em; text-transform: uppercase; color: var(--marble); }
+.desc { max-width: 36em; margin: 20px auto 0; color: var(--dim); }
+.btn {
+  display: inline-block; margin: 28px 0 10px; padding: 16px 40px; border-radius: 6px;
+  font-weight: 700; font-size: 1.25rem; color: #1a1306; text-decoration: none;
+  background: linear-gradient(180deg, #f6e1a0, #d9b45e 45%, #a87f30);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), 0 0 0 1px #6b4f1c, 0 8px 28px rgba(217, 180, 94, 0.3);
+}
+.btn:hover { filter: brightness(1.08); }
+.btn:focus-visible { outline: 2px solid #a6e0ff; outline-offset: 3px; }
+.req { margin: 0; font-size: 0.875rem; color: var(--dim); }
+.shots { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 40px; }
+.shots img { border-radius: 4px; box-shadow: 0 0 0 1px var(--line); }
+@media (max-width: 600px) { .shots { grid-template-columns: minmax(0, 1fr); } }
+</style>
+</head>
+<body>
+<main>
+  <img class="hero" src="img/hero.jpg" width="1920" height="1080" alt="Archmage Gideon">
+  <h1>首席法师吉迪恩</h1>
+  <p class="en-title">Archmage Gideon</p>
+  <p class="desc">一位法师，十一道法术，独守天穹圣殿。亡灵破土而出，血月染红大殿，第 200 名亡灵倒下时，巨龙自穹顶降临。<br>
+  One archmage and eleven spells hold the Celestial Sanctum against the risen dead, the Red Moon and a dragon.</p>
+  <a class="btn" href="https://cnb.cool/ArchmageGideon/ArchmageGideon/-/releases/download/v6.1/ArchmageGideon_v6.1_Setup.msi">免费下载 Free download · 6.1</a>
+  <p class="req">Windows 10 / 11（64 位）· DirectX 12 · 8 GB 内存 · 731 MB</p>
+  <div class="shots">
+    <img src="img/shot_frost.jpg" width="1280" height="720" loading="lazy" alt="Frost Ring">
+    <img src="img/shot_redmoon.jpg" width="1280" height="720" loading="lazy" alt="The Red Moon">
+    <img src="img/shot_dragon.jpg" width="1280" height="720" loading="lazy" alt="The dragon">
+    <img src="img/shot_pyre.jpg" width="1280" height="720" loading="lazy" alt="The dragon falls">
+  </div>
+</main>
+</body>
+</html>
