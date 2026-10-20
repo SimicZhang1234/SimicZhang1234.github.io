@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Red Moon Music Candidates</title>
+<link rel="icon" href="../../img/icon.png">
+<style>
+/* The demo page's look: one column, three candidates, each in the fight and alone. */
+:root {
+  --night: #0b0e1c;
+  --marble: #eee7d7;
+  --dim: #b9b2a3;
+  --gold: #d9b45e;
+  --line: rgba(217, 180, 94, 0.3);
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--night) radial-gradient(ellipse 80% 40% at 50% 0%, rgba(99, 29, 35, 0.85), transparent 70%) no-repeat;
+  color: var(--marble);
+  font: 400 1rem/1.7 "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+}
+main { max-width: 720px; margin-inline: auto; padding: 32px 16px 48px; }
+h1 { margin: 0 0 4px; text-align: center; font: 900 clamp(1.5rem, 5vw, 2.2rem)/1.2 "Noto Serif SC", "Songti SC", "STZhongsong", "SimSun", serif; letter-spacing: 0.08em; color: var(--gold); }
+.sub { margin: 0 0 28px; text-align: center; color: var(--dim); }
+section { padding: 18px 0; border-bottom: 1px solid var(--line); }
+h2 { margin: 0 0 4px; font-size: 1.15rem; color: var(--gold); }
+p { margin: 0 0 12px; color: var(--dim); }
+.row { display: grid; grid-template-columns: 8.5em minmax(0, 1fr); gap: 8px 12px; align-items: center; }
+audio { width: 100%; }
+@media (max-width: 480px) { .row { grid-template-columns: minmax(0, 1fr); } }
+</style>
+</head>
+<body>
+<main>
+  <h1>血月配乐候选 Red Moon music</h1>
+  <p class="sub">Three simple candidates, each in a real Red Moon fight (the music from 5.5 s, as in the game) and alone</p>
+  <section>
+    <h2>S1 Pulse</h2>
+    <p>The chosen piece (Boss Battle #2, H2) cut down to its drums and bass, with its low rumble.</p>
+    <div class="row">
+      <span>In the fight · 0:33</span><audio controls preload="none" src="S1_Pulse_in_the_fight.mp3"></audio>
+      <span>Alone · 1:00</span><audio controls preload="none" src="S1_Pulse_alone.mp3"></audio>
+    </div>
+  </section>
+  <section>
+    <h2>S2 Heartbeat and ghost choir</h2>
+    <p>A fast heartbeat (100 bpm) under a faint, high ghostly choir breathing every 12 s.</p>
+    <div class="row">
+      <span>In the fight · 0:33</span><audio controls preload="none" src="S2_Heartbeat_ghost_choir_in_the_fight.mp3"></audio>
+      <span>Alone · 1:00</span><audio controls preload="none" src="S2_Heartbeat_ghost_choir_alone.mp3"></audio>
+    </div>
+  </section>
+  <section>
+    <h2>S3 Pulse and ghost choir</h2>
+    <p>S1's drums and bass under S2's ghostly choir.</p>
+    <div class="row">
+      <span>In the fight · 0:33</span><audio controls preload="none" src="S3_Pulse_ghost_choir_in_the_fight.mp3"></audio>
+      <span>Alone · 1:00</span><audio controls preload="none" src="S3_Pulse_ghost_choir_alone.mp3"></audio>
+    </div>
+  </section>
+</main>
+</body>
+</html>
