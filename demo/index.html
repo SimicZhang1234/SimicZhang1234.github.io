@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Archmage Gideon 6.1.4 Demo</title>
+<title>Archmage Gideon Demo</title>
 <link rel="icon" href="../img/icon.png">
 <style>
-/* The download page's look: one column, the film, the music in the order it plays. */
+/* The download page's look: one column, each film with its chapters. */
 :root {
   --night: #0b0e1c;
   --marble: #eee7d7;
@@ -24,7 +24,8 @@ body {
 }
 main { max-width: 960px; margin-inline: auto; padding: 32px 16px 48px; text-align: center; }
 h1 { margin: 0 0 4px; font: 900 clamp(1.6rem, 5vw, 2.4rem)/1.2 "Noto Serif SC", "Songti SC", "STZhongsong", "SimSun", serif; letter-spacing: 0.08em; color: var(--gold); }
-.sub { margin: 0 0 24px; color: var(--dim); }
+h2 { margin: 44px 0 4px; font: 700 clamp(1.2rem, 3.6vw, 1.6rem)/1.3 "Noto Serif SC", "Songti SC", "STZhongsong", "SimSun", serif; letter-spacing: 0.06em; color: var(--gold); }
+.sub { margin: 0 0 20px; color: var(--dim); }
 video { width: 100%; height: auto; display: block; border-radius: 6px; background: #000; box-shadow: 0 0 0 1px #6b4f1c, 0 24px 60px rgba(0, 0, 0, 0.5); }
 ol { list-style: none; margin: 24px auto 0; padding: 0; max-width: 40em; text-align: left; }
 li { border-bottom: 1px solid var(--line); }
@@ -37,10 +38,28 @@ li button:focus-visible { outline: 2px solid #a6e0ff; outline-offset: 2px; }
 </head>
 <body>
 <main>
-  <h1>首席法师吉迪恩 6.1.4 演示</h1>
+  <h1>首席法师吉迪恩 演示</h1>
+
+  <h2>v7 预览：大圆顶殿堂</h2>
+  <p class="sub">The great domed hall after Hagia Sophia, a tour (v7, in development, not yet released) · 2:00</p>
+  <video id="v7" src="ArchmageGideon_v7_Tour.mp4" poster="poster_v7.jpg" width="1920" height="1080" controls preload="metadata" playsinline></video>
+  <ol data-film="v7">
+    <li><button data-t="0"><span class="t">0:00</span>开场飞行 The opening flight</button></li>
+    <li><button data-t="15.2"><span class="t">0:15</span>中殿与大圆顶 The nave under the great dome, the stage before the apse</button></li>
+    <li><button data-t="34.4"><span class="t">0:34</span>北侧廊与圆厅 The north aisle and the rotunda</button></li>
+    <li><button data-t="42.6"><span class="t">0:43</span>坡道塔 The ramp tower</button></li>
+    <li><button data-t="48.2"><span class="t">0:48</span>西廊台与包厢 The west gallery and its loge, the north gallery</button></li>
+    <li><button data-t="85.6"><span class="t">1:26</span>南廊台的大理石屏门 The south gallery's marble screen</button></li>
+    <li><button data-t="90.2"><span class="t">1:30</span>楼梯塔 The stair tower</button></li>
+    <li><button data-t="93.9"><span class="t">1:34</span>圆顶侧室 The domed side room</button></li>
+    <li><button data-t="101.0"><span class="t">1:41</span>外前厅 The outer narthex</button></li>
+    <li><button data-t="111.5"><span class="t">1:51</span>大圆顶 The great dome</button></li>
+  </ol>
+
+  <h2>6.1.4 演示</h2>
   <p class="sub">Archmage Gideon 6.1.4: each piece of music where the game plays it · 2:44</p>
-  <video id="film" src="ArchmageGideon_v6.1.4_Demo.mp4" poster="poster.jpg" width="1920" height="1080" controls preload="metadata" playsinline></video>
-  <ol>
+  <video id="v614" src="ArchmageGideon_v6.1.4_Demo.mp4" poster="poster.jpg" width="1920" height="1080" controls preload="metadata" playsinline></video>
+  <ol data-film="v614">
     <li><button data-t="0"><span class="t">0:00</span>战斗音乐 Battle music: Fantasy Choir (cesisco)</button></li>
     <li><button data-t="37.5"><span class="t">0:38</span>清除一波亡灵 A wave cleared: the short fanfare, then the war horns</button></li>
     <li><button data-t="49.8"><span class="t">0:50</span>血月 The Red Moon: a heartbeat and a ghost choir</button></li>
@@ -52,9 +71,11 @@ li button:focus-visible { outline: 2px solid #a6e0ff; outline-offset: 2px; }
   <a class="back" href="../">免费下载 Free download →</a>
 </main>
 <script>
-const film = document.getElementById("film");
-for (const b of document.querySelectorAll("li button")) {
-  b.addEventListener("click", () => { film.currentTime = Number(b.dataset.t); film.play(); });
+for (const list of document.querySelectorAll("ol[data-film]")) {
+  const film = document.getElementById(list.dataset.film);
+  for (const b of list.querySelectorAll("li button")) {
+    b.addEventListener("click", () => { film.currentTime = Number(b.dataset.t); film.play(); });
+  }
 }
 </script>
 </body>
