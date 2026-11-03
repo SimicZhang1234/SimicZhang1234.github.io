@@ -18,6 +18,15 @@
     "web_transcode": false
   },
   {
+    "id": "death-bisection",
+    "title": "重斩断身 · 侧面试片",
+    "description": "4.5 秒 · 剑盾掉落、身体断开落地 · 血量保持克制",
+    "video": "assets/death-bisection.mp4",
+    "poster": "assets/death-bisection.jpg",
+    "group": "deaths",
+    "web_transcode": false
+  },
+  {
     "id": "wound-death-progress",
     "title": "受伤后倒地 · 中间版",
     "description": "5.4 秒 · 腰腹伤口出血约两秒后倒地 · 已修盔甲上的地面贴花 · 胸口版及更多死法继续补拍",
