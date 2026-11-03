@@ -27,6 +27,15 @@
     "web_transcode": false
   },
   {
+    "id": "outfit-crystal-mobility",
+    "title": "Lightblade · 新着装与深蓝双剑动态",
+    "description": "9.1 秒 · 侧移、反击、转身与空中斩 · 带音效的动作试片 · 造型候选",
+    "video": "assets/outfit-crystal-mobility.mp4",
+    "poster": "assets/outfit-crystal-mobility.jpg",
+    "group": "wardrobe",
+    "web_transcode": false
+  },
+  {
     "id": "outfit-holy-new",
     "title": "Lightblade · 翼饰圣剑与黑金着装",
     "description": "1 秒 · 新资源原生佩戴 · 黑金着装与双剑搭配候选",
@@ -172,8 +181,8 @@
   },
   {
     "id": "champion-crowd",
-    "title": "Champion · 一对多三轮战斗",
-    "description": "19.5 秒 · 横扫、连招、收尾击杀 · 不同受击与倒地姿态",
+    "title": "Champion · 一对多三轮战斗参考",
+    "description": "19.5 秒 · 此前招式与随机受击参考 · 死亡重制见页面上方",
     "video": "assets/champion-crowd.mp4",
     "poster": "assets/champion-crowd.jpg",
     "group": "characters",
@@ -182,7 +191,7 @@
   {
     "id": "champion-execution",
     "title": "Champion · 处决演示",
-    "description": "7.7 秒 · 头盔敌人 · 命中与死亡音效",
+    "description": "7.7 秒 · 此前处决参考 · 新死亡效果见页面上方",
     "video": "assets/champion-execution.mp4",
     "poster": "assets/champion-execution.jpg",
     "group": "characters",
