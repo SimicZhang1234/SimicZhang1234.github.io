@@ -1,5 +1,14 @@
 [
   {
+    "id": "outfit-crystal-new",
+    "title": "Lightblade · 深蓝晶刃与蓝银着装",
+    "description": "1 秒 · 新资源实际佩戴 · 保留原始深蓝材质 · 造型候选",
+    "video": "assets/outfit-crystal-new.mp4",
+    "poster": "assets/outfit-crystal-new.jpg",
+    "group": "wardrobe",
+    "web_transcode": false
+  },
+  {
     "id": "death-kneel",
     "title": "掉剑跪倒 · 连续动作",
     "description": "5 秒 · 剑落地、双膝跪下，再失力倒下 · 新版试片",
