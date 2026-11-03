@@ -1,0 +1,101 @@
+[
+  {
+    "id": "green-look",
+    "title": "A · 绿金雕纹双剑",
+    "description": "1.3 秒 · 无声外观小样 · 候选",
+    "video": "assets/green-look.mp4",
+    "poster": "assets/green-look.jpg",
+    "group": "swords",
+    "web_transcode": false
+  },
+  {
+    "id": "red-look",
+    "title": "B · 红金细刃双剑",
+    "description": "1.3 秒 · 无声外观小样 · 候选",
+    "video": "assets/red-look.mp4",
+    "poster": "assets/red-look.jpg",
+    "group": "swords",
+    "web_transcode": false
+  },
+  {
+    "id": "green-combat",
+    "title": "A · 双剑实战修正版",
+    "description": "6.5 秒 · 四次真实命中 · 两类敌人 · 刀刃血迹淡出",
+    "video": "assets/green-combat.mp4",
+    "poster": "assets/green-combat.jpg",
+    "group": "combat",
+    "web_transcode": false
+  },
+  {
+    "id": "green-mobility",
+    "title": "A · 闪避与攻击动作",
+    "description": "9.4 秒 · 侧移、反击、转身、空中斩 · 带音效",
+    "video": "assets/green-mobility.mp4",
+    "poster": "assets/green-mobility.jpg",
+    "group": "combat",
+    "web_transcode": false
+  },
+  {
+    "id": "champion-crowd",
+    "title": "Champion · 一对多三轮战斗",
+    "description": "19.5 秒 · 横扫、连招、收尾击杀 · 不同受击与倒地姿态",
+    "video": "assets/champion-crowd.mp4",
+    "poster": "assets/champion-crowd.jpg",
+    "group": "characters",
+    "web_transcode": false
+  },
+  {
+    "id": "champion-execution",
+    "title": "Champion · 处决演示",
+    "description": "7.7 秒 · 头盔敌人 · 命中与死亡音效",
+    "video": "assets/champion-execution.mp4",
+    "poster": "assets/champion-execution.jpg",
+    "group": "characters",
+    "web_transcode": false
+  },
+  {
+    "id": "sovereign-combat",
+    "title": "Sovereign · 最新近战修正版",
+    "description": "3 秒 · 当前无遮眼造型 · 减弱命中闪光",
+    "video": "assets/sovereign-combat.mp4",
+    "poster": "assets/sovereign-combat.jpg",
+    "group": "characters",
+    "web_transcode": false
+  },
+  {
+    "id": "sovereign-face",
+    "title": "Sovereign · 当前造型近景",
+    "description": "2.8 秒 · 原脸、发型和白黑盔甲 · 自然眨眼",
+    "video": "assets/sovereign-face.mp4",
+    "poster": "assets/sovereign-face.jpg",
+    "group": "characters",
+    "web_transcode": false
+  },
+  {
+    "id": "sovereign-expression",
+    "title": "Sovereign · 表情小样",
+    "description": "3 秒 · 无声表情候选",
+    "video": "assets/sovereign-expression.mp4",
+    "poster": "assets/sovereign-expression.jpg",
+    "group": "characters",
+    "web_transcode": false
+  },
+  {
+    "id": "sovereign-full",
+    "title": "Sovereign · 八招完整参考",
+    "description": "65 秒 · 此前完整招式版；面部与闪光更新见上方短片",
+    "video": "assets/sovereign-full.mp4",
+    "poster": "assets/sovereign-full.jpg",
+    "group": "complete",
+    "web_transcode": true
+  },
+  {
+    "id": "seraph-full",
+    "title": "Seraph · 火焰宽剑完整演示",
+    "description": "35 秒 · 已认可的 S7B 造型与火焰剑",
+    "video": "assets/seraph-full.mp4",
+    "poster": "assets/seraph-full.jpg",
+    "group": "complete",
+    "web_transcode": true
+  }
+]
