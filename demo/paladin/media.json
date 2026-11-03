@@ -29,7 +29,7 @@
   {
     "id": "outfit-holy-new",
     "title": "Lightblade · 翼饰圣剑与黑金着装",
-    "description": "1 秒 · 新资源实际佩戴 · 双剑与整体着装搭配候选",
+    "description": "1 秒 · 新资源原生佩戴 · 黑金着装与双剑搭配候选",
     "video": "assets/outfit-holy-new.mp4",
     "poster": "assets/outfit-holy-new.jpg",
     "group": "wardrobe",
@@ -38,7 +38,7 @@
   {
     "id": "outfit-crystal-new",
     "title": "Lightblade · 深蓝晶刃与蓝银着装",
-    "description": "1 秒 · 新资源实际佩戴 · 保留原始深蓝材质 · 造型候选",
+    "description": "1 秒 · 新资源原生佩戴 · 保留原始深蓝材质 · 造型候选",
     "video": "assets/outfit-crystal-new.mp4",
     "poster": "assets/outfit-crystal-new.jpg",
     "group": "wardrobe",
