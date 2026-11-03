@@ -1,5 +1,41 @@
 [
   {
+    "id": "sovereign-light-fix",
+    "title": "Sovereign · 技能照脸修正版",
+    "description": "4.8 秒 · 太阳审判 · 保留脸与盔甲细节 · 当前修正版",
+    "video": "assets/sovereign-light-fix.mp4",
+    "poster": "assets/sovereign-light-fix.jpg",
+    "group": "repairs",
+    "web_transcode": false
+  },
+  {
+    "id": "sovereign-sky-check",
+    "title": "Sovereign · 空中招式检查",
+    "description": "6.2 秒 · 天降招式实拍 · 中间版，继续检查衔接；死亡尚未重做",
+    "video": "assets/sovereign-sky-check.mp4",
+    "poster": "assets/sovereign-sky-check.jpg",
+    "group": "repairs",
+    "web_transcode": false
+  },
+  {
+    "id": "outfit-blue",
+    "title": "Lightblade · 蓝银着装候选",
+    "description": "1.3 秒 · 深蓝衣料与银色护甲 · 绿金双剑暂作参照",
+    "video": "assets/outfit-blue.mp4",
+    "poster": "assets/outfit-blue.jpg",
+    "group": "wardrobe",
+    "web_transcode": false
+  },
+  {
+    "id": "outfit-gold",
+    "title": "Lightblade · 黑金着装候选",
+    "description": "1.3 秒 · 黑色衣料与金色护甲 · 绿金双剑暂作参照",
+    "video": "assets/outfit-gold.mp4",
+    "poster": "assets/outfit-gold.jpg",
+    "group": "wardrobe",
+    "web_transcode": false
+  },
+  {
     "id": "outfit-r1",
     "title": "Lightblade · 新着装第一版",
     "description": "1.3 秒 · 原脸与原招式 · 黑红衣料、非对称护甲 · 双剑暂作参照",
