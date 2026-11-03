@@ -1,5 +1,23 @@
 [
   {
+    "id": "death-kneel",
+    "title": "掉剑跪倒 · 连续动作",
+    "description": "5 秒 · 剑落地、双膝跪下，再失力倒下 · 新版试片",
+    "video": "assets/death-kneel.mp4",
+    "poster": "assets/death-kneel.jpg",
+    "group": "deaths",
+    "web_transcode": false
+  },
+  {
+    "id": "death-chest",
+    "title": "胸口受伤 · 两秒后倒地",
+    "description": "5.2 秒 · 胸口出血、受伤人声与倒地 · 新版试片",
+    "video": "assets/death-chest.mp4",
+    "poster": "assets/death-chest.jpg",
+    "group": "deaths",
+    "web_transcode": false
+  },
+  {
     "id": "wound-death-progress",
     "title": "受伤后倒地 · 中间版",
     "description": "5.4 秒 · 腰腹伤口出血约两秒后倒地 · 已修盔甲上的地面贴花 · 胸口版及更多死法继续补拍",
