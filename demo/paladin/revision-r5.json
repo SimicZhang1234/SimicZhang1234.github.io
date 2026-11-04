@@ -2,6 +2,20 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "consecration-clear-r14",
+      "name": "R14_Champion_CleanConsecration_20261105_M1",
+      "title": "Champion · Consecration 去黑烟对比",
+      "note": "扩大金色符文法阵，去掉先前遮住人物的黑烟，保留施放、范围冲击和受击动作。这条为最新实际 UE 短段；目前法阵仍偏平，施放动作和冲击重量还需要继续打磨。",
+      "poster_frame": 32,
+      "root_reviewed_frames": [
+        23,
+        32,
+        55,
+        83
+      ],
+      "publish": true
+    },
+    {
       "id": "sovereign-complete-wings-front-r13",
       "name": "R13_Sovereign_FullSourceWingsFront_20261105_L1",
       "title": "Sovereign · 完整羽翼候选／正面",
@@ -68,7 +82,8 @@
         32,
         55
       ],
-      "publish": true
+      "publish": false,
+      "superseded_by": "consecration-clear-r14"
     },
     {
       "id": "sovereign-no-face-flash-r12",
