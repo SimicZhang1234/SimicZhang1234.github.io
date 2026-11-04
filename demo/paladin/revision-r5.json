@@ -16,6 +16,19 @@
       "publish": true
     },
     {
+      "id": "sovereign-cry-fall-r14",
+      "name": "R14_Sovereign_ClearCryFall_20261105_M1",
+      "title": "Sovereign · 死亡呼喊与闭眼收尾",
+      "note": "真实近战命中后掉武器，配死亡呼喊；攻击者向侧面让开镜头，提前闭眼并保留贴地尸体。这条重点看清完整收尾，起倒和手臂姿态仍显僵硬，继续返修，尚未定型。",
+      "poster_frame": 95,
+      "root_reviewed_frames": [
+        28,
+        55,
+        95
+      ],
+      "publish": true
+    },
+    {
       "id": "sovereign-complete-wings-front-r13",
       "name": "R13_Sovereign_FullSourceWingsFront_20261105_L1",
       "title": "Sovereign · 完整羽翼候选／正面",
@@ -184,7 +197,8 @@
         78,
         95
       ],
-      "publish": true
+      "publish": false,
+      "superseded_by": "sovereign-cry-fall-r14"
     },
     {
       "id": "chest-spray-timing",
