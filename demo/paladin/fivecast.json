@@ -1,0 +1,379 @@
+{
+  "seconds": 241.63333333333333,
+  "chapters": [
+    {
+      "title": "Seraph · 定型造型与五招",
+      "role": "Seraph",
+      "seconds": 0.0,
+      "frames": 1037
+    },
+    {
+      "title": "Seraph · 受击与死亡",
+      "role": "Seraph",
+      "seconds": 34.56666666666667,
+      "frames": 181
+    },
+    {
+      "title": "Sovereign · 定型造型",
+      "role": "Sovereign",
+      "seconds": 40.6,
+      "frames": 84
+    },
+    {
+      "title": "Halo Strike · 命中光修正版",
+      "role": "Sovereign",
+      "seconds": 43.4,
+      "frames": 90
+    },
+    {
+      "title": "Sovereign · 旋转、连击与风暴",
+      "role": "Sovereign",
+      "seconds": 46.4,
+      "frames": 441
+    },
+    {
+      "title": "Heaven’s Descent · 落点修正版",
+      "role": "Sovereign",
+      "seconds": 61.1,
+      "frames": 150
+    },
+    {
+      "title": "Eclipse Nova",
+      "role": "Sovereign",
+      "seconds": 66.1,
+      "frames": 123
+    },
+    {
+      "title": "Judgement of the Sun · 照脸修正版",
+      "role": "Sovereign",
+      "seconds": 70.2,
+      "frames": 144
+    },
+    {
+      "title": "Apotheosis",
+      "role": "Sovereign",
+      "seconds": 75.0,
+      "frames": 240
+    },
+    {
+      "title": "Sovereign · 痛叫与后倒（持剑遮脸待改）",
+      "role": "Sovereign",
+      "seconds": 83.0,
+      "frames": 135
+    },
+    {
+      "title": "Champion · 造型、格挡与前六招",
+      "role": "Champion",
+      "seconds": 87.5,
+      "frames": 990
+    },
+    {
+      "title": "Champion · 受击接触修正版",
+      "role": "Champion",
+      "seconds": 120.5,
+      "frames": 90
+    },
+    {
+      "title": "Champion · 标枪、雷电与后续招式",
+      "role": "Champion",
+      "seconds": 123.5,
+      "frames": 891
+    },
+    {
+      "title": "Divine Judgement · 构图修正版",
+      "role": "Champion",
+      "seconds": 153.2,
+      "frames": 226
+    },
+    {
+      "title": "Champion · 两类敌人处决",
+      "role": "Champion",
+      "seconds": 160.73333333333332,
+      "frames": 230
+    },
+    {
+      "title": "Champion · 三轮一对多与随机受击",
+      "role": "Champion",
+      "seconds": 168.4,
+      "frames": 585
+    },
+    {
+      "title": "Champion · 受击与死亡",
+      "role": "Champion",
+      "seconds": 187.9,
+      "frames": 152
+    },
+    {
+      "title": "Dawnknight · SHIELD CHARGE",
+      "role": "Dawnknight",
+      "seconds": 192.96666666666667,
+      "frames": 83
+    },
+    {
+      "title": "Dawnknight · CRUSADER CUT",
+      "role": "Dawnknight",
+      "seconds": 195.73333333333332,
+      "frames": 46
+    },
+    {
+      "title": "Dawnknight · OVERHAND BLOW",
+      "role": "Dawnknight",
+      "seconds": 197.26666666666668,
+      "frames": 52
+    },
+    {
+      "title": "Dawnknight · GUARD BREAKER",
+      "role": "Dawnknight",
+      "seconds": 199.0,
+      "frames": 82
+    },
+    {
+      "title": "Dawnknight · SACRED OATH",
+      "role": "Dawnknight",
+      "seconds": 201.73333333333332,
+      "frames": 161
+    },
+    {
+      "title": "Oathbreaker · BRUTAL CLEAVE",
+      "role": "Oathbreaker",
+      "seconds": 207.1,
+      "frames": 52
+    },
+    {
+      "title": "Oathbreaker · RAVAGER SWEEP",
+      "role": "Oathbreaker",
+      "seconds": 208.83333333333334,
+      "frames": 70
+    },
+    {
+      "title": "Oathbreaker · SKULL SPLITTER",
+      "role": "Oathbreaker",
+      "seconds": 211.16666666666666,
+      "frames": 60
+    },
+    {
+      "title": "Oathbreaker · BLACK THRUST",
+      "role": "Oathbreaker",
+      "seconds": 213.16666666666666,
+      "frames": 77
+    },
+    {
+      "title": "Oathbreaker · HELLFIRE LEAP",
+      "role": "Oathbreaker",
+      "seconds": 215.73333333333332,
+      "frames": 192
+    },
+    {
+      "title": "敌人 · 四类死亡效果（加强版仍在完善）",
+      "role": "Dawnknight / Oathbreaker",
+      "seconds": 222.13333333333333,
+      "frames": 585
+    }
+  ],
+  "skills": [
+    {
+      "role": "Seraph",
+      "title": "JUDGEMENT OF FIRE",
+      "seconds": 25.0
+    },
+    {
+      "role": "Seraph",
+      "title": "FLAME ARC",
+      "seconds": 4.967
+    },
+    {
+      "role": "Seraph",
+      "title": "WING DIVE",
+      "seconds": 9.5
+    },
+    {
+      "role": "Seraph",
+      "title": "LANCE OF HEAVEN",
+      "seconds": 17.533
+    },
+    {
+      "role": "Seraph",
+      "title": "FEATHER STORM",
+      "seconds": 20.967
+    },
+    {
+      "role": "Sovereign",
+      "title": "HALO STRIKE",
+      "seconds": 43.667
+    },
+    {
+      "role": "Sovereign",
+      "title": "CELESTIAL SPIN",
+      "seconds": 46.6
+    },
+    {
+      "role": "Sovereign",
+      "title": "SERAPHIC BARRAGE",
+      "seconds": 49.833
+    },
+    {
+      "role": "Sovereign",
+      "title": "WING TEMPEST",
+      "seconds": 57.467
+    },
+    {
+      "role": "Sovereign",
+      "title": "HEAVEN'S DESCENT",
+      "seconds": 61.333
+    },
+    {
+      "role": "Sovereign",
+      "title": "ECLIPSE NOVA",
+      "seconds": 67.1
+    },
+    {
+      "role": "Sovereign",
+      "title": "JUDGEMENT OF THE SUN",
+      "seconds": 70.367
+    },
+    {
+      "role": "Sovereign",
+      "title": "APOTHEOSIS",
+      "seconds": 76.0
+    },
+    {
+      "role": "Champion",
+      "title": "CLEAVING SWEEP",
+      "seconds": 95.0
+    },
+    {
+      "role": "Champion",
+      "title": "VALOR CHAIN",
+      "seconds": 98.167
+    },
+    {
+      "role": "Champion",
+      "title": "PIERCING THRUST",
+      "seconds": 114.667
+    },
+    {
+      "role": "Champion",
+      "title": "SHIELD BASH",
+      "seconds": 104.367
+    },
+    {
+      "role": "Champion",
+      "title": "BLADE BEAM",
+      "seconds": 117.9
+    },
+    {
+      "role": "Champion",
+      "title": "PARRY & RIPOSTE",
+      "seconds": 111.5
+    },
+    {
+      "role": "Champion",
+      "title": "HEAVEN'S FALL",
+      "seconds": 147.833
+    },
+    {
+      "role": "Champion",
+      "title": "BLINK STRIKE",
+      "seconds": 137.1
+    },
+    {
+      "role": "Champion",
+      "title": "SPECTRAL BLADES",
+      "seconds": 143.899
+    },
+    {
+      "role": "Champion",
+      "title": "HOLY JAVELIN",
+      "seconds": 125.333
+    },
+    {
+      "role": "Champion",
+      "title": "CHAIN LIGHTNING",
+      "seconds": 129.133
+    },
+    {
+      "role": "Champion",
+      "title": "CONSECRATION",
+      "seconds": 133.1
+    },
+    {
+      "role": "Champion",
+      "title": "PHANTOM RUSH",
+      "seconds": 140.733
+    },
+    {
+      "role": "Champion",
+      "title": "DIVINE JUDGEMENT",
+      "seconds": 153.867
+    },
+    {
+      "role": "Dawnknight",
+      "title": "SHIELD CHARGE",
+      "seconds": 193.167
+    },
+    {
+      "role": "Dawnknight",
+      "title": "CRUSADER CUT",
+      "seconds": 195.933
+    },
+    {
+      "role": "Dawnknight",
+      "title": "OVERHAND BLOW",
+      "seconds": 197.467
+    },
+    {
+      "role": "Dawnknight",
+      "title": "GUARD BREAKER",
+      "seconds": 199.2
+    },
+    {
+      "role": "Dawnknight",
+      "title": "SACRED OATH",
+      "seconds": 201.934
+    },
+    {
+      "role": "Oathbreaker",
+      "title": "BRUTAL CLEAVE",
+      "seconds": 207.3
+    },
+    {
+      "role": "Oathbreaker",
+      "title": "RAVAGER SWEEP",
+      "seconds": 209.034
+    },
+    {
+      "role": "Oathbreaker",
+      "title": "SKULL SPLITTER",
+      "seconds": 211.367
+    },
+    {
+      "role": "Oathbreaker",
+      "title": "BLACK THRUST",
+      "seconds": 213.367
+    },
+    {
+      "role": "Oathbreaker",
+      "title": "HELLFIRE LEAP",
+      "seconds": 215.933
+    }
+  ],
+  "roles": [
+    "Seraph",
+    "Sovereign",
+    "Champion",
+    "Dawnknight",
+    "Oathbreaker"
+  ],
+  "skill_counts": {
+    "Champion": 14,
+    "Seraph": 5,
+    "Sovereign": 8,
+    "Dawnknight": 5,
+    "Oathbreaker": 5
+  },
+  "known_unfinished": [
+    "Sovereign held weapon obscures face during death",
+    "Heavy bisection separation, visible chest spray and head-crush refinement pending",
+    "Sovereign four special fatalities not all completed"
+  ]
+}
