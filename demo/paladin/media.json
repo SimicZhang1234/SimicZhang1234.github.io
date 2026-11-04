@@ -1,5 +1,23 @@
 [
   {
+    "id": "blue-reflection-detail",
+    "title": "蓝剑 · 放大检查",
+    "description": "1 秒 · 保留原贴图的反射诊断近景 · 尚未完成游戏场景修正",
+    "video": "assets/blue-reflection-detail.mp4",
+    "poster": "assets/blue-reflection-detail.jpg",
+    "group": "blue-check",
+    "web_transcode": false
+  },
+  {
+    "id": "blue-reflection-body",
+    "title": "蓝剑 · 同机位反射对照",
+    "description": "1 秒 · 原轻装、原剑材质 · 仅调整剑面补光的诊断小样",
+    "video": "assets/blue-reflection-body.mp4",
+    "poster": "assets/blue-reflection-body.jpg",
+    "group": "blue-check",
+    "web_transcode": false
+  },
+  {
     "id": "light-armor-crystal",
     "title": "Lightblade · 原轻装与蓝色双剑",
     "description": "1 秒 · 撤下厚重换装，找回原轻装轮廓 · 新服装设计仍在调整",
