@@ -2,6 +2,48 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "sovereign-complete-wings-front-r13",
+      "name": "R13_Sovereign_FullSourceWingsFront_20261105_L1",
+      "title": "Sovereign · 完整羽翼候选／正面",
+      "note": "使用项目已有的完整羽翼资源，作为技能临时展开的候选；连接于实际肩背，双翼及长羽均完整展示。脸、发型、盔甲和武器保持原样。本次重点比较连接位置与轮廓，实体白羽风格尚未定型，原光翼方案保留。",
+      "poster_frame": 56,
+      "root_reviewed_frames": [
+        46,
+        56,
+        74
+      ],
+      "publish": true
+    },
+    {
+      "id": "sovereign-complete-wings-rear-r13",
+      "name": "R13_Sovereign_FullSourceWingsRear_20261105_L1",
+      "title": "Sovereign · 完整羽翼候选／背侧",
+      "note": "背侧查看肩背连接、双翼镜像和展开动作。羽翼在片尾技能释放时出现；此为资源和佩戴对比，尚未决定替换原光翼风格，法术冲击与收尾仍在打磨。",
+      "poster_frame": 90,
+      "root_reviewed_frames": [
+        40,
+        60,
+        80,
+        90,
+        98
+      ],
+      "publish": true
+    },
+    {
+      "id": "sovereign-chest-stream-r13",
+      "name": "R13_Sovereign_ClearNarrowChestStream_20261105_L1",
+      "title": "Sovereign · 胸口喷射约两秒后倒地",
+      "note": "实际胸部命中触发，改用原生受伤姿态持续约两秒后倒下，攻击者向侧面退让以留出视线，配受伤与死亡人声。喷射仍偏细散，倒地后上肢和闭眼时机仍需继续修；尚未达到最终死亡效果。",
+      "poster_frame": 65,
+      "root_reviewed_frames": [
+        40,
+        65,
+        90,
+        125
+      ],
+      "publish": true
+    },
+    {
       "id": "seraph-professional-fire-r12",
       "name": "R12_Seraph_CenteredProfessionalFire_20261105_K1",
       "title": "Seraph · 连续火焰剑候选",
