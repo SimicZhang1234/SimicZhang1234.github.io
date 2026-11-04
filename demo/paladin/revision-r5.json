@@ -2,6 +2,45 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "seraph-professional-fire-r12",
+      "name": "R12_Seraph_CenteredProfessionalFire_20261105_K1",
+      "title": "Seraph · 连续火焰剑候选",
+      "note": "保留已定型的宽剑和造型，改用已有专业火焰粒子，沿真实剑刃增加重叠火苗。两次近战接触均确认。静止时火焰更连续；快速挥动时仍有拖离剑身、火量不稳定的问题，继续返修，本条用于中间对比。",
+      "poster_frame": 14,
+      "root_reviewed_frames": [
+        14,
+        32,
+        60,
+        80
+      ],
+      "publish": true
+    },
+    {
+      "id": "consecration-runes-r12",
+      "name": "R12_Champion_StrongerConsecration_20261105_K1",
+      "title": "Champion · Consecration 金色符文试拍",
+      "note": "换为项目已有的专业地面法阵，扩大金色范围和符文，让施放到冲击的变化更明确。本招为范围法术；黑烟偏重、施放姿态和受击收尾仍在打磨，尚非定型。",
+      "poster_frame": 23,
+      "root_reviewed_frames": [
+        23,
+        32,
+        55
+      ],
+      "publish": true
+    },
+    {
+      "id": "sovereign-no-face-flash-r12",
+      "name": "R12_Sovereign_NoFaceFlashNova_20261105_K1",
+      "title": "Sovereign · 银色法术去照脸对比",
+      "note": "移除新银色剑气附带的两盏点光源，保留剑气轮廓。实拍中脸与白色盔甲不再被这一轮释放照白；目前剑气偏淡、冲击表现仍需打磨，本段只作为这处照脸修正的阶段对比。",
+      "poster_frame": 28,
+      "root_reviewed_frames": [
+        28,
+        40
+      ],
+      "publish": true
+    },
+    {
       "id": "sovereign-descent",
       "name": "R5_Sovereign_FastDescent_20261104_A1",
       "title": "Sovereign · 快速天降节奏试拍",
