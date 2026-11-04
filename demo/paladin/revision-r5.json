@@ -1,0 +1,44 @@
+{
+  "status": "in_progress; intermediate real UE captures, not final approval",
+  "takes": [
+    {
+      "id": "sovereign-descent",
+      "name": "R5_Sovereign_FastDescent_20261104_A1",
+      "title": "Sovereign · 快速天降节奏试拍",
+      "note": "升空与下降段压缩为短促起落；本段只评审速度和落点，光翼、紫光与死亡仍在返修。此招为范围冲击，不冒充刀刃近战命中。",
+      "poster_frame": 26,
+      "root_reviewed_frames": [
+        16,
+        26,
+        45,
+        66
+      ],
+      "publish": true
+    },
+    {
+      "id": "seraph-a1-rejected",
+      "name": "R5_Seraph_NativeFlame_20261104_A1",
+      "root_reviewed_frames": [
+        25,
+        55,
+        80
+      ],
+      "publish": false,
+      "reason": "Native fire candidate weak/too much body light; supplementary observer AttributeError current_clip_time, source geometry/contact observer still passed2hits; no visual approval"
+    },
+    {
+      "id": "wing-a1-rejected",
+      "name": "R5_Sovereign_ShoulderWings_20261104_A1",
+      "root_reviewed_frames": [
+        20,
+        27,
+        39,
+        48,
+        60,
+        74
+      ],
+      "publish": false,
+      "reason": "Side camera compresses one wing and clips opposite span; fixed feather bands too bright/large; actual clavicle orientation and frontal full-span review queued. Supplementary observer had old AttributeError, corrected for subsequent films."
+    }
+  ]
+}
