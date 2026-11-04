@@ -1,5 +1,14 @@
 [
   {
+    "id": "blue-accepted-motion",
+    "title": "蓝剑定型 · 侧移检查",
+    "description": "2.5 秒 · 原轻装验证双剑动作中的反光 · 无声小样，新衣服尚未穿戴",
+    "video": "assets/blue-accepted-motion.mp4",
+    "poster": "assets/blue-accepted-motion.jpg",
+    "group": "blue-check",
+    "web_transcode": false
+  },
+  {
     "id": "blue-reflection-detail",
     "title": "蓝剑 · 放大检查",
     "description": "1 秒 · 保留原贴图的反射诊断近景 · 尚未完成游戏场景修正",
