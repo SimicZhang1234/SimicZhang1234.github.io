@@ -39,6 +39,20 @@
       ],
       "publish": false,
       "reason": "Side camera compresses one wing and clips opposite span; fixed feather bands too bright/large; actual clavicle orientation and frontal full-span review queued. Supplementary observer had old AttributeError, corrected for subsequent films."
+    },
+    {
+      "id": "champion-contact",
+      "name": "R5_Champion_ThreeHitBladeContact_20261104_B1",
+      "title": "Champion · 三连击实际接触检查",
+      "note": "三次刀刃接触均确认，未命中不会触发受击；本段可检查刀刃穿行、局部火星和短暂剑身血迹。收刀、命中停顿和其他法术仍在继续打磨。",
+      "poster_frame": 40,
+      "root_reviewed_frames": [
+        24,
+        40,
+        62,
+        88
+      ],
+      "publish": true
     }
   ]
 }
