@@ -1,5 +1,23 @@
 [
   {
+    "id": "light-armor-crystal",
+    "title": "Lightblade · 原轻装与蓝色双剑",
+    "description": "1 秒 · 撤下厚重换装，找回原轻装轮廓 · 新服装设计仍在调整",
+    "video": "assets/light-armor-crystal.mp4",
+    "poster": "assets/light-armor-crystal.jpg",
+    "group": "latest-light",
+    "web_transcode": false
+  },
+  {
+    "id": "light-armor-holy",
+    "title": "Lightblade · 原轻装与金色双剑",
+    "description": "1 秒 · 同角色、同轻装比较双剑搭配 · 静态握持小样",
+    "video": "assets/light-armor-holy.mp4",
+    "poster": "assets/light-armor-holy.jpg",
+    "group": "latest-light",
+    "web_transcode": false
+  },
+  {
     "id": "four-deaths",
     "title": "四种死亡效果 · 连看",
     "description": "19.5 秒 · 四段独立实拍剪辑 · 掉剑跪倒、胸口出血、断身与头部重击",
