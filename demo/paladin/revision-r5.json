@@ -71,6 +71,24 @@
         88
       ],
       "publish": true
+    },
+    {
+      "id": "sovereign-cry-fall",
+      "name": "R6_Sovereign_GroundedWeaponCryFall_20261105_E1",
+      "title": "Sovereign · 死亡喊声、脱手与落地试拍",
+      "note": "真实命中后播放专业女性死亡喊声，缩短重复站立部分，武器脱手并沿实际表面落地；本段完整保留倒地后半段。已检查复活恢复。受击到失衡的衔接、双臂末态仍在打磨，暂为阶段对比。",
+      "poster_frame": 72,
+      "root_reviewed_frames": [
+        23,
+        33,
+        45,
+        50,
+        65,
+        72,
+        78,
+        95
+      ],
+      "publish": true
     }
   ]
 }
