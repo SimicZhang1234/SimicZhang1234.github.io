@@ -53,6 +53,24 @@
         88
       ],
       "publish": true
+    },
+    {
+      "id": "head-crush-contact",
+      "name": "R5_Enemy_DownwardHeadCrush_20261105_D1",
+      "title": "敌人 · 向下头部重击试拍",
+      "note": "本段为实际刀刃接触触发：头部与头盔一起碎裂，掉剑后快速倒地；已检查复活能恢复。先评审重击与倒地节奏，碎裂瞬间的形体和攻击前摇仍可继续细化，尚非最终处决镜头。",
+      "poster_frame": 26,
+      "root_reviewed_frames": [
+        17,
+        22,
+        26,
+        30,
+        36,
+        45,
+        70,
+        88
+      ],
+      "publish": true
     }
   ]
 }
