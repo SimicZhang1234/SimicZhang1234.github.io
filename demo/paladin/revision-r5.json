@@ -2,6 +2,20 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "dawnknight-downward-skull-crush-r60",
+      "name": "R60_Enemy_SkullRootHeadCrush_20261105_AF1",
+      "title": "Dawnknight · 自上而下的头部重击压碎",
+      "note": "由下劈刀刃真实击中头部后触发。头盔与内部头部一并向下压缩，保留压坏的盔体形状；武器脱手后倒地，配重击、碎裂、受伤与落地声音。减少“整颗头直接消失”的感觉，血量保持克制。这条是 Dawnknight 的阶段返修，仍需评审；Sovereign 的对应版本继续修衔接。",
+      "poster_frame": 27,
+      "root_reviewed_frames": [
+        23,
+        27,
+        32,
+        95
+      ],
+      "publish": true
+    },
+    {
       "id": "sovereign-clean-authored-nova-r60",
       "name": "R60_Sovereign_CleanOwnedNova_20261105_AF1",
       "title": "Eclipse Nova · 气流光波替换与材质修正",
@@ -675,7 +689,8 @@
         70,
         88
       ],
-      "publish": true
+      "publish": false,
+      "superseded_by": "dawnknight-downward-skull-crush-r60"
     },
     {
       "id": "sovereign-cry-fall",
