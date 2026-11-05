@@ -2,6 +2,21 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "enemy-decap-grounded-aftermath-r20",
+      "name": "R20_Enemy_DecapGroundedAftermath_20261105_Q1",
+      "title": "斩首 · 头部落地与完整倒地收尾",
+      "note": "刀刃真实经过颈部后触发斩首，头部带头盔落地，剑盾脱手，身体随后侧卧落地。压暗颈部截面，保持克制；完整保留后半段，已检查复活恢复。当前阶段对比，动作连贯性继续评审。",
+      "poster_frame": 75,
+      "root_reviewed_frames": [
+        29,
+        36,
+        50,
+        75,
+        107
+      ],
+      "publish": true
+    },
+    {
       "id": "sovereign-grounded-flat-fall-r20",
       "name": "R20_Sovereign_GroundedCryFlatFall_20261105_Q1",
       "title": "Sovereign · 受击喊声、脱手与贴地倒下",
