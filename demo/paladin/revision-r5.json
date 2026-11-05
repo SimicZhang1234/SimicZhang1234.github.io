@@ -2,6 +2,21 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "sovereign-soft-contact-halo-r101",
+      "name": "R101_Sovereign_SoftTargetHaloImpact_20261106_AR1",
+      "title": "Sovereign · Halo Strike 命中闪光与法术位置修正",
+      "note": "保留原来的脸、头发、盔甲、武器与两段攻击。将末段法术冲击放到敌人处，并让实际命中火星使用柔和闪光，减少照白脸部和敌人盔甲的情况；火星、血迹、受击动作与声音保留。两次命中仍由实际武器接触触发。这是完整招式的中间实拍，供对照亮度和节奏，其他法术仍逐项评审。",
+      "poster_frame": 60,
+      "root_reviewed_frames": [
+        30,
+        60,
+        80,
+        95,
+        119
+      ],
+      "publish": true
+    },
+    {
       "id": "oathbreaker-crown-limited-head-crush-r92",
       "name": "R92_Oathbreaker_CrownLimitedCrush_20261105_AO1",
       "title": "Oathbreaker · 向下重击、保留压坏的盔体",
