@@ -2,6 +2,19 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "champion-flat-rest-and-release-r40",
+      "name": "R40_Champion_RestAndRelease_20261105_Z1",
+      "title": "Champion · 保留原翻倒，放平与松手收尾",
+      "note": "保留原来的翻倒、击退和化光节奏；后半段放低手臂，剑盾使用原模型脱手落地，消除倒下后仍竖着举剑的姿态。真实刀刃接触后才触发，保留受伤和落地声音，已检查复活恢复。这条用于评审正常死亡收尾，未更换角色造型。",
+      "poster_frame": 75,
+      "root_reviewed_frames": [
+        45,
+        75,
+        107
+      ],
+      "publish": true
+    },
+    {
       "id": "sovereign-kneel-relaxed-rest-r36",
       "name": "R36_Sovereign_KneelRelaxedArm_20261105_Y1",
       "title": "Sovereign · 松手跪倒与侧身落地",
