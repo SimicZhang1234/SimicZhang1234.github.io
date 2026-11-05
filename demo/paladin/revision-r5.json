@@ -2,6 +2,22 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "consecration-held-pose-r24",
+      "name": "R24_Champion_HeldPlantConsecration_20261105_S1",
+      "title": "Consecration · 剑尖朝地停顿与法阵扩散",
+      "note": "把原来一扫而过的动作改为剑尖朝地短暂停住，再展开地面法阵；保留已定型的角色、剑盾和专业原始动作。伤害与受击使用游戏原生范围技能事件。这版主要检查动作落点与节奏，地面效果仍偏平，漂浮符文也需继续收敛，尚未定稿。",
+      "poster_frame": 28,
+      "root_reviewed_frames": [
+        25,
+        28,
+        33,
+        45,
+        70,
+        95
+      ],
+      "publish": true
+    },
+    {
       "id": "enemy-chest-full-aftermath-r24",
       "name": "R24_Enemy_ChestStreamFullAftermath_20261105_S1",
       "title": "胸口持续喷血 · 完整倒地与贴地收尾",
@@ -295,7 +311,8 @@
         55,
         83
       ],
-      "publish": true
+      "publish": false,
+      "superseded_by": "consecration-held-pose-r24"
     },
     {
       "id": "sovereign-cry-fall-r14",
