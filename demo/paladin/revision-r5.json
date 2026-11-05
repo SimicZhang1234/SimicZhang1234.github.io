@@ -2,6 +2,37 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "dawnknight-bound-garment-bisection-r80",
+      "name": "R80_Dawnknight_BoundCutGarments_20261105_AK1",
+      "title": "Dawnknight · 断身、披布与胸饰跟随修正",
+      "note": "横斩实际经过腰部后，身体、披布一起沿同一切面分离；胸饰随上半身运动，修正原来留在空中的披布和胸饰。保留短暂喷溅、武器落地和原来的盔甲材质；完整保留两半落地后半段。复活后原披布与胸饰恢复已核查。布边形状和落地质感仍需评审，这条是断身返修的中间结果。",
+      "poster_frame": 50,
+      "root_reviewed_frames": [
+        27,
+        35,
+        50,
+        107
+      ],
+      "publish": true
+    },
+    {
+      "id": "seraph-native-wick-five-skills-r78",
+      "name": "R78_Seraph_NativeWickFiveSkills_20261105_AN1",
+      "title": "Seraph · 专业火焰剑完整五招",
+      "note": "保留已定型的角色、宽剑和原来的五招。使用项目已有的专业火焰粒子，沿真实剑刃持续燃烧，缩短火苗寿命，让转身与挥剑时的火焰保持贴边；移除照亮身体的粒子灯光。完整展示 Flame Arc、Wing Dive、Lance of Heaven、Feather Storm、Judgement of Fire，保留受击与声音。三次近战接触和三次范围技能结果分别检查；本段重点评审火焰，敌人普通死亡收尾仍需统一接入返修版本。",
+      "poster_frame": 180,
+      "root_reviewed_frames": [
+        60,
+        120,
+        180,
+        260,
+        360,
+        430,
+        508
+      ],
+      "publish": true
+    },
+    {
       "id": "dawnknight-chest-stream-collapse-r72",
       "name": "R72_Dawnknight_ChestStreamCollapse_20261105_AI1",
       "title": "Dawnknight · 胸口持续喷血后倒地",
