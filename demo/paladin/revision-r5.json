@@ -2,6 +2,24 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "champion-four-melee-contact-r64",
+      "name": "R64_Champion_FourMeleeContact_20261105_AG1",
+      "title": "Champion · 横斩、盾击、反击、突刺接触核查",
+      "note": "保留原来的四招，重新实拍武器与敌人的距离和命中时机。横斩、反击和突刺保留接触处火花、血迹及受击声音，盾击展示盾牌冲撞；四次命中都经过实际接触检查。这里重点评审刀刃经过身体时是否看得清楚，以及火花、受击和声音能否对上。仍是阶段返修，Phantom 沿用原版。",
+      "poster_frame": 199,
+      "root_reviewed_frames": [
+        26,
+        28,
+        31,
+        100,
+        151,
+        199,
+        202,
+        276
+      ],
+      "publish": true
+    },
+    {
       "id": "sovereign-contact-pose-head-crush-r61",
       "name": "R61_Sovereign_ContactPoseHeadCrush_20261105_AH1",
       "title": "Sovereign · 头部重击与倒地衔接试片",
