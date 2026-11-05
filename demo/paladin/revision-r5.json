@@ -2,6 +2,34 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "enemy-kneel-settled-r16",
+      "name": "R16_Enemy_SettledKneelCandidate_20261105_N1",
+      "title": "敌人 · 掉剑跪地后迅速伏地",
+      "note": "保留掉剑、跪地的前半段，重做后半段，让身体更快转为侧身伏地，减少长时间撑着头的停顿。剑与盾实际落地，声音跟随接触和落地；目前抬手衔接仍略僵。",
+      "poster_frame": 55,
+      "root_reviewed_frames": [
+        24,
+        55,
+        82,
+        107
+      ],
+      "publish": true
+    },
+    {
+      "id": "sovereign-kneel-settled-r16",
+      "name": "R16_Sovereign_SettledKneelCandidate_20261105_N1",
+      "title": "Sovereign · 掉武器、跪倒与闭眼伏地",
+      "note": "原有脸、发型和盔甲不变，武器先脱手，跪地后接侧身伏地，缩短拖延并在落地后闭眼。已检查实际命中和复活还原；抬手与侧倒衔接还会继续优化。",
+      "poster_frame": 55,
+      "root_reviewed_frames": [
+        24,
+        55,
+        82,
+        107
+      ],
+      "publish": true
+    },
+    {
       "id": "enemy-bisection-rest-r16",
       "name": "R16_Enemy_BroadRestBisection_20261105_N1",
       "title": "敌人 · 重斩断身落地返修",
