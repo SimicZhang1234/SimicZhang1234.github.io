@@ -2,6 +2,20 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "champion-weighted-holy-javelin-r32b",
+      "name": "R32B_Champion_WeightedHolyJavelin_20261105_X2",
+      "title": "Champion · Holy Javelin 正向重击",
+      "note": "加宽专业圣剑投射物，冲击沿飞行方向展开，接地面尘土、裂痕和明确后仰。伤害、受伤声音与原生投射物到达时刻一致；这属于投射技能，不是近战刀刃接触证明。角色造型与原动作保留，投掷衔接和特效仍可继续打磨。",
+      "poster_frame": 40,
+      "root_reviewed_frames": [
+        30,
+        40,
+        50,
+        95
+      ],
+      "publish": true
+    },
+    {
       "id": "champion-seven-blade-encirclement-r32",
       "name": "R32_Champion_SevenBladeEncirclement_20261105_W1",
       "title": "Champion · Spectral Blades 七剑合围",
