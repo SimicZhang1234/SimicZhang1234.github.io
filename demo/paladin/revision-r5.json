@@ -2,6 +2,20 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "seraph-short-wick-fire-r20",
+      "name": "R20_Seraph_ShorterWickFlames_20261105_Q1",
+      "title": "Seraph · 持续燃烧、保留宽剑轮廓",
+      "note": "修复火焰中途熄灭，并缩短单个火苗的存活时间，减少收招后堆成整片火板。保留已定型的宽剑与角色造型，展示两次真实刀刃命中及收招后的火焰。当前阶段实拍，继续看动态是否自然。",
+      "poster_frame": 83,
+      "root_reviewed_frames": [
+        14,
+        43,
+        83,
+        101
+      ],
+      "publish": true
+    },
+    {
       "id": "sovereign-full-chest-stream-r18",
       "name": "R18_Sovereign_FullCapacityChestStream_20261105_P1",
       "title": "Sovereign · 连续喷射约两秒再倒地",
@@ -66,7 +80,8 @@
         83,
         101
       ],
-      "publish": true
+      "publish": false,
+      "superseded_by": "seraph-short-wick-fire-r20"
     },
     {
       "id": "sovereign-dense-chest-stream-r16",
