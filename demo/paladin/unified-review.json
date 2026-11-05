@@ -1,5 +1,5 @@
 {
-  "utc": "2026-11-05T10:37:33.822122+00:00",
+  "utc": "2026-11-05T10:54:42.904681+00:00",
   "status": "rolling_review_not_final",
   "all_work_complete": false,
   "skill_count": 37,
@@ -640,5 +640,11 @@
     "Seraph 短火焰尚未接入其余四招",
     "Lightblade 轻装未定型，维持独立页"
   ],
-  "independent_takes": true
+  "independent_takes": true,
+  "movie": {
+    "src": "assets/paladin-fivecast-repair-r52.mp4",
+    "seconds": 248.7,
+    "bytes": 71393887,
+    "chapters": 60
+  }
 }
