@@ -1,6 +1,7 @@
 {
-  "utc": "2026-11-05T10:54:42.904681+00:00",
+  "utc": "2026-11-05T13:14:17.471940+00:00",
   "status": "rolling_review_not_final",
+  "playlist_revision": "R72",
   "all_work_complete": false,
   "skill_count": 37,
   "roles": [
@@ -157,12 +158,12 @@
       "title": "ECLIPSE NOVA · 返修",
       "role": "Sovereign",
       "status": "返修实拍 · 待视觉评审",
-      "src": "assets/r5-sovereign-no-face-flash-r12.mp4",
+      "src": "assets/r5-sovereign-clean-authored-nova-r60.mp4",
       "start": 0,
       "end": 3.0,
-      "poster": "assets/r5-sovereign-no-face-flash-r12.jpg",
-      "note": "移除新银色剑气附带的两盏点光源，保留剑气轮廓。实拍中脸与白色盔甲不再被这一轮释放照白；目前剑气偏淡、冲击表现仍需打磨，本段只作为这处照脸修正的阶段对比。",
-      "review": "revision-r5.html#sovereign-no-face-flash-r12"
+      "poster": "assets/r5-sovereign-clean-authored-nova-r60.jpg",
+      "note": "替换原先的紫色折线与零散碎片，气流光波随出手扩散，命中保留火花、血迹与受击声。保留脸部原有明暗，去掉此前悬浮的黑色方片；使用已有 Paragon 原生法术资源。范围法术实拍，仍可继续打磨力度与配色。此条晚于上方完整整合片，先在这里评审。",
+      "review": "revision-r5.html#sovereign-clean-authored-nova-r60"
     },
     {
       "title": "JUDGEMENT OF THE SUN",
@@ -545,19 +546,19 @@
       "review": "revision-r5.html#sovereign-radiant-feathers-rear-r24"
     },
     {
-      "title": "Champion · 三连击实际接触检查",
+      "title": "Champion · 横斩、盾击、反击、突刺接触核查",
       "role": "Champion",
       "status": "返修实拍 · 待视觉评审",
-      "src": "assets/r5-champion-contact.mp4",
+      "src": "assets/r5-champion-four-melee-contact-r64.mp4",
       "start": 0,
-      "end": 4.0,
-      "poster": "assets/r5-champion-contact.jpg",
-      "note": "三次刀刃接触均确认，未命中不会触发受击；本段可检查刀刃穿行、局部火星和短暂剑身血迹。收刀、命中停顿和其他法术仍在继续打磨。",
-      "review": "revision-r5.html#champion-contact"
+      "end": 9.233333333333333,
+      "poster": "assets/r5-champion-four-melee-contact-r64.jpg",
+      "note": "保留原来的四招，重新实拍武器与敌人的距离和命中时机。横斩、反击和突刺保留接触处火花、血迹及受击声音，盾击展示盾牌冲撞；四次命中都经过实际接触检查。这里重点评审刀刃经过身体时是否看得清楚，以及火花、受击和声音能否对上。仍是阶段返修，Phantom 沿用原版。",
+      "review": "revision-r5.html#champion-four-melee-contact-r64"
     },
     {
       "title": "敌人 · 掉剑跪倒后放松落地",
-      "role": "敌人",
+      "role": "Dawnknight",
       "status": "返修实拍 · 待视觉评审",
       "src": "assets/r5-enemy-kneel-relaxed-rest-r36.mp4",
       "start": 0,
@@ -565,6 +566,17 @@
       "poster": "assets/r5-enemy-kneel-relaxed-rest-r36.jpg",
       "note": "保留真实命中后的松手、跪倒前半段，缩短停顿后继续倒下；后半段放低原先撑起的手臂，使身体和手臂更自然地落在地面。剑、盾使用原模型独立掉落，保留受伤、盔甲和落地声音。这是落姿返修实拍，接地细节仍可继续打磨。",
       "review": "revision-r5.html#enemy-kneel-relaxed-rest-r36"
+    },
+    {
+      "title": "Oathbreaker · 掉剑跪倒与简短收尾",
+      "role": "Oathbreaker",
+      "status": "返修实拍 · 待视觉评审",
+      "src": "assets/r5-oathbreaker-relaxed-kneel-r72.mp4",
+      "start": 0,
+      "end": 3.6,
+      "poster": "assets/r5-oathbreaker-relaxed-kneel-r72.jpg",
+      "note": "命中后武器脱手，跪倒后较快转入侧倒，手臂在落地后放松，减少原来后半段的等待。这次是 Oathbreaker 自己的模型与动作实拍，尚未视为最终定稿。",
+      "review": "revision-r5.html#oathbreaker-relaxed-kneel-r72"
     },
     {
       "title": "Oathbreaker · 断身后双段落地与手臂放松",
@@ -579,7 +591,7 @@
     },
     {
       "title": "胸口持续喷血 · 完整倒地与贴地收尾",
-      "role": "敌人",
+      "role": "Oathbreaker",
       "status": "返修实拍 · 待视觉评审",
       "src": "assets/r5-enemy-chest-full-aftermath-r24.mp4",
       "start": 0,
@@ -589,8 +601,19 @@
       "review": "revision-r5.html#enemy-chest-full-aftermath-r24"
     },
     {
+      "title": "Dawnknight · 胸口持续喷血后倒地",
+      "role": "Dawnknight",
+      "status": "返修实拍 · 待视觉评审",
+      "src": "assets/r5-dawnknight-chest-stream-collapse-r72.mp4",
+      "start": 0,
+      "end": 4.5,
+      "poster": "assets/r5-dawnknight-chest-stream-collapse-r72.jpg",
+      "note": "刀刃实际接触后，从胸口向外持续喷射约两秒，再失衡倒地；保留受伤、死亡与落地声音。这次补齐 Dawnknight 的独立实拍，仍是阶段效果，喷射的形状与倒地节奏继续评审。",
+      "review": "revision-r5.html#dawnknight-chest-stream-collapse-r72"
+    },
+    {
       "title": "斩首 · 头部落地与完整倒地收尾",
-      "role": "敌人",
+      "role": "Dawnknight",
       "status": "返修实拍 · 待视觉评审",
       "src": "assets/r5-enemy-decap-grounded-aftermath-r20.mp4",
       "start": 0,
@@ -598,6 +621,28 @@
       "poster": "assets/r5-enemy-decap-grounded-aftermath-r20.jpg",
       "note": "刀刃真实经过颈部后触发斩首，头部带头盔落地，剑盾脱手，身体随后侧卧落地。压暗颈部截面，保持克制；完整保留后半段，已检查复活恢复。当前阶段对比，动作连贯性继续评审。",
       "review": "revision-r5.html#enemy-decap-grounded-aftermath-r20"
+    },
+    {
+      "title": "Oathbreaker · 颈部命中、斩首与落地",
+      "role": "Oathbreaker",
+      "status": "返修实拍 · 待视觉评审",
+      "src": "assets/r5-oathbreaker-grounded-decap-r72.mp4",
+      "start": 0,
+      "end": 3.6,
+      "poster": "assets/r5-oathbreaker-grounded-decap-r72.jpg",
+      "note": "横斩经过颈部后才触发分离，头盔与身体分别落地，配刀刃、受伤和落地声音。补齐 Oathbreaker 的实际斩首演示，血量保持克制；身体收尾和分离观感仍需视觉评审。",
+      "review": "revision-r5.html#oathbreaker-grounded-decap-r72"
+    },
+    {
+      "title": "Dawnknight · 自上而下的头部重击压碎",
+      "role": "Dawnknight",
+      "status": "返修实拍 · 待视觉评审",
+      "src": "assets/r5-dawnknight-downward-skull-crush-r60.mp4",
+      "start": 0,
+      "end": 3.2,
+      "poster": "assets/r5-dawnknight-downward-skull-crush-r60.jpg",
+      "note": "由下劈刀刃真实击中头部后触发。头盔与内部头部一并向下压缩，保留压坏的盔体形状；武器脱手后倒地，配重击、碎裂、受伤与落地声音。减少“整颗头直接消失”的感觉，血量保持克制。这条是 Dawnknight 的阶段返修，仍需评审；Sovereign 的对应版本继续修衔接。",
+      "review": "revision-r5.html#dawnknight-downward-skull-crush-r60"
     },
     {
       "title": "Sovereign · 松手跪倒与侧身落地",
@@ -631,17 +676,30 @@
       "poster": "assets/r5-sovereign-forward-chest-collapse-r28.jpg",
       "note": "真实胸部命中后持续向外喷射约两秒，接前倾失力、屈膝与侧倒，修正此前重新站直再倒下的衔接；完整展示身体、落下的武器和静止收尾，配受伤与死亡人声。已检查命中、完整音画和复活清理；倒地表演仍是阶段评审。",
       "review": "revision-r5.html#sovereign-forward-chest-collapse-r28"
+    },
+    {
+      "title": "Sovereign · 头部重击与倒地衔接试片",
+      "role": "Sovereign",
+      "status": "返修实拍 · 待视觉评审",
+      "src": "assets/r5-sovereign-contact-pose-head-crush-r61.mp4",
+      "start": 0,
+      "end": 3.2,
+      "poster": "assets/r5-sovereign-contact-pose-head-crush-r61.jpg",
+      "note": "保留现有脸、头发、盔甲与武器。下劈真实命中后，先留住受击姿态并完成头部压缩，再松手侧倒；修正此前突然抬高头部的切换，配受伤、重击和落地声音。血量保持克制。这条用于评审衔接，头部形变、镜头和落地仍可继续打磨，尚未定稿。",
+      "review": "revision-r5.html#sovereign-contact-pose-head-crush-r61"
     }
   ],
   "pending": [
-    "完整头部向下击碎：敌人与 Sovereign 实拍待检查",
-    "Sovereign 全部法术、天降和自然死亡仍在打磨",
-    "Divine Judgement 冲击力与剩余真实刀刃接触",
-    "Seraph 短火焰尚未接入其余四招",
+    "Oathbreaker 头部压碎形状、Dawnknight 断身披布正在重做",
+    "Sovereign 后续法术与自然死亡仍在打磨",
+    "Divine Judgement 冲击力重做，R64 四种近战接触已有新章节",
+    "Seraph 连续短火焰五招完整试片正在拍摄",
     "Lightblade 轻装未定型，维持独立页"
   ],
   "independent_takes": true,
   "movie": {
+    "snapshot_revision": "R52",
+    "playlist_updates_not_yet_remuxed": true,
     "src": "assets/paladin-fivecast-repair-r52.mp4",
     "seconds": 248.7,
     "bytes": 71393887,
