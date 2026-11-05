@@ -2,6 +2,21 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "enemy-dense-chest-stream-r16",
+      "name": "R16_Enemy_DenseChestStream_20261105_N1",
+      "title": "敌人 · 持续喷血约两秒后倒地",
+      "note": "真实胸部接触后释放盾牌，增加向外血流的密度与连续性，约两秒后松手倒地。斜前方镜头便于看喷射长度；抬手仍遮住部分伤口，后倒姿态还需继续优化。",
+      "poster_frame": 55,
+      "root_reviewed_frames": [
+        35,
+        55,
+        75,
+        95,
+        134
+      ],
+      "publish": true
+    },
+    {
       "id": "enemy-kneel-settled-r16",
       "name": "R16_Enemy_SettledKneelCandidate_20261105_N1",
       "title": "敌人 · 掉剑跪地后迅速伏地",
@@ -323,7 +338,8 @@
         115,
         125
       ],
-      "publish": true
+      "publish": false,
+      "superseded_by": "enemy-dense-chest-stream-r16"
     }
   ]
 }
