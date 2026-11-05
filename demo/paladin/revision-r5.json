@@ -2,6 +2,34 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "oathbreaker-crown-limited-head-crush-r92",
+      "name": "R92_Oathbreaker_CrownLimitedCrush_20261105_AO1",
+      "title": "Oathbreaker · 向下重击、保留压坏的盔体",
+      "note": "刀刃从上方实际击中头部后，头盔与内部头部一起向下压缩；仅从原头盔顶部取出小碎片，保留能看清的压坏主体，减少旧版像整颗头消失的感觉。武器脱手后倒地，保留重击、碎裂、受伤与落地声音。血量保持克制，仍是头部重击的阶段返修。",
+      "poster_frame": 27,
+      "root_reviewed_frames": [
+        23,
+        27,
+        32,
+        95
+      ],
+      "publish": true
+    },
+    {
+      "id": "sovereign-forward-cry-normal-fall-r88",
+      "name": "R88_Sovereign_ForwardCryNormalFall_20261105_AM1",
+      "title": "Sovereign · 向前失衡、喊声与脱手倒地",
+      "note": "保留现有脸、服饰和武器。普通死亡改用已有的向前失衡片段，减少旧版先转身再向后倒的衔接；配女性死亡喊声，武器脱手并保留完整落地后半段。复活恢复已核查。这条是新的动作试片，最后仍为侧身蜷曲，落地姿态是否自然继续评审。",
+      "poster_frame": 40,
+      "root_reviewed_frames": [
+        24,
+        29,
+        40,
+        95
+      ],
+      "publish": true
+    },
+    {
       "id": "dawnknight-bound-garment-bisection-r80",
       "name": "R80_Dawnknight_BoundCutGarments_20261105_AK1",
       "title": "Dawnknight · 断身、披布与胸饰跟随修正",
@@ -363,7 +391,8 @@
         68,
         95
       ],
-      "publish": true
+      "publish": false,
+      "superseded_by": "sovereign-forward-cry-normal-fall-r88"
     },
     {
       "id": "blink-stable-contact-r20",
