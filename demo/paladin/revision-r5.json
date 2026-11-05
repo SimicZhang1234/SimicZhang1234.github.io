@@ -2,6 +2,20 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "oathbreaker-articulated-bisection-r44",
+      "name": "R44_Enemy_ArticulatedBisection_20261105_AA1",
+      "title": "Oathbreaker · 断身后双段落地与手臂放松",
+      "note": "保留真实重斩接触和原模型切分。上半身落下时，肩与肘分别放松，手臂不再僵直撑住躯干；头盔和胸背参与接地，两段在地面停稳。保留短暂喷溅、剑身血迹与落地声音，切口采用克制的深色表现。这条为 Oathbreaker 的返修实拍。",
+      "poster_frame": 107,
+      "root_reviewed_frames": [
+        27,
+        50,
+        80,
+        107
+      ],
+      "publish": true
+    },
+    {
       "id": "champion-flat-rest-and-release-r40",
       "name": "R40_Champion_RestAndRelease_20261105_Z1",
       "title": "Champion · 保留原翻倒，放平与松手收尾",
@@ -380,7 +394,8 @@
         70,
         92
       ],
-      "publish": true
+      "publish": false,
+      "superseded_by": "oathbreaker-articulated-bisection-r44"
     },
     {
       "id": "sovereign-bisection-rest-r16",
