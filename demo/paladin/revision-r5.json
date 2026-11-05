@@ -2,6 +2,44 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "dawnknight-chest-stream-collapse-r72",
+      "name": "R72_Dawnknight_ChestStreamCollapse_20261105_AI1",
+      "title": "Dawnknight · 胸口持续喷血后倒地",
+      "note": "刀刃实际接触后，从胸口向外持续喷射约两秒，再失衡倒地；保留受伤、死亡与落地声音。这次补齐 Dawnknight 的独立实拍，仍是阶段效果，喷射的形状与倒地节奏继续评审。",
+      "poster_frame": 75,
+      "root_reviewed_frames": [
+        55,
+        75,
+        134
+      ],
+      "publish": true
+    },
+    {
+      "id": "oathbreaker-relaxed-kneel-r72",
+      "name": "R72_Oathbreaker_RelaxedKneel_20261105_AI1",
+      "title": "Oathbreaker · 掉剑跪倒与简短收尾",
+      "note": "命中后武器脱手，跪倒后较快转入侧倒，手臂在落地后放松，减少原来后半段的等待。这次是 Oathbreaker 自己的模型与动作实拍，尚未视为最终定稿。",
+      "poster_frame": 40,
+      "root_reviewed_frames": [
+        40,
+        65,
+        107
+      ],
+      "publish": true
+    },
+    {
+      "id": "oathbreaker-grounded-decap-r72",
+      "name": "R72_Oathbreaker_GroundedDecap_20261105_AI1",
+      "title": "Oathbreaker · 颈部命中、斩首与落地",
+      "note": "横斩经过颈部后才触发分离，头盔与身体分别落地，配刀刃、受伤和落地声音。补齐 Oathbreaker 的实际斩首演示，血量保持克制；身体收尾和分离观感仍需视觉评审。",
+      "poster_frame": 33,
+      "root_reviewed_frames": [
+        33,
+        107
+      ],
+      "publish": true
+    },
+    {
       "id": "champion-four-melee-contact-r64",
       "name": "R64_Champion_FourMeleeContact_20261105_AG1",
       "title": "Champion · 横斩、盾击、反击、突刺接触核查",
