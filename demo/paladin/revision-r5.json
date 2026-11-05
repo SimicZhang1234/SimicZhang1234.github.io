@@ -2,6 +2,20 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "consecration-ground-only-r32b",
+      "name": "R32B_Champion_GroundOnlyConsecration_20261105_X2",
+      "title": "Champion · Consecration 去除悬浮杂符",
+      "note": "保留剑尖朝地短暂停住的原始动作，移除空中漂浮的符文粒子，改为贴地扩散、裂痕与尘土。范围受击和声音跟随游戏原生技能事件。画面更集中，但地面图案仍偏平、力量感仍需继续加强，这条先看杂符收敛后的效果。",
+      "poster_frame": 28,
+      "root_reviewed_frames": [
+        28,
+        33,
+        45,
+        95
+      ],
+      "publish": true
+    },
+    {
       "id": "champion-weighted-holy-javelin-r32b",
       "name": "R32B_Champion_WeightedHolyJavelin_20261105_X2",
       "title": "Champion · Holy Javelin 正向重击",
@@ -104,7 +118,8 @@
         70,
         95
       ],
-      "publish": true
+      "publish": false,
+      "superseded_by": "consecration-ground-only-r32b"
     },
     {
       "id": "enemy-chest-full-aftermath-r24",
