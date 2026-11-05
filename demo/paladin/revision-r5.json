@@ -2,6 +2,33 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "enemy-bisection-rest-r16",
+      "name": "R16_Enemy_BroadRestBisection_20261105_N1",
+      "title": "敌人 · 重斩断身落地返修",
+      "note": "真实刀刃接触后断身，修正两段落地的朝向、滚动和切口材质，缩短后半段翻滚。现在两段能更低地停稳；仍有肢体撑起和冻结姿势感，继续打磨。",
+      "poster_frame": 30,
+      "root_reviewed_frames": [
+        30,
+        45,
+        70,
+        92
+      ],
+      "publish": true
+    },
+    {
+      "id": "sovereign-bisection-rest-r16",
+      "name": "R16_Sovereign_MatrixBisection_20261105_N1",
+      "title": "Sovereign · 断身变形修正",
+      "note": "保留原有脸、头发和白黑盔甲，修正死亡切分时的异常拉长及部件错位。两段身体能正常落下，复活后外观也恢复；手臂与落地姿态仍偏僵，这条先看变形修正。",
+      "poster_frame": 30,
+      "root_reviewed_frames": [
+        30,
+        45,
+        92
+      ],
+      "publish": true
+    },
+    {
       "id": "heaven-blade-contact-r16",
       "name": "R16_Champion_HeavenBladeContact_20261105_N1",
       "title": "Champion · 天降快起跳与砍中检查",
