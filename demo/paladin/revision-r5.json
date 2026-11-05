@@ -2,6 +2,38 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "sovereign-grounded-flat-fall-r20",
+      "name": "R20_Sovereign_GroundedCryFlatFall_20261105_Q1",
+      "title": "Sovereign · 受击喊声、脱手与贴地倒下",
+      "note": "替换了原来腾空翻倒的开头，保留受击失衡、女性死亡喊声和武器脱手，重做最后侧卧与手臂落地。完整展示收尾，已检查复活恢复。当前阶段实拍，转身到后仰的衔接仍需继续打磨。",
+      "poster_frame": 68,
+      "root_reviewed_frames": [
+        23,
+        30,
+        40,
+        48,
+        55,
+        61,
+        68,
+        95
+      ],
+      "publish": true
+    },
+    {
+      "id": "blink-stable-contact-r20",
+      "name": "R20_Champion_StableBlinkContact_20261105_Q1",
+      "title": "Champion · Blink 稳定镜头与实际命中",
+      "note": "保留原闪身攻击，镜头覆盖闪身起点与落点，减少原来的追拍晃动；刀刃真实命中后才触发火星、血迹和受击。完整保留敌人恢复。电光形态仍是当前旧效果，继续调整。",
+      "poster_frame": 30,
+      "root_reviewed_frames": [
+        23,
+        30,
+        44,
+        75
+      ],
+      "publish": true
+    },
+    {
       "id": "seraph-short-wick-fire-r20",
       "name": "R20_Seraph_ShorterWickFlames_20261105_Q1",
       "title": "Seraph · 持续燃烧、保留宽剑轮廓",
@@ -200,7 +232,8 @@
         65,
         92
       ],
-      "publish": true
+      "publish": false,
+      "superseded_by": "blink-stable-contact-r20"
     },
     {
       "id": "seraph-edge-fire-r16",
@@ -244,7 +277,8 @@
         55,
         95
       ],
-      "publish": true
+      "publish": false,
+      "superseded_by": "sovereign-grounded-flat-fall-r20"
     },
     {
       "id": "sovereign-complete-wings-front-r13",
