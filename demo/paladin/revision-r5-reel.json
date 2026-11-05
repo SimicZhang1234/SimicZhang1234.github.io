@@ -1,0 +1,97 @@
+{
+  "id": "repair-review-reel-r32",
+  "title": "44.5 秒本轮返修速览",
+  "utc": "2026-11-05T07:40:07.562969+00:00",
+  "video": "assets/r5-repair-review-reel-r32.mp4",
+  "poster": "assets/r5-repair-review-reel-r32.jpg",
+  "frames": 1335,
+  "seconds": 44.5,
+  "full_av_decode": true,
+  "root_reviewed": true,
+  "source_count": 13,
+  "all_moves_covered": false,
+  "independent_takes_not_continuous_combat": true,
+  "final_art_approval": false,
+  "bytes": 35881400,
+  "sha256": "8d3fbe83d8b3f4ea2a005cc507ed7440175e52e225a1a8ba6982bf17e67c99af",
+  "chapters": [
+    {
+      "id": "seraph-short-wick-fire-r20",
+      "title": "Seraph · 持续燃烧、保留宽剑轮廓",
+      "start_seconds": 0.0,
+      "end_seconds": 3.4
+    },
+    {
+      "id": "sovereign-radiant-feathers-front-r24",
+      "title": "Sovereign · 肩背完整光羽／正面",
+      "start_seconds": 3.4,
+      "end_seconds": 6.2
+    },
+    {
+      "id": "sovereign-radiant-feathers-rear-r24",
+      "title": "Sovereign · 肩背完整光羽／背侧",
+      "start_seconds": 6.2,
+      "end_seconds": 9.0
+    },
+    {
+      "id": "sovereign-grounded-flat-fall-r20",
+      "title": "Sovereign · 受击喊声、脱手与贴地倒下",
+      "start_seconds": 9.0,
+      "end_seconds": 12.2
+    },
+    {
+      "id": "enemy-chest-full-aftermath-r24",
+      "title": "胸口持续喷血 · 完整倒地与贴地收尾",
+      "start_seconds": 12.2,
+      "end_seconds": 16.7
+    },
+    {
+      "id": "sovereign-forward-chest-collapse-r28",
+      "title": "Sovereign · 胸口持续喷射与前倾倒地",
+      "start_seconds": 16.7,
+      "end_seconds": 21.2
+    },
+    {
+      "id": "blink-stable-contact-r20",
+      "title": "Champion · Blink 稳定镜头与实际命中",
+      "start_seconds": 21.2,
+      "end_seconds": 24.3
+    },
+    {
+      "id": "champion-fixed-heaven-grounded-fall-r28",
+      "title": "Champion · Heaven Fall 起跳与下劈全景",
+      "start_seconds": 24.3,
+      "end_seconds": 27.9
+    },
+    {
+      "id": "champion-seven-blade-encirclement-r32",
+      "title": "Champion · Spectral Blades 七剑合围",
+      "start_seconds": 27.9,
+      "end_seconds": 31.5
+    },
+    {
+      "id": "champion-weighted-holy-javelin-r32b",
+      "title": "Champion · Holy Javelin 正向重击",
+      "start_seconds": 31.5,
+      "end_seconds": 34.7
+    },
+    {
+      "id": "consecration-ground-only-r32b",
+      "title": "Champion · Consecration 去除悬浮杂符",
+      "start_seconds": 34.7,
+      "end_seconds": 37.9
+    },
+    {
+      "id": "enemy-decap-grounded-aftermath-r20",
+      "title": "斩首 · 头部落地与完整倒地收尾",
+      "start_seconds": 37.9,
+      "end_seconds": 41.5
+    },
+    {
+      "id": "oathbreaker-prepared-skull-r18",
+      "title": "Oathbreaker · 下蹲发力与真实下劈",
+      "start_seconds": 41.5,
+      "end_seconds": 44.5
+    }
+  ]
+}
