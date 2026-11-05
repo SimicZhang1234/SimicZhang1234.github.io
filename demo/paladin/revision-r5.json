@@ -2,6 +2,20 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "sovereign-articulated-bisection-r48",
+      "name": "R48_Sovereign_ClearanceBisection_20261105_AC1",
+      "title": "Sovereign · 断身落地与手臂接地修正",
+      "note": "保留现有脸、头发、白黑盔甲与武器。真实重斩后两段分离，肩肘分别放松，上半身低伏落地；修正此前手臂穿地和僵直支撑的收尾。武器独立掉落，保留受伤、重斩和落地声音。切口保持克制，仍作为动作返修版本评审。",
+      "poster_frame": 107,
+      "root_reviewed_frames": [
+        27,
+        50,
+        75,
+        107
+      ],
+      "publish": true
+    },
+    {
       "id": "oathbreaker-articulated-bisection-r44",
       "name": "R44_Enemy_ArticulatedBisection_20261105_AA1",
       "title": "Oathbreaker · 断身后双段落地与手臂放松",
@@ -408,7 +422,8 @@
         45,
         92
       ],
-      "publish": true
+      "publish": false,
+      "superseded_by": "sovereign-articulated-bisection-r48"
     },
     {
       "id": "heaven-blade-contact-r16",
