@@ -2,6 +2,21 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "champion-professional-judgement-impact-r104",
+      "name": "R104_Champion_ProfessionalGroundJudgement_20261106_AQ1",
+      "title": "Champion · Divine Judgement 专业冲击重做试片",
+      "note": "保留现有巨剑、施法动作和伤害时机，落地爆发改用项目已有的 Epic Greystone 专业冲击与地面重击特效，配碎屑、受击人声和完整倒地收尾。这次明显加强爆发感，仍是新旧对照的阶段试片；金色粒子目前偏密，接下来继续收敛，尚未定稿。这里是法术范围伤害，未声称巨剑进行了近战接触判定。",
+      "poster_frame": 51,
+      "root_reviewed_frames": [
+        46,
+        51,
+        58,
+        80,
+        107
+      ],
+      "publish": true
+    },
+    {
       "id": "sovereign-soft-contact-halo-r101",
       "name": "R101_Sovereign_SoftTargetHaloImpact_20261106_AR1",
       "title": "Sovereign · Halo Strike 命中闪光与法术位置修正",
