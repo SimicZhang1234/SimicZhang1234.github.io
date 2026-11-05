@@ -2,6 +2,21 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "sovereign-full-chest-stream-r18",
+      "name": "R18_Sovereign_FullCapacityChestStream_20261105_P1",
+      "title": "Sovereign · 连续喷射约两秒再倒地",
+      "note": "对应敌人版修正血流数量上限，保留真实胸部命中、约两秒连续喷射、松手掉武器和完整倒地，包含受伤及死亡人声。血流更完整；弯腰遮脸和末尾抬手仍不自然，下一版继续换贴地动作。",
+      "poster_frame": 55,
+      "root_reviewed_frames": [
+        35,
+        55,
+        70,
+        115,
+        134
+      ],
+      "publish": true
+    },
+    {
       "id": "enemy-full-chest-stream-r18",
       "name": "R18_Enemy_FullCapacityChestStream_20261105_P1",
       "title": "敌人 · 连续胸口喷射与完整倒地",
@@ -66,7 +81,8 @@
         115,
         134
       ],
-      "publish": true
+      "publish": false,
+      "superseded_by": "sovereign-full-chest-stream-r18"
     },
     {
       "id": "enemy-dense-chest-stream-r16",
