@@ -2,6 +2,21 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "sovereign-dense-chest-stream-r16",
+      "name": "R16_Sovereign_ChestClosedEyes_20261105_N1",
+      "title": "Sovereign · 持续喷血与闭眼后倒",
+      "note": "保持原有造型，胸部中击后持续向外喷射约两秒，随后武器脱手、后倒并闭眼。血流更密，但前倾和手臂仍会遮住伤口，后倒姿态还不够自然；喷射容量修正及新死亡动作会继续补拍。",
+      "poster_frame": 55,
+      "root_reviewed_frames": [
+        35,
+        55,
+        70,
+        115,
+        134
+      ],
+      "publish": true
+    },
+    {
       "id": "enemy-dense-chest-stream-r16",
       "name": "R16_Enemy_DenseChestStream_20261105_N1",
       "title": "敌人 · 持续喷血约两秒后倒地",
@@ -186,7 +201,8 @@
         90,
         125
       ],
-      "publish": true
+      "publish": false,
+      "superseded_by": "sovereign-dense-chest-stream-r16"
     },
     {
       "id": "seraph-professional-fire-r12",
