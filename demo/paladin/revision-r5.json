@@ -944,5 +944,11 @@
       "publish": false,
       "superseded_by": "enemy-dense-chest-stream-r16"
     }
-  ]
+  ],
+  "lightblade_current_appearance": {
+    "costume": "earliest_original",
+    "face_hair": "original",
+    "weapons": "accepted_Crystal_blue_dual",
+    "assassin": "archived_for_future_use"
+  }
 }

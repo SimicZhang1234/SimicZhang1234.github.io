@@ -721,7 +721,6 @@
     }
   ],
   "pending": [
-    "Lightblade 两种轻装动态独立评审，服装尚未定型",
     "Sovereign 两条新法术节奏及自然死亡仍待视觉评审",
     "部分断身布边、头部压碎形状和落地姿态仍需打磨"
   ],
@@ -736,5 +735,6 @@
     "full_av_decode": true,
     "independent_takes": true,
     "art_approval": false
-  }
+  },
+  "lightblade_current": "Earliest original outfit restored; original Asian face, Crystal blue dual swords and agile dual moves retained; Assassin archived for future use"
 }
