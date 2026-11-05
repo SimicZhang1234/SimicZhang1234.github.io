@@ -2,6 +2,21 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "enemy-chest-full-aftermath-r24",
+      "name": "R24_Enemy_ChestStreamFullAftermath_20261105_S1",
+      "title": "胸口持续喷血 · 完整倒地与贴地收尾",
+      "note": "真实胸部命中后持续喷溅约两秒，再脱手倒地；重做最后的侧卧与手臂落地，并放宽镜头保留完整头盔、身体和落地武器。伤口仍部分被手臂遮挡，前半段表演继续打磨。已检查复活恢复，当前阶段实拍。",
+      "poster_frame": 55,
+      "root_reviewed_frames": [
+        35,
+        55,
+        80,
+        112,
+        134
+      ],
+      "publish": true
+    },
+    {
       "id": "enemy-decap-grounded-aftermath-r20",
       "name": "R20_Enemy_DecapGroundedAftermath_20261105_Q1",
       "title": "斩首 · 头部落地与完整倒地收尾",
@@ -93,7 +108,8 @@
         115,
         134
       ],
-      "publish": true
+      "publish": false,
+      "superseded_by": "enemy-chest-full-aftermath-r24"
     },
     {
       "id": "oathbreaker-prepared-skull-r18",
