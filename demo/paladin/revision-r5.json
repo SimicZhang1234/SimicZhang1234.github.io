@@ -2,6 +2,20 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "seraph-continuous-fire-r18",
+      "name": "R18_Seraph_ContinuousEdgeFire_20261105_P1",
+      "title": "Seraph · 持续燃烧修正与火焰形态对比",
+      "note": "保留宽剑和角色造型，修正火焰只播放一次、收招后熄灭的问题；现在挥剑到收招都有火焰，两次真实接触均确认。不过静止时粒子堆得过密、火焰边缘太整齐，火舌长度与密度还在继续收敛。",
+      "poster_frame": 83,
+      "root_reviewed_frames": [
+        14,
+        43,
+        83,
+        101
+      ],
+      "publish": true
+    },
+    {
       "id": "sovereign-dense-chest-stream-r16",
       "name": "R16_Sovereign_ChestClosedEyes_20261105_N1",
       "title": "Sovereign · 持续喷血与闭眼后倒",
@@ -132,7 +146,8 @@
         83,
         101
       ],
-      "publish": true
+      "publish": false,
+      "superseded_by": "seraph-continuous-fire-r18"
     },
     {
       "id": "consecration-clear-r14",
