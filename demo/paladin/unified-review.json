@@ -1,7 +1,7 @@
 {
-  "utc": "2026-11-05T20:20:39.444429+00:00",
+  "utc": "2026-11-05T21:17:50.791223+00:00",
   "status": "rolling_review_not_final",
-  "playlist_revision": "R112",
+  "playlist_revision": "R124",
   "all_work_complete": false,
   "skill_count": 37,
   "roles": [
@@ -101,11 +101,11 @@
       "title": "HALO STRIKE · 最新返修",
       "role": "Sovereign",
       "status": "返修实拍 · 待视觉评审",
-      "src": "assets/r5-sovereign-soft-contact-halo-r101.mp4",
+      "src": "assets/r5-sovereign-soft-contact-halo-r101-clean-title-r124.mp4",
       "start": 0.23333333333333334,
       "end": 4.0,
       "poster": "assets/r5-sovereign-soft-contact-halo-r101.jpg",
-      "note": "保留原来的脸、头发、盔甲、武器与两段攻击。将末段法术冲击放到敌人处，并让实际命中火星使用柔和闪光，减少照白脸部和敌人盔甲的情况；火星、血迹、受击动作与声音保留。两次命中仍由实际武器接触触发。这是完整招式的中间实拍，供对照亮度和节奏，其他法术仍逐项评审。",
+      "note": "保留原来的脸、头发、盔甲、武器与两段攻击。将末段法术冲击放到敌人处，并让实际命中火星使用柔和闪光，减少照白脸部和敌人盔甲的情况；火星、血迹、受击动作与声音保留。两次命中仍由实际武器接触触发。这是完整招式的中间实拍，供对照亮度和节奏，其他法术仍逐项评审。 去掉遮挡人物的大号片头，只保留招式小标题，完整查看原实拍动作与声音。",
       "review": "revision-r5.html#sovereign-soft-contact-halo-r101"
     },
     {
@@ -129,14 +129,15 @@
       "note": "保留原招式、造型和实拍；本章节未进行本轮重拍。 本轮法术、升空和翅膀修正尚未全部接入。"
     },
     {
-      "title": "WING TEMPEST",
+      "title": "WING TEMPEST · 最新返修",
       "role": "Sovereign",
-      "status": "原实拍 · 保留/部分待改",
-      "src": "assets/paladin-fivecast-r1.mp4",
-      "start": 57.267,
-      "end": 61.1,
-      "poster": "assets/fivecast-seraph.jpg",
-      "note": "保留原招式、造型和实拍；本章节未进行本轮重拍。 本轮法术、升空和翅膀修正尚未全部接入。"
+      "status": "返修实拍 · 待视觉评审",
+      "src": "assets/r5-sovereign-radiant-feathers-front-r24.mp4",
+      "start": 0.23333333333333334,
+      "end": 2.8,
+      "poster": "assets/r5-sovereign-radiant-feathers-front-r24.jpg",
+      "note": "完整羽翼从实际肩背展开，沿用已有羽毛资源并加入柔和暖色光感；保留已定型的脸、发型、盔甲和武器。短片展示展开、拍翼和收起，技能使用原生范围伤害事件。这是位置、完整轮廓和光感的中间评审，原光翼版本仍保留。",
+      "review": "revision-r5.html#sovereign-radiant-feathers-front-r24"
     },
     {
       "title": "HEAVEN'S DESCENT · 返修",
@@ -171,14 +172,15 @@
       "review": "revision-r5.html#sovereign-clean-authored-nova-r60"
     },
     {
-      "title": "JUDGEMENT OF THE SUN",
+      "title": "JUDGEMENT OF THE SUN · 最新返修",
       "role": "Sovereign",
-      "status": "原实拍 · 保留/部分待改",
-      "src": "assets/paladin-fivecast-r1.mp4",
-      "start": 70.2,
-      "end": 75.0,
-      "poster": "assets/fivecast-seraph.jpg",
-      "note": "保留原招式、造型和实拍；本章节未进行本轮重拍。 本轮法术、升空和翅膀修正尚未全部接入。"
+      "status": "返修实拍 · 待视觉评审",
+      "src": "assets/r5-sovereign-compact-sun-r120.mp4",
+      "start": 0.23333333333333334,
+      "end": 5.333333333333333,
+      "poster": "assets/r5-sovereign-compact-sun-r120.jpg",
+      "note": "蓄力压到约0.8秒，爆发前移，缩短普通倒地后的等待，保留实际倒地收尾与攻击、受伤和死亡声音。沿用原脸、服饰、权杖与原动作；金白光效仍待评审。敌人最终蜷倒和握剑的旧普通死亡姿态仍需打磨，这条没有把它标成新死亡效果。",
+      "review": "revision-r5.html#sovereign-compact-sun-r120"
     },
     {
       "title": "Apotheosis",
@@ -191,14 +193,15 @@
       "note": "保留原招式、造型和实拍；本章节未进行本轮重拍。"
     },
     {
-      "title": "APOTHEOSIS",
+      "title": "APOTHEOSIS · 最新返修",
       "role": "Sovereign",
-      "status": "原实拍 · 保留/部分待改",
-      "src": "assets/paladin-fivecast-r1.mp4",
-      "start": 75.8,
-      "end": 83.0,
-      "poster": "assets/fivecast-seraph.jpg",
-      "note": "保留原招式、造型和实拍；本章节未进行本轮重拍。 本轮法术、升空和翅膀修正尚未全部接入。"
+      "status": "返修实拍 · 待视觉评审",
+      "src": "assets/r5-sovereign-compact-apotheosis-r120.mp4",
+      "start": 0.23333333333333334,
+      "end": 5.333333333333333,
+      "poster": "assets/r5-sovereign-compact-apotheosis-r120.jpg",
+      "note": "缩短准备与片尾等待，爆发时从肩背展开完整左右羽翼，配合金白色地面冲击，保持脸和白甲的层次。保留原角色与原动画、受击和死亡声音。这是法术节奏与翅膀的阶段实拍；敌人普通死亡落地后仍握剑，尚未作为完成项。",
+      "review": "revision-r5.html#sovereign-compact-apotheosis-r120"
     },
     {
       "title": "Sovereign · 向前失衡、喊声与脱手倒地",
@@ -718,18 +721,17 @@
     }
   ],
   "pending": [
-    "Lightblade 两种轻装穿法在独立页，短摆动态仍在检查",
-    "Sovereign 其他法术与自然死亡继续视觉打磨",
-    "Divine Judgement 已换专业冲击并收敛粒子，仍待视觉评审",
-    "部分断身布边、头部压碎形状和落地姿态仍需评审"
+    "Lightblade 两种轻装动态独立评审，服装尚未定型",
+    "Sovereign 两条新法术节奏及自然死亡仍待视觉评审",
+    "部分断身布边、头部压碎形状和落地姿态仍需打磨"
   ],
   "independent_takes": true,
   "movie": {
-    "snapshot_revision": "R112",
+    "snapshot_revision": "R124",
     "playlist_updates_not_yet_remuxed": false,
-    "src": "assets/paladin-fivecast-repair-r112.mp4",
-    "seconds": 264.2,
-    "bytes": 76958821,
+    "src": "assets/paladin-fivecast-repair-r124.mp4",
+    "seconds": 261.133333,
+    "bytes": 75362446,
     "chapters": 67,
     "full_av_decode": true,
     "independent_takes": true,

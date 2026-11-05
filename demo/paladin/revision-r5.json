@@ -2,6 +2,39 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "sovereign-compact-sun-r120",
+      "name": "R120_Sovereign_CompactSunJudgement_20261106_AU1",
+      "title": "Sovereign · 太阳审判紧凑施法",
+      "note": "蓄力压到约0.8秒，爆发前移，缩短普通倒地后的等待，保留实际倒地收尾与攻击、受伤和死亡声音。沿用原脸、服饰、权杖与原动作；金白光效仍待评审。敌人最终蜷倒和握剑的旧普通死亡姿态仍需打磨，这条没有把它标成新死亡效果。",
+      "poster_frame": 55,
+      "root_reviewed_frames": [
+        35,
+        45,
+        55,
+        80,
+        110,
+        159
+      ],
+      "publish": true,
+      "clean_title_proof": "r5-sovereign-compact-sun-r120.mp4.proof.json"
+    },
+    {
+      "id": "sovereign-compact-apotheosis-r120",
+      "name": "R120_Sovereign_CompactApotheosis_20261106_AU1",
+      "title": "Sovereign · Apotheosis 完整羽翼与紧凑施法",
+      "note": "缩短准备与片尾等待，爆发时从肩背展开完整左右羽翼，配合金白色地面冲击，保持脸和白甲的层次。保留原角色与原动画、受击和死亡声音。这是法术节奏与翅膀的阶段实拍；敌人普通死亡落地后仍握剑，尚未作为完成项。",
+      "poster_frame": 65,
+      "root_reviewed_frames": [
+        20,
+        45,
+        65,
+        90,
+        140
+      ],
+      "publish": true,
+      "clean_title_proof": "r5-sovereign-compact-apotheosis-r120.mp4.proof.json"
+    },
+    {
       "id": "champion-defender-bound-judgement-r109",
       "name": "R109_Champion_DefenderBoundJudgement_20261106_AT1",
       "title": "Champion · Divine Judgement 落点爆发与粒子收敛",
@@ -36,7 +69,7 @@
       "id": "sovereign-soft-contact-halo-r101",
       "name": "R101_Sovereign_SoftTargetHaloImpact_20261106_AR1",
       "title": "Sovereign · Halo Strike 命中闪光与法术位置修正",
-      "note": "保留原来的脸、头发、盔甲、武器与两段攻击。将末段法术冲击放到敌人处，并让实际命中火星使用柔和闪光，减少照白脸部和敌人盔甲的情况；火星、血迹、受击动作与声音保留。两次命中仍由实际武器接触触发。这是完整招式的中间实拍，供对照亮度和节奏，其他法术仍逐项评审。",
+      "note": "保留原来的脸、头发、盔甲、武器与两段攻击。将末段法术冲击放到敌人处，并让实际命中火星使用柔和闪光，减少照白脸部和敌人盔甲的情况；火星、血迹、受击动作与声音保留。两次命中仍由实际武器接触触发。这是完整招式的中间实拍，供对照亮度和节奏，其他法术仍逐项评审。 去掉遮挡人物的大号片头，只保留招式小标题，完整查看原实拍动作与声音。",
       "poster_frame": 60,
       "root_reviewed_frames": [
         30,
@@ -45,7 +78,9 @@
         95,
         119
       ],
-      "publish": true
+      "publish": true,
+      "web_filename": "r5-sovereign-soft-contact-halo-r101-clean-title-r124.mp4",
+      "clean_title_proof": "r5-sovereign-soft-contact-halo-r101-clean-title-r124.mp4.proof.json"
     },
     {
       "id": "oathbreaker-crown-limited-head-crush-r92",
