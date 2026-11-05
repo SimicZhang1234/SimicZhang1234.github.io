@@ -2,6 +2,20 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "sovereign-contact-pose-head-crush-r61",
+      "name": "R61_Sovereign_ContactPoseHeadCrush_20261105_AH1",
+      "title": "Sovereign · 头部重击与倒地衔接试片",
+      "note": "保留现有脸、头发、盔甲与武器。下劈真实命中后，先留住受击姿态并完成头部压缩，再松手侧倒；修正此前突然抬高头部的切换，配受伤、重击和落地声音。血量保持克制。这条用于评审衔接，头部形变、镜头和落地仍可继续打磨，尚未定稿。",
+      "poster_frame": 28,
+      "root_reviewed_frames": [
+        23,
+        28,
+        34,
+        95
+      ],
+      "publish": true
+    },
+    {
       "id": "dawnknight-downward-skull-crush-r60",
       "name": "R60_Enemy_SkullRootHeadCrush_20261105_AF1",
       "title": "Dawnknight · 自上而下的头部重击压碎",
