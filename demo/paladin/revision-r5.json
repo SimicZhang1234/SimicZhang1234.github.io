@@ -2,6 +2,20 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "sovereign-clean-authored-nova-r60",
+      "name": "R60_Sovereign_CleanOwnedNova_20261105_AF1",
+      "title": "Eclipse Nova · 气流光波替换与材质修正",
+      "note": "替换原先的紫色折线与零散碎片，气流光波随出手扩散，命中保留火花、血迹与受击声。保留脸部原有明暗，去掉此前悬浮的黑色方片；使用已有 Paragon 原生法术资源。范围法术实拍，仍可继续打磨力度与配色。此条晚于上方完整整合片，先在这里评审。",
+      "poster_frame": 34,
+      "root_reviewed_frames": [
+        34,
+        38,
+        45,
+        89
+      ],
+      "publish": true
+    },
+    {
       "id": "sovereign-articulated-bisection-r48",
       "name": "R48_Sovereign_ClearanceBisection_20261105_AC1",
       "title": "Sovereign · 断身落地与手臂接地修正",
@@ -589,7 +603,8 @@
         28,
         40
       ],
-      "publish": true
+      "publish": false,
+      "superseded_by": "sovereign-clean-authored-nova-r60"
     },
     {
       "id": "sovereign-descent",
