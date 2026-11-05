@@ -2,6 +2,21 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "champion-defender-bound-judgement-r109",
+      "name": "R109_Champion_DefenderBoundJudgement_20261106_AT1",
+      "title": "Champion · Divine Judgement 落点爆发与粒子收敛",
+      "note": "巨剑落地后，主要爆发集中在受击敌人处，修正上一版一部分光效跑到施法者身边的问题；减少过密的金色粒子，保留地面冲击面、碎石、重击与受伤声音及完整倒地收尾。沿用原来的专业特效资源、巨剑、动作和伤害时机。这条仍作为阶段实拍评审爆发强度与节奏，未视为最终定稿。",
+      "poster_frame": 51,
+      "root_reviewed_frames": [
+        46,
+        51,
+        58,
+        80,
+        107
+      ],
+      "publish": true
+    },
+    {
       "id": "champion-professional-judgement-impact-r104",
       "name": "R104_Champion_ProfessionalGroundJudgement_20261106_AQ1",
       "title": "Champion · Divine Judgement 专业冲击重做试片",
@@ -14,7 +29,8 @@
         80,
         107
       ],
-      "publish": true
+      "publish": true,
+      "superseded_by": "champion-defender-bound-judgement-r109"
     },
     {
       "id": "sovereign-soft-contact-halo-r101",

@@ -1,7 +1,7 @@
 {
-  "utc": "2026-11-05T16:18:31.790861+00:00",
+  "utc": "2026-11-05T20:20:39.444429+00:00",
   "status": "rolling_review_not_final",
-  "playlist_revision": "R96",
+  "playlist_revision": "R112",
   "all_work_complete": false,
   "skill_count": 37,
   "roles": [
@@ -98,14 +98,15 @@
       "note": "保留原招式、造型和实拍；本章节未进行本轮重拍。"
     },
     {
-      "title": "HALO STRIKE",
+      "title": "HALO STRIKE · 最新返修",
       "role": "Sovereign",
-      "status": "原实拍 · 保留/部分待改",
-      "src": "assets/paladin-fivecast-r1.mp4",
-      "start": 43.4,
-      "end": 46.4,
-      "poster": "assets/fivecast-seraph.jpg",
-      "note": "保留原招式、造型和实拍；本章节未进行本轮重拍。 本轮法术、升空和翅膀修正尚未全部接入。"
+      "status": "返修实拍 · 待视觉评审",
+      "src": "assets/r5-sovereign-soft-contact-halo-r101.mp4",
+      "start": 0.23333333333333334,
+      "end": 4.0,
+      "poster": "assets/r5-sovereign-soft-contact-halo-r101.jpg",
+      "note": "保留原来的脸、头发、盔甲、武器与两段攻击。将末段法术冲击放到敌人处，并让实际命中火星使用柔和闪光，减少照白脸部和敌人盔甲的情况；火星、血迹、受击动作与声音保留。两次命中仍由实际武器接触触发。这是完整招式的中间实拍，供对照亮度和节奏，其他法术仍逐项评审。",
+      "review": "revision-r5.html#sovereign-soft-contact-halo-r101"
     },
     {
       "title": "CELESTIAL SPIN",
@@ -386,14 +387,15 @@
       "note": "保留原招式、造型和实拍；本章节未进行本轮重拍。"
     },
     {
-      "title": "DIVINE JUDGEMENT",
+      "title": "DIVINE JUDGEMENT · 最新返修",
       "role": "Champion",
-      "status": "原实拍 · 保留/部分待改",
-      "src": "assets/paladin-fivecast-r1.mp4",
-      "start": 153.667,
-      "end": 160.733333,
-      "poster": "assets/fivecast-seraph.jpg",
-      "note": "巨剑审判正在重做：此处保留原招式供对照，新的砸落与冲击仍在打磨。"
+      "status": "返修实拍 · 待视觉评审",
+      "src": "assets/r5-champion-defender-bound-judgement-r109.mp4",
+      "start": 0.23333333333333334,
+      "end": 3.6,
+      "poster": "assets/r5-champion-defender-bound-judgement-r109.jpg",
+      "note": "巨剑落地后，主要爆发集中在受击敌人处，修正上一版一部分光效跑到施法者身边的问题；减少过密的金色粒子，保留地面冲击面、碎石、重击与受伤声音及完整倒地收尾。沿用原来的专业特效资源、巨剑、动作和伤害时机。这条仍作为阶段实拍评审爆发强度与节奏，未视为最终定稿。",
+      "review": "revision-r5.html#champion-defender-bound-judgement-r109"
     },
     {
       "title": "Champion · 两类敌人处决",
@@ -716,19 +718,18 @@
     }
   ],
   "pending": [
-    "断身布边、头部压碎形状仍需视觉评审",
-    "Sovereign 后续法术与自然死亡仍在打磨",
-    "Divine Judgement 冲击力重做，R64 四种近战接触已有新章节",
-    "Seraph 专业火焰五招已收入；片中敌人普通死亡仍沿用旧收尾",
-    "Lightblade 已同意的白布皮革轻装正在 UE 试穿，维持独立页"
+    "Lightblade 两种轻装穿法在独立页，短摆动态仍在检查",
+    "Sovereign 其他法术与自然死亡继续视觉打磨",
+    "Divine Judgement 已换专业冲击并收敛粒子，仍待视觉评审",
+    "部分断身布边、头部压碎形状和落地姿态仍需评审"
   ],
   "independent_takes": true,
   "movie": {
-    "snapshot_revision": "R96",
+    "snapshot_revision": "R112",
     "playlist_updates_not_yet_remuxed": false,
-    "src": "assets/paladin-fivecast-repair-r96.mp4",
-    "seconds": 267.133333,
-    "bytes": 77164486,
+    "src": "assets/paladin-fivecast-repair-r112.mp4",
+    "seconds": 264.2,
+    "bytes": 76958821,
     "chapters": 67,
     "full_av_decode": true,
     "independent_takes": true,
