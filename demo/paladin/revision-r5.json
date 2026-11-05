@@ -2,6 +2,54 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "heaven-blade-contact-r16",
+      "name": "R16_Champion_HeavenBladeContact_20261105_N1",
+      "title": "Champion · 天降快起跳与砍中检查",
+      "note": "先看缩短后的起跳、完整空中构图和刀刃砍中敌人的过程。已确认真实近战命中，落地大范围特效正在接回，这条用于检查动作衔接，不是最终展示；目前镜头也偏远。",
+      "poster_frame": 28,
+      "root_reviewed_frames": [
+        15,
+        20,
+        28,
+        35,
+        65,
+        92
+      ],
+      "publish": true
+    },
+    {
+      "id": "blink-contact-r14",
+      "name": "R14_Champion_SoftBlink_20261105_M1",
+      "title": "Champion · 闪击残影与命中微调",
+      "note": "减弱起手残影和闪光，保留实际刀刃命中后的火星、血迹和受击人声。完整收招已拍出；敌人后仰时滞空仍偏久，这部分正在改用更合适的专业受击动作。",
+      "poster_frame": 32,
+      "root_reviewed_frames": [
+        12,
+        20,
+        32,
+        40,
+        65,
+        92
+      ],
+      "publish": true
+    },
+    {
+      "id": "seraph-edge-fire-r16",
+      "name": "R16_Seraph_ActualEdgeFacingFlames_20261105_N1",
+      "title": "Seraph · 火焰贴刃与转身检查",
+      "note": "沿实测剑刃放置专业火焰，调整粒子朝向，保留已定型的宽剑和人物造型；两次近战接触均确认。挥动时更贴刃，但收招后仍退成橙色轮廓，持续燃烧尚未修好，本条作为中间对比。",
+      "poster_frame": 14,
+      "root_reviewed_frames": [
+        14,
+        32,
+        43,
+        60,
+        83,
+        101
+      ],
+      "publish": true
+    },
+    {
       "id": "consecration-clear-r14",
       "name": "R14_Champion_CleanConsecration_20261105_M1",
       "title": "Champion · Consecration 去黑烟对比",
@@ -82,7 +130,8 @@
         60,
         80
       ],
-      "publish": true
+      "publish": false,
+      "superseded_by": "seraph-edge-fire-r16"
     },
     {
       "id": "consecration-runes-r12",
