@@ -2,6 +2,21 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "champion-seven-blade-encirclement-r32",
+      "name": "R32_Champion_SevenBladeEncirclement_20261105_W1",
+      "title": "Champion · Spectral Blades 七剑合围",
+      "note": "把原来的普通落剑改为七剑成阵、两侧弧形收拢与集中命中，保留专业剑模型的原始金属材质。范围伤害、受伤人声和受击动作与剑阵到达时刻对齐；这属于原生范围技能，并非七次实体刀刃命中。地面冰纹与收势仍可继续收敛，先评审招式辨识度。",
+      "poster_frame": 36,
+      "root_reviewed_frames": [
+        36,
+        42,
+        50,
+        75,
+        107
+      ],
+      "publish": true
+    },
+    {
       "id": "champion-fixed-heaven-grounded-fall-r28",
       "name": "R28_Champion_FixedHeavenGroundedEnemy_20261105_U1",
       "title": "Champion · Heaven Fall 起跳与下劈全景",
