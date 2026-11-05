@@ -2,6 +2,26 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "oathbreaker-prepared-skull-r18",
+      "name": "R18_Oathbreaker_SupportedSkullSplitter_20261105_P1",
+      "title": "Oathbreaker · 下蹲发力与真实下劈",
+      "note": "新增下蹲伸腿发力，接短腾空和下劈；确认刀刃真实接触后才出现血迹与落地冲击。开头仅裁去空景，准备动作保留；目前镜头偏远，落地收招还会继续打磨。",
+      "poster_frame": 45,
+      "root_reviewed_frames": [
+        5,
+        12,
+        15,
+        17,
+        20,
+        30,
+        45,
+        70,
+        101
+      ],
+      "web_start_frame": 12,
+      "publish": true
+    },
+    {
       "id": "seraph-continuous-fire-r18",
       "name": "R18_Seraph_ContinuousEdgeFire_20261105_P1",
       "title": "Seraph · 持续燃烧修正与火焰形态对比",
