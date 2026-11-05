@@ -1,7 +1,7 @@
 {
-  "utc": "2026-11-05T13:14:17.471940+00:00",
+  "utc": "2026-11-05T16:18:31.790861+00:00",
   "status": "rolling_review_not_final",
-  "playlist_revision": "R72",
+  "playlist_revision": "R96",
   "all_work_complete": false,
   "skill_count": 37,
   "roles": [
@@ -20,58 +20,62 @@
       "start": 0.0,
       "end": 4.767,
       "poster": "assets/fivecast-seraph.jpg",
-      "note": "保留原招式、造型和实拍；本章节未进行本轮重拍。 连续短火焰已在 Flame Arc 返修章节展示，其余四招仍是原片。"
+      "note": "保留原招式、造型和实拍；本章节未进行本轮重拍。 专业火焰完整五招已有返修章节。"
     },
     {
       "title": "FLAME ARC · 返修",
       "role": "Seraph",
       "status": "返修实拍 · 待视觉评审",
-      "src": "assets/r5-seraph-short-wick-fire-r20.mp4",
+      "src": "assets/r5-seraph-native-wick-five-skills-r78.mp4",
       "start": 0,
-      "end": 3.4,
-      "poster": "assets/r5-seraph-short-wick-fire-r20.jpg",
-      "note": "修复火焰中途熄灭，并缩短单个火苗的存活时间，减少收招后堆成整片火板。保留已定型的宽剑与角色造型，展示两次真实刀刃命中及收招后的火焰。当前阶段实拍，继续看动态是否自然。",
-      "review": "revision-r5.html#seraph-short-wick-fire-r20"
+      "end": 3.133,
+      "poster": "assets/r5-seraph-native-wick-five-skills-r78.jpg",
+      "note": "保留已定型的角色、宽剑和原来的五招。使用项目已有的专业火焰粒子，沿真实剑刃持续燃烧，缩短火苗寿命，让转身与挥剑时的火焰保持贴边；移除照亮身体的粒子灯光。完整展示 Flame Arc、Wing Dive、Lance of Heaven、Feather Storm、Judgement of Fire，保留受击与声音。三次近战接触和三次范围技能结果分别检查；本段重点评审火焰，敌人普通死亡收尾仍需统一接入返修版本。",
+      "review": "revision-r5.html#seraph-native-wick-five-skills-r78"
     },
     {
-      "title": "WING DIVE",
+      "title": "WING DIVE · 返修",
       "role": "Seraph",
-      "status": "原实拍 · 保留/部分待改",
-      "src": "assets/paladin-fivecast-r1.mp4",
-      "start": 9.3,
-      "end": 17.333,
-      "poster": "assets/fivecast-seraph.jpg",
-      "note": "保留原招式、造型和实拍；本章节未进行本轮重拍。 连续短火焰已在 Flame Arc 返修章节展示，其余四招仍是原片。"
+      "status": "返修实拍 · 待视觉评审",
+      "src": "assets/r5-seraph-native-wick-five-skills-r78.mp4",
+      "start": 3.133,
+      "end": 5.167,
+      "poster": "assets/r5-seraph-native-wick-five-skills-r78.jpg",
+      "note": "保留已定型的角色、宽剑和原来的五招。使用项目已有的专业火焰粒子，沿真实剑刃持续燃烧，缩短火苗寿命，让转身与挥剑时的火焰保持贴边；移除照亮身体的粒子灯光。完整展示 Flame Arc、Wing Dive、Lance of Heaven、Feather Storm、Judgement of Fire，保留受击与声音。三次近战接触和三次范围技能结果分别检查；本段重点评审火焰，敌人普通死亡收尾仍需统一接入返修版本。",
+      "review": "revision-r5.html#seraph-native-wick-five-skills-r78"
     },
     {
-      "title": "LANCE OF HEAVEN",
+      "title": "LANCE OF HEAVEN · 返修",
       "role": "Seraph",
-      "status": "原实拍 · 保留/部分待改",
-      "src": "assets/paladin-fivecast-r1.mp4",
-      "start": 17.333,
-      "end": 20.767,
-      "poster": "assets/fivecast-seraph.jpg",
-      "note": "保留原招式、造型和实拍；本章节未进行本轮重拍。 连续短火焰已在 Flame Arc 返修章节展示，其余四招仍是原片。"
+      "status": "返修实拍 · 待视觉评审",
+      "src": "assets/r5-seraph-native-wick-five-skills-r78.mp4",
+      "start": 5.167,
+      "end": 7.667,
+      "poster": "assets/r5-seraph-native-wick-five-skills-r78.jpg",
+      "note": "保留已定型的角色、宽剑和原来的五招。使用项目已有的专业火焰粒子，沿真实剑刃持续燃烧，缩短火苗寿命，让转身与挥剑时的火焰保持贴边；移除照亮身体的粒子灯光。完整展示 Flame Arc、Wing Dive、Lance of Heaven、Feather Storm、Judgement of Fire，保留受击与声音。三次近战接触和三次范围技能结果分别检查；本段重点评审火焰，敌人普通死亡收尾仍需统一接入返修版本。",
+      "review": "revision-r5.html#seraph-native-wick-five-skills-r78"
     },
     {
-      "title": "FEATHER STORM",
+      "title": "FEATHER STORM · 返修",
       "role": "Seraph",
-      "status": "原实拍 · 保留/部分待改",
-      "src": "assets/paladin-fivecast-r1.mp4",
-      "start": 20.767,
-      "end": 24.8,
-      "poster": "assets/fivecast-seraph.jpg",
-      "note": "保留原招式、造型和实拍；本章节未进行本轮重拍。 连续短火焰已在 Flame Arc 返修章节展示，其余四招仍是原片。"
+      "status": "返修实拍 · 待视觉评审",
+      "src": "assets/r5-seraph-native-wick-five-skills-r78.mp4",
+      "start": 7.667,
+      "end": 9.967,
+      "poster": "assets/r5-seraph-native-wick-five-skills-r78.jpg",
+      "note": "保留已定型的角色、宽剑和原来的五招。使用项目已有的专业火焰粒子，沿真实剑刃持续燃烧，缩短火苗寿命，让转身与挥剑时的火焰保持贴边；移除照亮身体的粒子灯光。完整展示 Flame Arc、Wing Dive、Lance of Heaven、Feather Storm、Judgement of Fire，保留受击与声音。三次近战接触和三次范围技能结果分别检查；本段重点评审火焰，敌人普通死亡收尾仍需统一接入返修版本。",
+      "review": "revision-r5.html#seraph-native-wick-five-skills-r78"
     },
     {
-      "title": "JUDGEMENT OF FIRE",
+      "title": "JUDGEMENT OF FIRE · 返修",
       "role": "Seraph",
-      "status": "原实拍 · 保留/部分待改",
-      "src": "assets/paladin-fivecast-r1.mp4",
-      "start": 24.8,
-      "end": 34.566667,
-      "poster": "assets/fivecast-seraph.jpg",
-      "note": "保留原招式、造型和实拍；本章节未进行本轮重拍。 连续短火焰已在 Flame Arc 返修章节展示，其余四招仍是原片。"
+      "status": "返修实拍 · 待视觉评审",
+      "src": "assets/r5-seraph-native-wick-five-skills-r78.mp4",
+      "start": 9.967,
+      "end": 16.966666666666665,
+      "poster": "assets/r5-seraph-native-wick-five-skills-r78.jpg",
+      "note": "保留已定型的角色、宽剑和原来的五招。使用项目已有的专业火焰粒子，沿真实剑刃持续燃烧，缩短火苗寿命，让转身与挥剑时的火焰保持贴边；移除照亮身体的粒子灯光。完整展示 Flame Arc、Wing Dive、Lance of Heaven、Feather Storm、Judgement of Fire，保留受击与声音。三次近战接触和三次范围技能结果分别检查；本段重点评审火焰，敌人普通死亡收尾仍需统一接入返修版本。",
+      "review": "revision-r5.html#seraph-native-wick-five-skills-r78"
     },
     {
       "title": "Seraph · 受击与死亡",
@@ -81,7 +85,7 @@
       "start": 34.566667,
       "end": 40.6,
       "poster": "assets/fivecast-seraph.jpg",
-      "note": "保留原招式、造型和实拍；本章节未进行本轮重拍。 连续短火焰已在 Flame Arc 返修章节展示，其余四招仍是原片。"
+      "note": "保留原招式、造型和实拍；本章节未进行本轮重拍。 专业火焰完整五招已有返修章节。"
     },
     {
       "title": "Sovereign · 定型造型",
@@ -196,15 +200,15 @@
       "note": "保留原招式、造型和实拍；本章节未进行本轮重拍。 本轮法术、升空和翅膀修正尚未全部接入。"
     },
     {
-      "title": "Sovereign · 受击喊声、脱手与贴地倒下",
+      "title": "Sovereign · 向前失衡、喊声与脱手倒地",
       "role": "Sovereign",
       "status": "返修实拍 · 待视觉评审",
-      "src": "assets/r5-sovereign-grounded-flat-fall-r20.mp4",
+      "src": "assets/r5-sovereign-forward-cry-normal-fall-r88.mp4",
       "start": 0,
       "end": 3.2,
-      "poster": "assets/r5-sovereign-grounded-flat-fall-r20.jpg",
-      "note": "替换了原来腾空翻倒的开头，保留受击失衡、女性死亡喊声和武器脱手，重做最后侧卧与手臂落地。完整展示收尾，已检查复活恢复。当前阶段实拍，转身到后仰的衔接仍需继续打磨。",
-      "review": "revision-r5.html#sovereign-grounded-flat-fall-r20"
+      "poster": "assets/r5-sovereign-forward-cry-normal-fall-r88.jpg",
+      "note": "保留现有脸、服饰和武器。普通死亡改用已有的向前失衡片段，减少旧版先转身再向后倒的衔接；配女性死亡喊声，武器脱手并保留完整落地后半段。复活恢复已核查。这条是新的动作试片，最后仍为侧身蜷曲，落地姿态是否自然继续评审。",
+      "review": "revision-r5.html#sovereign-forward-cry-normal-fall-r88"
     },
     {
       "title": "Champion · 造型、格挡与前六招",
@@ -590,6 +594,17 @@
       "review": "revision-r5.html#oathbreaker-articulated-bisection-r44"
     },
     {
+      "title": "Dawnknight · 断身、披布与胸饰跟随修正",
+      "role": "Dawnknight",
+      "status": "返修实拍 · 待视觉评审",
+      "src": "assets/r5-dawnknight-bound-garment-bisection-r80.mp4",
+      "start": 0,
+      "end": 3.6,
+      "poster": "assets/r5-dawnknight-bound-garment-bisection-r80.jpg",
+      "note": "横斩实际经过腰部后，身体、披布一起沿同一切面分离；胸饰随上半身运动，修正原来留在空中的披布和胸饰。保留短暂喷溅、武器落地和原来的盔甲材质；完整保留两半落地后半段。复活后原披布与胸饰恢复已核查。布边形状和落地质感仍需评审，这条是断身返修的中间结果。",
+      "review": "revision-r5.html#dawnknight-bound-garment-bisection-r80"
+    },
+    {
       "title": "胸口持续喷血 · 完整倒地与贴地收尾",
       "role": "Oathbreaker",
       "status": "返修实拍 · 待视觉评审",
@@ -645,6 +660,17 @@
       "review": "revision-r5.html#dawnknight-downward-skull-crush-r60"
     },
     {
+      "title": "Oathbreaker · 向下重击、保留压坏的盔体",
+      "role": "Oathbreaker",
+      "status": "返修实拍 · 待视觉评审",
+      "src": "assets/r5-oathbreaker-crown-limited-head-crush-r92.mp4",
+      "start": 0,
+      "end": 3.2,
+      "poster": "assets/r5-oathbreaker-crown-limited-head-crush-r92.jpg",
+      "note": "刀刃从上方实际击中头部后，头盔与内部头部一起向下压缩；仅从原头盔顶部取出小碎片，保留能看清的压坏主体，减少旧版像整颗头消失的感觉。武器脱手后倒地，保留重击、碎裂、受伤与落地声音。血量保持克制，仍是头部重击的阶段返修。",
+      "review": "revision-r5.html#oathbreaker-crown-limited-head-crush-r92"
+    },
+    {
       "title": "Sovereign · 松手跪倒与侧身落地",
       "role": "Sovereign",
       "status": "返修实拍 · 待视觉评审",
@@ -690,19 +716,22 @@
     }
   ],
   "pending": [
-    "Oathbreaker 头部压碎形状、Dawnknight 断身披布正在重做",
+    "断身布边、头部压碎形状仍需视觉评审",
     "Sovereign 后续法术与自然死亡仍在打磨",
     "Divine Judgement 冲击力重做，R64 四种近战接触已有新章节",
-    "Seraph 连续短火焰五招完整试片正在拍摄",
-    "Lightblade 轻装未定型，维持独立页"
+    "Seraph 专业火焰五招已收入；片中敌人普通死亡仍沿用旧收尾",
+    "Lightblade 已同意的白布皮革轻装正在 UE 试穿，维持独立页"
   ],
   "independent_takes": true,
   "movie": {
-    "snapshot_revision": "R52",
-    "playlist_updates_not_yet_remuxed": true,
-    "src": "assets/paladin-fivecast-repair-r52.mp4",
-    "seconds": 248.7,
-    "bytes": 71393887,
-    "chapters": 60
+    "snapshot_revision": "R96",
+    "playlist_updates_not_yet_remuxed": false,
+    "src": "assets/paladin-fivecast-repair-r96.mp4",
+    "seconds": 267.133333,
+    "bytes": 77164486,
+    "chapters": 67,
+    "full_av_decode": true,
+    "independent_takes": true,
+    "art_approval": false
   }
 }
