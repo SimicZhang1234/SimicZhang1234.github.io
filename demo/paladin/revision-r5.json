@@ -2,6 +2,33 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "sovereign-radiant-feathers-front-r24",
+      "name": "R24_Sovereign_RadiantFeatherFront_20261105_S1",
+      "title": "Sovereign · 肩背完整光羽／正面",
+      "note": "完整羽翼从实际肩背展开，沿用已有羽毛资源并加入柔和暖色光感；保留已定型的脸、发型、盔甲和武器。短片展示展开、拍翼和收起，技能使用原生范围伤害事件。这是位置、完整轮廓和光感的中间评审，原光翼版本仍保留。",
+      "poster_frame": 60,
+      "root_reviewed_frames": [
+        25,
+        45,
+        60,
+        83
+      ],
+      "publish": true
+    },
+    {
+      "id": "sovereign-radiant-feathers-rear-r24",
+      "name": "R24_Sovereign_RadiantFeatherRear_20261105_S1",
+      "title": "Sovereign · 肩背完整光羽／背侧",
+      "note": "完整羽翼从实际肩背展开，沿用已有羽毛资源并加入柔和暖色光感；保留已定型的脸、发型、盔甲和武器。短片展示展开、拍翼和收起，技能使用原生范围伤害事件。这是位置、完整轮廓和光感的中间评审，原光翼版本仍保留。",
+      "poster_frame": 45,
+      "root_reviewed_frames": [
+        35,
+        45,
+        83
+      ],
+      "publish": true
+    },
+    {
       "id": "consecration-held-pose-r24",
       "name": "R24_Champion_HeldPlantConsecration_20261105_S1",
       "title": "Consecration · 剑尖朝地停顿与法阵扩散",
@@ -339,7 +366,8 @@
         56,
         74
       ],
-      "publish": true
+      "publish": false,
+      "superseded_by": "sovereign-radiant-feathers-front-r24"
     },
     {
       "id": "sovereign-complete-wings-rear-r13",
@@ -354,7 +382,8 @@
         90,
         98
       ],
-      "publish": true
+      "publish": false,
+      "superseded_by": "sovereign-radiant-feathers-rear-r24"
     },
     {
       "id": "sovereign-chest-stream-r13",
