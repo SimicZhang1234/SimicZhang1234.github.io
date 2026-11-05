@@ -2,6 +2,19 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "enemy-kneel-relaxed-rest-r36",
+      "name": "R36_Enemy_KneelRelaxedArm_20261105_Y1",
+      "title": "敌人 · 掉剑跪倒后放松落地",
+      "note": "保留真实命中后的松手、跪倒前半段，缩短停顿后继续倒下；后半段放低原先撑起的手臂，使身体和手臂更自然地落在地面。剑、盾使用原模型独立掉落，保留受伤、盔甲和落地声音。这是落姿返修实拍，接地细节仍可继续打磨。",
+      "poster_frame": 107,
+      "root_reviewed_frames": [
+        45,
+        70,
+        107
+      ],
+      "publish": true
+    },
+    {
       "id": "consecration-ground-only-r32b",
       "name": "R32B_Champion_GroundOnlyConsecration_20261105_X2",
       "title": "Champion · Consecration 去除悬浮杂符",
@@ -311,7 +324,8 @@
         82,
         107
       ],
-      "publish": true
+      "publish": false,
+      "superseded_by": "enemy-kneel-relaxed-rest-r36"
     },
     {
       "id": "sovereign-kneel-settled-r16",
