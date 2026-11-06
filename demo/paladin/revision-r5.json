@@ -2,6 +2,34 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "oathbreaker-normal-weapon-release-r142",
+      "name": "R142_Oathbreaker_VerifiedNormalRelease_20261106_AY1",
+      "title": "Oathbreaker · 普通致命横斩后掉剑",
+      "note": "真实横斩命中后，原剑和盾从手中释放、独立落地，接入已有的贴地倒下版本，保留受伤、死亡和落地声音。四类特殊死亡与原造型均保留；这条用于评审普通死亡后的武器和身体收尾。",
+      "poster_frame": 50,
+      "root_reviewed_frames": [
+        30,
+        50,
+        80,
+        107
+      ],
+      "publish": true
+    },
+    {
+      "id": "dawnknight-normal-weapon-release-r142",
+      "name": "R142_Dawnknight_VerifiedNormalRelease_20261106_AY1",
+      "title": "Dawnknight · 普通致命横斩后掉剑",
+      "note": "Champion 的刀刃实际扫过敌人身体后，敌人松开真实的剑和盾，武器落地不再跟着手臂竖在尸体上。包含打击、受伤、死亡和武器落地声音。此条先验证普通死亡的武器释放；沿用原有倒地动画，最终姿态仍待打磨。",
+      "poster_frame": 50,
+      "root_reviewed_frames": [
+        30,
+        50,
+        80,
+        107
+      ],
+      "publish": true
+    },
+    {
       "id": "sovereign-compact-sun-r120",
       "name": "R120_Sovereign_CompactSunJudgement_20261106_AU1",
       "title": "Sovereign · 太阳审判紧凑施法",
@@ -944,11 +972,5 @@
       "publish": false,
       "superseded_by": "enemy-dense-chest-stream-r16"
     }
-  ],
-  "lightblade_current_appearance": {
-    "costume": "earliest_original",
-    "face_hair": "original",
-    "weapons": "accepted_Crystal_blue_dual",
-    "assassin": "archived_for_future_use"
-  }
+  ]
 }
