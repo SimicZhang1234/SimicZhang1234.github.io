@@ -2,6 +2,21 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "champion-owned-consecration-impact-r144",
+      "name": "R144_Champion_ProfessionalConsecration_20261106_AZ1",
+      "title": "Champion · 奉献剑尖触地冲击",
+      "note": "沿用原剑与插剑动作，在实测剑尖触地点加入已有 Greystone 地面冲击资源：短促碎屑、扩散环和地裂，移除漂浮亮点，过滤新增资源中的照明。敌人受击使用原生范围技能到达事件，包含原有打击与受伤声音；这不是近战刀刃接触试验。仍为阶段效果评审。",
+      "poster_frame": 35,
+      "root_reviewed_frames": [
+        25,
+        35,
+        50,
+        75,
+        95
+      ],
+      "publish": true
+    },
+    {
       "id": "oathbreaker-normal-weapon-release-r142",
       "name": "R142_Oathbreaker_VerifiedNormalRelease_20261106_AY1",
       "title": "Oathbreaker · 普通致命横斩后掉剑",
