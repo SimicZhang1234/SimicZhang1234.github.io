@@ -2,6 +2,20 @@
   "status": "in_progress; intermediate real UE captures, not final approval",
   "takes": [
     {
+      "id": "sovereign-blade-driven-bisection-r152",
+      "name": "R152_Sovereign_BladeDrivenBisection_20261106_BA2",
+      "title": "Sovereign · 重斩断身顺刃带出与快速收稳",
+      "note": "刀刃真实扫过腰部后，上半身顺着这次挥刀方向带出；减少两截身体的侧向滑行，加快实际接触地面后的收稳。保留原脸、发型、盔甲、真实掉落武器和受伤、死亡、落地声音，复活后恢复原部件。仍是中间评审：手臂落地与切口轮廓还会继续打磨。",
+      "poster_frame": 65,
+      "root_reviewed_frames": [
+        30,
+        50,
+        65,
+        98
+      ],
+      "publish": true
+    },
+    {
       "id": "champion-owned-consecration-impact-r144",
       "name": "R144_Champion_ProfessionalConsecration_20261106_AZ1",
       "title": "Champion · 奉献剑尖触地冲击",
