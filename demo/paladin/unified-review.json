@@ -1,7 +1,7 @@
 {
-  "utc": "2026-11-05T21:17:50.791223+00:00",
+  "utc": "2026-11-06T02:07:10.059426+00:00",
   "status": "rolling_review_not_final",
-  "playlist_revision": "R124",
+  "playlist_revision": "R168",
   "all_work_complete": false,
   "skill_count": 37,
   "roles": [
@@ -204,15 +204,15 @@
       "review": "revision-r5.html#sovereign-compact-apotheosis-r120"
     },
     {
-      "title": "Sovereign · 向前失衡、喊声与脱手倒地",
+      "title": "Sovereign · 喊声、松手侧倒与自然落腿",
       "role": "Sovereign",
       "status": "返修实拍 · 待视觉评审",
-      "src": "assets/r5-sovereign-forward-cry-normal-fall-r88.mp4",
+      "src": "assets/r5-sovereign-authored-long-rest-r156.mp4",
       "start": 0,
-      "end": 3.2,
-      "poster": "assets/r5-sovereign-forward-cry-normal-fall-r88.jpg",
-      "note": "保留现有脸、服饰和武器。普通死亡改用已有的向前失衡片段，减少旧版先转身再向后倒的衔接；配女性死亡喊声，武器脱手并保留完整落地后半段。复活恢复已核查。这条是新的动作试片，最后仍为侧身蜷曲，落地姿态是否自然继续评审。",
-      "review": "revision-r5.html#sovereign-forward-cry-normal-fall-r88"
+      "end": 3.6,
+      "poster": "assets/r5-sovereign-authored-long-rest-r156.jpg",
+      "note": "保留原版脸、头发、盔甲和向前失衡侧倒的动作前段，重做末段腿部过度蜷缩：腿长不变，落地后自然落开。沿用女声死亡喊声、真实掉落原武器和落地声音。实际命中、复活恢复及原资源未改动均已验证。上半身和手臂保留原动作，整条仍待视觉评审；没有使用上次失败的物理接管。",
+      "review": "revision-r5.html#sovereign-authored-long-rest-r156"
     },
     {
       "title": "Champion · 造型、格挡与前六招",
@@ -326,15 +326,15 @@
       "note": "保留原招式、造型和实拍；本章节未进行本轮重拍。"
     },
     {
-      "title": "CONSECRATION · 返修",
+      "title": "Champion · 奉献剑尖触地冲击",
       "role": "Champion",
       "status": "返修实拍 · 待视觉评审",
-      "src": "assets/r5-consecration-ground-only-r32b.mp4",
+      "src": "assets/r5-champion-owned-consecration-impact-r144.mp4",
       "start": 0,
       "end": 3.2,
-      "poster": "assets/r5-consecration-ground-only-r32b.jpg",
-      "note": "保留剑尖朝地短暂停住的原始动作，移除空中漂浮的符文粒子，改为贴地扩散、裂痕与尘土。范围受击和声音跟随游戏原生技能事件。画面更集中，但地面图案仍偏平、力量感仍需继续加强，这条先看杂符收敛后的效果。",
-      "review": "revision-r5.html#consecration-ground-only-r32b"
+      "poster": "assets/r5-champion-owned-consecration-impact-r144.jpg",
+      "note": "沿用原剑与插剑动作，在实测剑尖触地点加入已有 Greystone 地面冲击资源：短促碎屑、扩散环和地裂，移除漂浮亮点，过滤新增资源中的照明。敌人受击使用原生范围技能到达事件，包含原有打击与受伤声音；这不是近战刀刃接触试验。仍为阶段效果评审。",
+      "review": "revision-r5.html#champion-owned-consecration-impact-r144"
     },
     {
       "title": "BLINK STRIKE · 返修",
@@ -599,15 +599,15 @@
       "review": "revision-r5.html#oathbreaker-articulated-bisection-r44"
     },
     {
-      "title": "Dawnknight · 断身、披布与胸饰跟随修正",
+      "title": "Dawnknight · 重斩断身与战袍下摆垂落",
       "role": "Dawnknight",
       "status": "返修实拍 · 待视觉评审",
-      "src": "assets/r5-dawnknight-bound-garment-bisection-r80.mp4",
+      "src": "assets/r5-dawnknight-pinned-cut-cloth-r160.mp4",
       "start": 0,
-      "end": 3.6,
-      "poster": "assets/r5-dawnknight-bound-garment-bisection-r80.jpg",
-      "note": "横斩实际经过腰部后，身体、披布一起沿同一切面分离；胸饰随上半身运动，修正原来留在空中的披布和胸饰。保留短暂喷溅、武器落地和原来的盔甲材质；完整保留两半落地后半段。复活后原披布与胸饰恢复已核查。布边形状和落地质感仍需评审，这条是断身返修的中间结果。",
-      "review": "revision-r5.html#dawnknight-bound-garment-bisection-r80"
+      "end": 3.0,
+      "poster": "assets/r5-dawnknight-pinned-cut-cloth-r160.jpg",
+      "note": "在顺实际刀刃方向带出、加快落地收稳的基础上，战袍下摆以真实腰部断边为支点向下弯折，改善倒地后像硬板竖起的问题。保留原战袍材质、徽章、原剑盾掉落和打击、死亡、落地声音。实际命中、两个战袍片及徽章的复活恢复已验证。布料轮廓和断口仍待视觉评审，并非完整布料仿真。",
+      "review": "revision-r5.html#dawnknight-pinned-cut-cloth-r160"
     },
     {
       "title": "胸口持续喷血 · 完整倒地与贴地收尾",
@@ -687,15 +687,15 @@
       "review": "revision-r5.html#sovereign-kneel-relaxed-rest-r36"
     },
     {
-      "title": "Sovereign · 断身落地与手臂接地修正",
+      "title": "Sovereign · 重斩断身顺刃带出与快速收稳",
       "role": "Sovereign",
       "status": "返修实拍 · 待视觉评审",
-      "src": "assets/r5-sovereign-articulated-bisection-r48.mp4",
+      "src": "assets/r5-sovereign-blade-driven-bisection-r152.mp4",
       "start": 0,
-      "end": 3.6,
-      "poster": "assets/r5-sovereign-articulated-bisection-r48.jpg",
-      "note": "保留现有脸、头发、白黑盔甲与武器。真实重斩后两段分离，肩肘分别放松，上半身低伏落地；修正此前手臂穿地和僵直支撑的收尾。武器独立掉落，保留受伤、重斩和落地声音。切口保持克制，仍作为动作返修版本评审。",
-      "review": "revision-r5.html#sovereign-articulated-bisection-r48"
+      "end": 3.3,
+      "poster": "assets/r5-sovereign-blade-driven-bisection-r152.jpg",
+      "note": "刀刃真实扫过腰部后，上半身顺着这次挥刀方向带出；减少两截身体的侧向滑行，加快实际接触地面后的收稳。保留原脸、发型、盔甲、真实掉落武器和受伤、死亡、落地声音，复活后恢复原部件。仍是中间评审：手臂落地与切口轮廓还会继续打磨。",
+      "review": "revision-r5.html#sovereign-blade-driven-bisection-r152"
     },
     {
       "title": "Sovereign · 胸口持续喷射与前倾倒地",
@@ -718,23 +718,49 @@
       "poster": "assets/r5-sovereign-contact-pose-head-crush-r61.jpg",
       "note": "保留现有脸、头发、盔甲与武器。下劈真实命中后，先留住受击姿态并完成头部压缩，再松手侧倒；修正此前突然抬高头部的切换，配受伤、重击和落地声音。血量保持克制。这条用于评审衔接，头部形变、镜头和落地仍可继续打磨，尚未定稿。",
       "review": "revision-r5.html#sovereign-contact-pose-head-crush-r61"
+    },
+    {
+      "title": "Dawnknight · 普通致命横斩后掉剑",
+      "role": "Dawnknight",
+      "status": "返修实拍 · 待视觉评审",
+      "src": "assets/r5-dawnknight-normal-weapon-release-r142.mp4",
+      "start": 0,
+      "end": 3.6,
+      "poster": "assets/r5-dawnknight-normal-weapon-release-r142.jpg",
+      "note": "Champion 的刀刃实际扫过敌人身体后，敌人松开真实的剑和盾，武器落地不再跟着手臂竖在尸体上。包含打击、受伤、死亡和武器落地声音。此条先验证普通死亡的武器释放；沿用原有倒地动画，最终姿态仍待打磨。",
+      "review": "revision-r5.html#dawnknight-normal-weapon-release-r142"
+    },
+    {
+      "title": "Oathbreaker · 普通致命横斩后掉剑",
+      "role": "Oathbreaker",
+      "status": "返修实拍 · 待视觉评审",
+      "src": "assets/r5-oathbreaker-normal-weapon-release-r142.mp4",
+      "start": 0,
+      "end": 3.6,
+      "poster": "assets/r5-oathbreaker-normal-weapon-release-r142.jpg",
+      "note": "真实横斩命中后，原剑和盾从手中释放、独立落地，接入已有的贴地倒下版本，保留受伤、死亡和落地声音。四类特殊死亡与原造型均保留；这条用于评审普通死亡后的武器和身体收尾。",
+      "review": "revision-r5.html#oathbreaker-normal-weapon-release-r142"
     }
   ],
   "pending": [
-    "Sovereign 两条新法术节奏及自然死亡仍待视觉评审",
-    "部分断身布边、头部压碎形状和落地姿态仍需打磨"
+    "Sovereign 上半身倒地动作与部分法术仍待视觉评审",
+    "断身布料、断口轮廓、头部压碎形状和跳跃收招继续打磨",
+    "Lightblade 已恢复最早原衣服并保留蓝色双剑，在独立 Demo 展示；Assassin 归档备用"
   ],
   "independent_takes": true,
   "movie": {
-    "snapshot_revision": "R124",
+    "snapshot_revision": "R168",
     "playlist_updates_not_yet_remuxed": false,
-    "src": "assets/paladin-fivecast-repair-r124.mp4",
-    "seconds": 261.133333,
-    "bytes": 75362446,
-    "chapters": 67,
+    "src": "assets/r168-stream/r168-stream.mpd",
+    "seconds": 267.833333,
+    "bytes": 77609366,
+    "chapters": 69,
     "full_av_decode": true,
     "independent_takes": true,
-    "art_approval": false
+    "art_approval": false,
+    "stream_config": "assets/r168-stream/stream.json",
+    "delivery": "DASH source packets unchanged, one continuous HTML video",
+    "local_full_mp4": "D:\\my games\\Paladin\\Saved\\StagedChanges\\Resume20261103_Rolling\\FeedbackR5_20261104\\UnifiedMovie_R168\\native1080p_full_movie.mp4"
   },
   "lightblade_current": "Earliest original outfit restored; original Asian face, Crystal blue dual swords and agile dual moves retained; Assassin archived for future use"
 }

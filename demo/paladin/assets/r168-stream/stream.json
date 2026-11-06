@@ -1,0 +1,30 @@
+{
+  "seconds": 267.833333,
+  "tracks": [
+    {
+      "mime": "video/mp4; codecs=\"avc1.640028\"",
+      "init": "r168-init-0.mp4",
+      "segments": [
+        "r168-0-01.m4s",
+        "r168-0-02.m4s",
+        "r168-0-03.m4s",
+        "r168-0-04.m4s",
+        "r168-0-05.m4s",
+        "r168-0-06.m4s"
+      ]
+    },
+    {
+      "mime": "audio/mp4; codecs=\"mp4a.40.2\"",
+      "init": "r168-init-1.mp4",
+      "segments": [
+        "r168-1-01.m4s",
+        "r168-1-02.m4s",
+        "r168-1-03.m4s",
+        "r168-1-04.m4s",
+        "r168-1-05.m4s",
+        "r168-1-06.m4s"
+      ]
+    }
+  ],
+  "source_packets_unchanged": true
+}
