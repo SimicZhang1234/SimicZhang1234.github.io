@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10131b">
+  <title>Paladin · 火焰剑与受击短片</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #10131b; color: #eee9df; font: 16px/1.65 "Segoe UI", "Microsoft YaHei", sans-serif; }
+    main { max-width: 1320px; margin: auto; padding: 28px clamp(16px, 4vw, 42px) 48px; }
+    a { color: #e3c68e; }
+    nav { display: flex; flex-wrap: wrap; gap: 10px 20px; margin-bottom: 24px; }
+    h1 { margin: 0; font: normal clamp(29px, 5vw, 47px)/1.25 Georgia, "Microsoft YaHei", serif; }
+    h2 { font-size: 1.23rem; margin: 0 0 10px; }
+    .summary, footer { color: #b4bac7; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+    section { padding: 16px; border: 1px solid #414658; border-radius: 10px; background: #191e29; }
+    section:target { border-color: #e3c68e; }
+    video { display: block; width: 100%; aspect-ratio: 16/9; background: #07090d; border-radius: 5px; }
+    .details { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px 12px; margin-top: 12px; }
+    footer { border-top: 1px solid #414658; padding-top: 18px; margin-top: 30px; font-size: .875rem; }
+    @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <main>
+    <nav aria-label="返回演示"><a href="../">Demo 首页</a><a href="./">Paladin 总览</a></nav>
+    <h1>火焰剑与胸口受击</h1>
+    <p class="summary">11 月 10 日 · 四条独立 UE 实拍 · 1080p / 30 fps · 含音效</p>
+    <nav aria-label="短片跳转">
+      <a href="#seraph">Seraph</a>
+      <a href="#dawnknight">Dawnknight</a>
+      <a href="#oathbreaker">Oathbreaker</a>
+      <a href="#sovereign">Sovereign</a>
+    </nav>
+    <div class="grid">
+      <section id="seraph">
+        <h2>Seraph · 火焰宽剑</h2>
+        <video aria-label="Seraph 火焰宽剑" controls playsinline preload="none" poster="assets/r584-clips/seraph-fire.jpg" src="assets/r584-clips/seraph-fire.mp4"></video>
+        <div class="details"><span>Flame Arc · 2.8 秒</span><a href="assets/r584-clips/seraph-fire.mp4">打开 MP4</a></div>
+      </section>
+      <section id="dawnknight">
+        <h2>Dawnknight · 胸口喷血、跪下、倒地</h2>
+        <video aria-label="Dawnknight 胸口死亡" controls playsinline preload="none" poster="assets/r584-clips/dawnknight-chest.jpg" src="assets/r584-clips/dawnknight-chest.mp4"></video>
+        <div class="details"><span>盾牌与身体落地声分开 · 5.1 秒</span><a href="assets/r584-clips/dawnknight-chest.mp4">打开 MP4</a></div>
+      </section>
+      <section id="oathbreaker">
+        <h2>Oathbreaker · 胸口喷血、跪下、倒地</h2>
+        <video aria-label="Oathbreaker 胸口死亡" controls playsinline preload="none" poster="assets/r584-clips/oathbreaker-chest.jpg" src="assets/r584-clips/oathbreaker-chest.mp4"></video>
+        <div class="details"><span>盾牌与身体落地声分开 · 5.1 秒</span><a href="assets/r584-clips/oathbreaker-chest.mp4">打开 MP4</a></div>
+      </section>
+      <section id="sovereign">
+        <h2>Sovereign · 胸口喷血、跪下、倒地</h2>
+        <video aria-label="Sovereign 胸口死亡" controls playsinline preload="none" poster="assets/r584-clips/sovereign-chest.jpg" src="assets/r584-clips/sovereign-chest.mp4"></video>
+        <div class="details"><span>补拍版，放低跪姿中的双手 · 5.1 秒</span><a href="assets/r584-clips/sovereign-chest.mp4">打开 MP4</a></div>
+      </section>
+    </div>
+    <footer>火焰素材 <a href="https://unity.com/cn/blog/engine-platform/free-vfx-image-sequences-flipbooks">Flame03 · Thomas Iché / Unity Labs（CC0）</a>。角色、原始动作与人声来自 Epic Games / Paragon。Seraph 宽剑来自 Sotudios（CC BY 4.0）。音效沿用项目中的 Paragon、David Dumais Audio 与 Mixkit 资源。</footer>
+  </main>
+</body>
+</html>
