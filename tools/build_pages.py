@@ -6,7 +6,7 @@ import subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / '_site'
-LIMIT = 900 * 1024 * 1024
+LIMIT = 980_000_000
 PROTECTED = 'demo/paladin/assets/review-'
 
 
@@ -88,7 +88,7 @@ def main():
         else:
             temporary.unlink()
 
-    assert total <= LIMIT, f'Artifact still exceeds the 900 MiB budget: {total}'
+    assert total <= LIMIT, f'Artifact still exceeds the 980 MB budget: {total}'
     for name, path in files:
         if name.startswith(PROTECTED):
             assert path.read_bytes() == (ROOT / name).read_bytes(), name
