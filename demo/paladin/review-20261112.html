@@ -4,15 +4,15 @@
 :root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#10131b;color:#eee9df;font:16px/1.7 "Segoe UI","Microsoft YaHei",sans-serif}main{max-width:1120px;margin:auto;padding:24px 18px 64px}a{color:#e1c587}nav{display:flex;flex-wrap:wrap;gap:20px}h1{font-size:clamp(26px,5vw,42px);font-weight:500}h2{font-size:25px;font-weight:500}section{margin:40px 0 60px;scroll-margin-top:18px}video{display:block;width:100%;aspect-ratio:16/9;background:#050609;border:1px solid #514838;border-radius:8px}p{color:#bfc3cf}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin:14px 0}button{font:inherit;color:#eee9df;background:#202737;border:1px solid #566078;border-radius:5px;padding:8px 14px;cursor:pointer}button:hover,button:focus-visible{border-color:#e1c587}footer{border-top:1px solid #303748;padding-top:20px;font-size:13px;color:#aeb3c0}
 </style></head><body><main>
 <nav><a href="../">全部 Demo</a><a href="./">Paladin</a><a href="#flame-sword">火焰剑</a><a href="#chest-collapse">喷血倒地</a></nav>
-<h1>火焰剑 · 喷血倒地</h1><p>11 月 12 日上传 · 两条独立 UE 实拍 · 1080p / 30fps · 含音效</p>
+<h1>火焰剑 · 喷血倒地</h1><p>11 月 13 日重做 · 两条独立 UE 实拍 · 1080p / 30fps · 含音效</p>
 <section id="flame-sword"><h2>Seraph · 火焰宽剑</h2>
-<video controls playsinline preload="metadata" poster="assets/review-20261112/flame.jpg" src="assets/review-20261112/flame-sword.mp4"></video>
-<p>火焰随剑刃移动、朝上飘，宽剑轮廓可见。火舌的分布仍偏整齐，当前为效果评审版。</p>
-<a href="assets/review-20261112/flame-sword.mp4">打开 / 下载火焰剑视频</a></section>
+<video controls playsinline preload="metadata" poster="assets/review-20261112-r2/flame.jpg" src="assets/review-20261112-r2/flame-sword.mp4"></video>
+<p>先看静止燃烧，再看挥砍。火舌向上翻卷，剑刃保持可见。</p>
+<a href="assets/review-20261112-r2/flame-sword.mp4">打开 / 下载火焰剑视频</a></section>
 <section id="chest-collapse"><h2>胸口受击 · 喷血与倒地</h2>
-<video id="chest-video" controls playsinline preload="metadata" poster="assets/review-20261112/chest.jpg" src="assets/review-20261112/chest-collapse.mp4"></video>
-<div class="buttons"><button data-seek="0">Dawnknight · 00:00</button><button data-seek="4.6">Oathbreaker · 00:04.6</button><button data-seek="9.2">Sovereign · 00:09.2</button></div>
-<p>两名小兵逐渐卸力、双膝着地后向前俯倒。Sovereign 加入喷血时的面部反应和痛叫。小兵跪下时头盔后仰、Sovereign 倒地前抬臂仍待打磨。</p>
-<a href="assets/review-20261112/chest-collapse.mp4">打开 / 下载喷血倒地视频</a></section>
-<footer>火焰体积素材为 Pixor / Frakassets 的 CC0 Campfire Flames，已在 UE 中适配宽剑。<a href="https://pixor.art/library/elements/campfire-flames-vdb/">原始资源</a></footer>
+<video id="chest-video" controls playsinline preload="metadata" poster="assets/review-20261112-r2/chest.jpg" src="assets/review-20261112-r2/chest-collapse.mp4"></video>
+<div class="buttons"><button data-seek="0">Dawnknight · 00:00</button><button data-seek="3.8">Oathbreaker · 00:03.8</button><button data-seek="7.6">Sovereign · 00:07.6</button></div>
+<p>胸口受击后失去支撑，跪下并向前倒地。三名角色均保留完整落地和停稳段，含受伤与落地声音。</p>
+<a href="assets/review-20261112-r2/chest-collapse.mp4">打开 / 下载喷血倒地视频</a></section>
+<footer>火焰：JangaFX Small Camp Fire（CC0），<a href="https://jangafx.com/software/embergen/download/free-vdb-animations">原始资源与许可</a>。角色与人声采用 Epic Paragon 资源，按 UE 许可使用。剑：Blacksmith Weapons Pack / Sotudios（CC BY 4.0，已适配与调色）；翅膀：Fae Angel Wings / fae，基于 Adipriatna（CC BY 4.0）；战斗音效：David Dumais Audio / Mixkit。</footer>
 </main><script>const chest=document.getElementById('chest-video');document.querySelectorAll('[data-seek]').forEach(button=>button.addEventListener('click',()=>{chest.currentTime=Number(button.dataset.seek);chest.play().catch(()=>{});}));document.querySelectorAll('video').forEach(video=>video.addEventListener('play',()=>{document.querySelectorAll('video').forEach(other=>{if(other!==video)other.pause();});}));</script></body></html>
