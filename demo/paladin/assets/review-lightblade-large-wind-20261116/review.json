@@ -1,0 +1,177 @@
+{
+  "role": "Lightblade",
+  "updated": "2026-11-16",
+  "wind_native_hits": 21,
+  "media": [
+    {
+      "name": "wind-combat",
+      "poster": "demo/paladin/assets/review-lightblade-large-wind-20261116/wind-combat.jpg",
+      "sha256": "d3154ad52ac845956332e923f5e5381881df342e560602cebe32b79e9dc24a73",
+      "native_source_sha256": "965c594b534200e132d10186d504c713dcf96b663b8a9710542aef6693992e7a",
+      "frames": 699,
+      "seconds": 23.3,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "bytes": 18509598,
+      "full_av_decode": true,
+      "chapters": [
+        {
+          "frame": 0,
+          "title": "SHATTERING CROSS",
+          "seconds": 0.0
+        },
+        {
+          "frame": 66,
+          "title": "CRESCENT REAP",
+          "seconds": 2.2
+        },
+        {
+          "frame": 126,
+          "title": "SWALLOW REVERSAL",
+          "seconds": 4.2
+        },
+        {
+          "frame": 193,
+          "title": "WINDSTEP INTERCEPT",
+          "seconds": 6.433333333333334
+        },
+        {
+          "frame": 267,
+          "title": "FALLING COMET",
+          "seconds": 8.9
+        },
+        {
+          "frame": 333,
+          "title": "AZURE REQUIEM",
+          "seconds": 11.1
+        },
+        {
+          "frame": 467,
+          "title": "AZURE CASCADE",
+          "seconds": 15.566666666666666
+        },
+        {
+          "frame": 577,
+          "title": "TEMPEST FINISHER",
+          "seconds": 19.233333333333334
+        },
+        {
+          "frame": 665,
+          "title": "RETURN TO GUARD",
+          "seconds": 22.166666666666668
+        }
+      ]
+    },
+    {
+      "name": "lightblade-full",
+      "poster": "demo/paladin/assets/review-lightblade-large-wind-20261116/lightblade-full.jpg",
+      "sha256": "0f1cdbabf373f8d1eb44bd989b59ed373145c9b8f93a59641a8e12086441077a",
+      "native_source_sha256": "eb6558063e7f581dea28e68d1a5f44f6d3440ebd5e3a664e58d45525c45ad47b",
+      "frames": 1597,
+      "seconds": 53.233333333333334,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "bytes": 40554266,
+      "full_av_decode": true,
+      "chapters": [
+        {
+          "frame": 0,
+          "title": "Lightblade",
+          "seconds": 0.0
+        },
+        {
+          "frame": 82,
+          "title": "FORWARD FLOW",
+          "seconds": 2.7333333333333334
+        },
+        {
+          "frame": 177,
+          "title": "SILKEN RIPOSTE",
+          "seconds": 5.9
+        },
+        {
+          "frame": 243,
+          "title": "CRANE REVERSAL",
+          "seconds": 8.1
+        },
+        {
+          "frame": 324,
+          "title": "FLOWING PURSUIT",
+          "seconds": 10.8
+        },
+        {
+          "frame": 410,
+          "title": "AZURE FLASH",
+          "seconds": 13.666666666666666
+        },
+        {
+          "frame": 485,
+          "title": "AZURE CASCADE",
+          "seconds": 16.166666666666668
+        },
+        {
+          "frame": 595,
+          "title": "TEMPEST FINISHER",
+          "seconds": 19.833333333333332
+        },
+        {
+          "frame": 683,
+          "title": "RETURN TO GUARD",
+          "seconds": 22.766666666666666
+        },
+        {
+          "frame": 717,
+          "title": "SHATTERING CROSS",
+          "seconds": 23.9
+        },
+        {
+          "frame": 783,
+          "title": "CRESCENT REAP",
+          "seconds": 26.1
+        },
+        {
+          "frame": 843,
+          "title": "SWALLOW REVERSAL",
+          "seconds": 28.1
+        },
+        {
+          "frame": 910,
+          "title": "WINDSTEP INTERCEPT",
+          "seconds": 30.333333333333332
+        },
+        {
+          "frame": 984,
+          "title": "FALLING COMET",
+          "seconds": 32.8
+        },
+        {
+          "frame": 1050,
+          "title": "AZURE REQUIEM",
+          "seconds": 35.0
+        },
+        {
+          "frame": 1190,
+          "title": "轻受击 A",
+          "seconds": 39.666666666666664
+        },
+        {
+          "frame": 1262,
+          "title": "轻受击 B",
+          "seconds": 42.06666666666667
+        },
+        {
+          "frame": 1334,
+          "title": "重受击",
+          "seconds": 44.46666666666667
+        },
+        {
+          "frame": 1406,
+          "title": "死亡与倒地",
+          "seconds": 46.86666666666667
+        }
+      ]
+    }
+  ]
+}
