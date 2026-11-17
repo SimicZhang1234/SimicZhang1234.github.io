@@ -1,0 +1,35 @@
+{
+  "role": "Lightblade",
+  "updated": "2026-11-17",
+  "new_native_hits": 6,
+  "moves": [
+    "SPIRIT AVATAR / 剑魂法相",
+    "CELESTIAL CLEAVE / 天门双斩"
+  ],
+  "media": {
+    "path": "demo/paladin/assets/review-lightblade-grand-20261117/grand-ultimates.mp4",
+    "poster": "demo/paladin/assets/review-lightblade-grand-20261117/grand-ultimates.jpg",
+    "sha256": "0694a08c6c276e88dbea7f68f7802e3a4a3214eaf757ffd611fc076beb0d698d",
+    "native_source_sha256": "02a17efdf6caea06de14bf9d4ff2f6aa0753fa87db9a727b86c17c95df9d7e22",
+    "frames": 335,
+    "seconds": 11.166666666666666,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "bytes": 8718644,
+    "chapters": [
+      {
+        "frame": 0,
+        "title": "SPIRIT AVATAR",
+        "seconds": 0.0
+      },
+      {
+        "frame": 184,
+        "title": "CELESTIAL CLEAVE",
+        "seconds": 6.133333333333334
+      }
+    ],
+    "full_av_decode": true
+  },
+  "accepted_person_outline_preserved": true
+}
