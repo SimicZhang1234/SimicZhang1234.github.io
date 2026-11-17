@@ -67,12 +67,12 @@ def main():
         seconds, source_video = probe(path)
         # A capped encode bounds the historical film's contribution to the
         # artifact. Resolution, frame rate, audio and public URL are retained.
-        cap = max(300_000, int(before * 0.40 * 8 / seconds) - 96_000)
+        cap = max(300_000, int(before * 0.32 * 8 / seconds) - 96_000)
         temporary = path.with_name(path.stem + '.pages-encode.mp4')
         subprocess.run([
             'ffmpeg', '-nostdin', '-v', 'error', '-threads', '2', '-i', str(path),
             '-map', '0:v:0', '-map', '0:a?', '-map_metadata', '0', '-map_chapters', '0',
-            '-c:v', 'libx264', '-threads', '2', '-preset', 'veryfast', '-crf', '26',
+            '-c:v', 'libx264', '-threads', '2', '-preset', 'veryfast', '-crf', '27',
             '-maxrate', str(cap), '-bufsize', str(cap * 2), '-pix_fmt', 'yuv420p',
             '-c:a', 'aac', '-b:a', '96k', '-movflags', '+faststart', str(temporary)
         ], check=True)
