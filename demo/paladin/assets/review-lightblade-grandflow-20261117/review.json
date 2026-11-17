@@ -1,0 +1,35 @@
+{
+  "role": "Lightblade",
+  "updated": "2026-11-17",
+  "new_native_hits": 4,
+  "moves": [
+    "TEMPEST WEAVE / 回岚连斩",
+    "GALE BREAKER / 裂空破阵"
+  ],
+  "media": {
+    "path": "demo/paladin/assets/review-lightblade-grandflow-20261117/grand-ultimates.mp4",
+    "poster": "demo/paladin/assets/review-lightblade-grandflow-20261117/grand-ultimates.jpg",
+    "sha256": "5e08b3fa54ccc6eb6edb49cfdb76d56080543433be9442772bedcadb96395c4e",
+    "native_source_sha256": "03f5b523df3bb303dd07c4a6ecd0614addf6c8dc3404aa9c48883c1363707325",
+    "frames": 212,
+    "seconds": 7.066666666666666,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "bytes": 5660183,
+    "chapters": [
+      {
+        "frame": 0,
+        "title": "TEMPEST WEAVE",
+        "seconds": 0.0
+      },
+      {
+        "frame": 106,
+        "title": "GALE BREAKER",
+        "seconds": 3.533333333333333
+      }
+    ],
+    "full_av_decode": true
+  },
+  "accepted_person_outline_preserved": true
+}
