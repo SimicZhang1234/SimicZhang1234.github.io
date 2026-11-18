@@ -1,0 +1,72 @@
+{
+  "role": "Lightblade",
+  "updated": "2026-11-18",
+  "new_native_hits": 2,
+  "moves": [
+    "TEMPEST WEAVE / 回岚连斩",
+    "GALE BREAKER / 裂空破阵"
+  ],
+  "media": {
+    "path": "demo/paladin/assets/review-lightblade-tempest-sync-20261118/grand-ultimates.mp4",
+    "poster": "demo/paladin/assets/review-lightblade-tempest-sync-20261118/grand-ultimates.jpg",
+    "sha256": "1f90e9b8fb4f7c4643e8e5b1372394ef7ae49ed072e354f84c318267593ca385",
+    "native_source_sha256": "b65d17d438b12ee88fd29a381a571ca05487adfe50bf80cb8be4dc7cc001df25",
+    "frames": 200,
+    "seconds": 6.666666666666667,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "bytes": 5484545,
+    "chapters": [
+      {
+        "frame": 0,
+        "title": "TEMPEST WEAVE",
+        "seconds": 0.0
+      },
+      {
+        "frame": 100,
+        "title": "GALE BREAKER",
+        "seconds": 3.3333333333333335
+      }
+    ],
+    "full_av_decode": true
+  },
+  "accepted_person_outline_preserved": true,
+  "authored_resources": {
+    "packs": [
+      "Epic Games / Paragon Greystone",
+      "Epic Games / Paragon Serath",
+      "Free Spells / existing owned pack"
+    ],
+    "systems": [
+      {
+        "source": "/Game/ParagonGreystone/FX/Particles/Greystone/Abilities/ClearAPath/FX/P_Greystone_SwordSpinning_01",
+        "sha256": "f323a228b85e57f39f8f8c01dcefdd915d3db2a030ea13c1c01150b59f0a3c91",
+        "original_package_unchanged": true
+      },
+      {
+        "source": "/Game/ParagonSerath/FX/Particles/Abilities/Fury/FX/P_QSlashA",
+        "sha256": "59fdd0a1fd68eacaf0852c70bcc8c3c5ca6fcb7a09b13c989b7d421f559747c2",
+        "original_package_unchanged": true
+      },
+      {
+        "source": "/Game/ParagonGreystone/FX/Particles/Greystone/Abilities/ClearAPath/FX/P_Greystone_ClearAPath_Swipe",
+        "sha256": "1c7f07f1aff3e01c042361108cfd5b94d949b2edde90f89d662916d7f390da7d",
+        "original_package_unchanged": true
+      },
+      {
+        "source": "/Game/Free_Spells/VFX_Niagara/NS_Free_Spells_Shockwave",
+        "sha256": "8a45f6dc262e91db7781682de9ec95d0aee50cf5bf343114cdb0b235b792a763",
+        "original_package_unchanged": true
+      }
+    ],
+    "original_packages_preserved": true,
+    "authored_meshes_and_existing_soft_wind_materials": true,
+    "soft_wind_material_reused_on_spiral_mesh": true,
+    "spin_lifetime_and_emission_timing_adapted": true,
+    "hard_swipe_fan_removed": true,
+    "spin_RGB_adapted": true,
+    "approved_second_preserved": true,
+    "runtime_adaptation": "First move: original authored meshes and particle alpha curves with existing soft wind material reused on Spiral_Lines with shortened transient lifetimes, clip-phase emission gate, lower flatter sweep, hard Swipe fan removed while soft Whirlwind and Spiral_Lines retained; finalized second source footage reused unchanged"
+  }
+}
