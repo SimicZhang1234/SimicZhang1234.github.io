@@ -1,0 +1,69 @@
+{
+  "role": "Lightblade",
+  "updated": "2026-11-18",
+  "new_native_hits": 2,
+  "moves": [
+    "TEMPEST WEAVE / 回岚连斩",
+    "GALE BREAKER / 裂空破阵"
+  ],
+  "media": {
+    "path": "demo/paladin/assets/review-lightblade-tempest-20261118/grand-ultimates.mp4",
+    "poster": "demo/paladin/assets/review-lightblade-tempest-20261118/grand-ultimates.jpg",
+    "sha256": "a731dee9e7a64a77d6931300bedefd720bfb1af32a486aa37d0e98c3a2288ba0",
+    "native_source_sha256": "3b5fc3d804dc39e9c72862ff3963672d0d221f60c5c643ea5f39430d1d9f83a0",
+    "frames": 200,
+    "seconds": 6.666666666666667,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "bytes": 5502494,
+    "chapters": [
+      {
+        "frame": 0,
+        "title": "TEMPEST WEAVE",
+        "seconds": 0.0
+      },
+      {
+        "frame": 100,
+        "title": "GALE BREAKER",
+        "seconds": 3.3333333333333335
+      }
+    ],
+    "full_av_decode": true
+  },
+  "accepted_person_outline_preserved": true,
+  "authored_resources": {
+    "packs": [
+      "Epic Games / Paragon Greystone",
+      "Epic Games / Paragon Serath",
+      "Free Spells / existing owned pack"
+    ],
+    "systems": [
+      {
+        "source": "/Game/ParagonSerath/FX/Particles/Abilities/Fury/FX/P_QSlashA",
+        "sha256": "59fdd0a1fd68eacaf0852c70bcc8c3c5ca6fcb7a09b13c989b7d421f559747c2",
+        "original_package_unchanged": true
+      },
+      {
+        "source": "/Game/ParagonGreystone/FX/Particles/Greystone/Abilities/ClearAPath/FX/P_Greystone_SwordSpinning_01",
+        "sha256": "f323a228b85e57f39f8f8c01dcefdd915d3db2a030ea13c1c01150b59f0a3c91",
+        "original_package_unchanged": true
+      },
+      {
+        "source": "/Game/ParagonGreystone/FX/Particles/Greystone/Abilities/ClearAPath/FX/P_Greystone_ClearAPath_Swipe",
+        "sha256": "1c7f07f1aff3e01c042361108cfd5b94d949b2edde90f89d662916d7f390da7d",
+        "original_package_unchanged": true
+      },
+      {
+        "source": "/Game/Free_Spells/VFX_Niagara/NS_Free_Spells_Shockwave",
+        "sha256": "8a45f6dc262e91db7781682de9ec95d0aee50cf5bf343114cdb0b235b792a763",
+        "original_package_unchanged": true
+      }
+    ],
+    "original_packages_preserved": true,
+    "authored_motion_and_alpha_preserved": true,
+    "spin_RGB_adapted": true,
+    "approved_second_preserved": true,
+    "runtime_adaptation": "First move: authored meshes with silver-blue tint and fewer debris emitters; accepted second source footage reused unchanged"
+  }
+}
