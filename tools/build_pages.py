@@ -56,9 +56,11 @@ def main():
         else:
             temporary.unlink()
 
+    # Continue into short archival clips if larger films alone cannot meet the
+    # budget. Keep the same encoder settings and protected review bytes.
     candidates = [(name, path) for name, path in files
                   if name.startswith('demo/paladin/') and not name.startswith(PROTECTED)
-                  and path.suffix.lower() == '.mp4' and path.stat().st_size > 2 * 1024 * 1024]
+                  and path.suffix.lower() == '.mp4' and path.stat().st_size > 300_000]
     candidates.sort(key=lambda row: row[1].stat().st_size, reverse=True)
     for name, path in candidates:
         if total <= LIMIT:
