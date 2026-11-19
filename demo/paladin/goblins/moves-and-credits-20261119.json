@@ -1,0 +1,564 @@
+{
+  "configured_native_attack_inventory": [
+    {
+      "role": "Bonecaller",
+      "preset": "/Game/GoblinRebuild/Boneclan_B3/Presets/DA_Bonecaller.DA_Bonecaller",
+      "weapon": "/Game/GoblinRebuild/Boneclan_B3/Meshes/SM_GoatSkullStaff.SM_GoatSkullStaff",
+      "base": [
+        -3.596421718597412,
+        -0.9086713790893555,
+        -3.6388907432556152
+      ],
+      "tip": [
+        -3.596421718597412,
+        -0.9086713790893555,
+        28.446672439575195
+      ],
+      "basis": "Source skull-staff upper striking region; Bone Hex remains a casting study",
+      "attacks": [
+        {
+          "name": "RAGGED CUT",
+          "clip": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_Slash.AN_Boneclan_Slash"
+        },
+        {
+          "name": "NEEDLE THRUST",
+          "clip": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_Thrust.AN_Boneclan_Thrust"
+        },
+        {
+          "name": "BONE BREAKER",
+          "clip": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_Heavy.AN_Boneclan_Heavy"
+        },
+        {
+          "name": "DIRTY RISER",
+          "clip": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_RisingCut.AN_Boneclan_RisingCut"
+        }
+      ],
+      "note": "Incoming hero-vs-Goblin movies use separate verified finite visible-blade/skinned-triangle contacts. This outgoing profile does not claim an AI combat playtest."
+    },
+    {
+      "role": "RotfangRaider",
+      "preset": "/Game/GoblinRebuild/Boneclan_B3/Presets/DA_RotfangRaider.DA_RotfangRaider",
+      "weapon": "/Game/GoblinMinion/Weapons/Meshes/V82/V82_SM_GoblinMinion_FabCurvedBlade.V82_SM_GoblinMinion_FabCurvedBlade",
+      "base": [
+        0.0,
+        0.0,
+        4.9994934
+      ],
+      "tip": [
+        -0.5726398,
+        0.0,
+        29.2293425
+      ],
+      "basis": "Source Khopesh measured blade profile, beyond the grip",
+      "attacks": [
+        {
+          "name": "RAGGED CUT",
+          "clip": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_Slash.AN_Boneclan_Slash"
+        },
+        {
+          "name": "NEEDLE THRUST",
+          "clip": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_Thrust.AN_Boneclan_Thrust"
+        },
+        {
+          "name": "BONE BREAKER",
+          "clip": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_Heavy.AN_Boneclan_Heavy"
+        },
+        {
+          "name": "DIRTY RISER",
+          "clip": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_RisingCut.AN_Boneclan_RisingCut"
+        }
+      ],
+      "note": "Incoming hero-vs-Goblin movies use separate verified finite visible-blade/skinned-triangle contacts. This outgoing profile does not claim an AI combat playtest."
+    },
+    {
+      "role": "MireHunter",
+      "preset": "/Game/GoblinRebuild/Boneclan_B3/Presets/DA_MireHunter.DA_MireHunter",
+      "weapon": "/Game/GoblinRebuild/Weapons/WingedSpear/WingedSpear/StaticMeshes/WingedSpear.WingedSpear",
+      "base": [
+        -0.03824973106384277,
+        -0.047493934631347656,
+        70.07669067382812
+      ],
+      "tip": [
+        -0.03824973106384277,
+        -0.047493934631347656,
+        94.57669067382812
+      ],
+      "basis": "Imported spear upper point, in actual weapon centimetres",
+      "attacks": [
+        {
+          "name": "RAGGED CUT",
+          "clip": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_Slash.AN_Boneclan_Slash"
+        },
+        {
+          "name": "NEEDLE THRUST",
+          "clip": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_SpearThrust_R11.AN_Boneclan_SpearThrust_R11"
+        },
+        {
+          "name": "BONE BREAKER",
+          "clip": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_Heavy.AN_Boneclan_Heavy"
+        },
+        {
+          "name": "DIRTY RISER",
+          "clip": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_RisingCut.AN_Boneclan_RisingCut"
+        }
+      ],
+      "note": "Incoming hero-vs-Goblin movies use separate verified finite visible-blade/skinned-triangle contacts. This outgoing profile does not claim an AI combat playtest."
+    },
+    {
+      "role": "Skullguard",
+      "preset": "/Game/GoblinRebuild/Boneclan_B3/Presets/DA_Skullguard.DA_Skullguard",
+      "weapon": "/Game/GoblinRebuild/Weapons/BattleAxe/BattleAxe/StaticMeshes/BattleAxe.BattleAxe",
+      "base": [
+        -15.325428886413574,
+        -0.03785538673400879,
+        59.08650207519531
+      ],
+      "tip": [
+        -15.325428886413574,
+        -0.03785538673400879,
+        87.08650207519531
+      ],
+      "basis": "Imported axe head edge, in actual weapon centimetres",
+      "attacks": [
+        {
+          "name": "RAGGED CUT",
+          "clip": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_Slash.AN_Boneclan_Slash"
+        },
+        {
+          "name": "NEEDLE THRUST",
+          "clip": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_Thrust.AN_Boneclan_Thrust"
+        },
+        {
+          "name": "BONE BREAKER",
+          "clip": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_Heavy.AN_Boneclan_Heavy"
+        },
+        {
+          "name": "DIRTY RISER",
+          "clip": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_RisingCut.AN_Boneclan_RisingCut"
+        }
+      ],
+      "note": "Incoming hero-vs-Goblin movies use separate verified finite visible-blade/skinned-triangle contacts. This outgoing profile does not claim an AI combat playtest."
+    }
+  ],
+  "title": "Boneclan Goblin faction",
+  "date": "2026-11-19",
+  "roles": [
+    {
+      "name": "Bonecaller",
+      "title": "骨咒萨满",
+      "preset": "/Game/GoblinRebuild/Boneclan_B3/Presets/DA_Bonecaller.DA_Bonecaller",
+      "body": "/Game/GoblinRebuild/Boneclan_B3/Meshes/SK_Boneclan_Shaman.SK_Boneclan_Shaman",
+      "scale": 1.5,
+      "health": 120,
+      "weapon": "/Game/GoblinRebuild/Boneclan_B3/Meshes/SM_GoatSkullStaff.SM_GoatSkullStaff",
+      "idle": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_IdleStaff.AN_Boneclan_IdleStaff",
+      "attack": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_BoneHex.AN_Boneclan_BoneHex",
+      "attack_name": "BONE HEX / 诅骨咒",
+      "costumes": [],
+      "common_source_base": "Pigcraft CC-BY4.0; independently configured faction roles, shared fitted rig",
+      "old_rejected_body_used": false
+    },
+    {
+      "name": "RotfangRaider",
+      "title": "腐牙掠夺者",
+      "preset": "/Game/GoblinRebuild/Boneclan_B3/Presets/DA_RotfangRaider.DA_RotfangRaider",
+      "body": "/Game/GoblinRebuild/Boneclan_B3/Meshes/SK_RotfangRaider.SK_RotfangRaider",
+      "scale": 1.23,
+      "health": 75,
+      "weapon": "/Game/GoblinMinion/Weapons/Meshes/V82/V82_SM_GoblinMinion_FabCurvedBlade.V82_SM_GoblinMinion_FabCurvedBlade",
+      "idle": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_Idle.AN_Boneclan_Idle",
+      "attack": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_Slash.AN_Boneclan_Slash",
+      "attack_name": "RAGGED CUT / 腐牙横切",
+      "costumes": [],
+      "common_source_base": "Pigcraft CC-BY4.0; independently configured faction roles, shared fitted rig",
+      "old_rejected_body_used": false
+    },
+    {
+      "name": "MireHunter",
+      "title": "沼影猎手",
+      "preset": "/Game/GoblinRebuild/Boneclan_B3/Presets/DA_MireHunter.DA_MireHunter",
+      "body": "/Game/GoblinRebuild/Boneclan_B3/Meshes/SK_MireHunter.SK_MireHunter",
+      "scale": 1.34,
+      "health": 65,
+      "weapon": "/Game/GoblinRebuild/Weapons/WingedSpear/WingedSpear/StaticMeshes/WingedSpear.WingedSpear",
+      "idle": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_IdleStaff.AN_Boneclan_IdleStaff",
+      "attack": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_SpearThrust_R11.AN_Boneclan_SpearThrust_R11",
+      "attack_name": "NEEDLE THRUST / 沼影突刺",
+      "costumes": [],
+      "common_source_base": "Pigcraft CC-BY4.0; independently configured faction roles, shared fitted rig",
+      "old_rejected_body_used": false
+    },
+    {
+      "name": "Skullguard",
+      "title": "角骨重卫",
+      "preset": "/Game/GoblinRebuild/Boneclan_B3/Presets/DA_Skullguard.DA_Skullguard",
+      "body": "/Game/GoblinRebuild/Boneclan_B3/Meshes/SK_Skullguard.SK_Skullguard",
+      "scale": 1.75,
+      "health": 260,
+      "weapon": "/Game/GoblinRebuild/Weapons/BattleAxe/BattleAxe/StaticMeshes/BattleAxe.BattleAxe",
+      "idle": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_IdleStaff.AN_Boneclan_IdleStaff",
+      "attack": "/Game/GoblinRebuild/Boneclan_B3/Animations/AN_Boneclan_Heavy.AN_Boneclan_Heavy",
+      "attack_name": "BONE BREAKER / 碎骨重劈",
+      "costumes": [
+        "/Game/GoblinRebuild/Boneclan_B3/Meshes/SK_SkullguardMask.SK_SkullguardMask"
+      ],
+      "common_source_base": "Pigcraft CC-BY4.0; independently configured faction roles, shared fitted rig",
+      "old_rejected_body_used": false
+    }
+  ],
+  "goblin_attacks": [
+    {
+      "role": "Bonecaller",
+      "title": "骨咒萨满",
+      "attack": "BONE HEX / 诅骨咒"
+    },
+    {
+      "role": "RotfangRaider",
+      "title": "腐牙掠夺者",
+      "attack": "RAGGED CUT / 腐牙横切"
+    },
+    {
+      "role": "MireHunter",
+      "title": "沼影猎手",
+      "attack": "NEEDLE THRUST / 沼影突刺"
+    },
+    {
+      "role": "Skullguard",
+      "title": "角骨重卫",
+      "attack": "BONE BREAKER / 碎骨重劈"
+    }
+  ],
+  "received_hits": [
+    {
+      "name": "Raking Flinch",
+      "cn": "斜斩踉跄",
+      "clip": "HitSlash"
+    },
+    {
+      "name": "Gut Recoil",
+      "cn": "穿刺收腹",
+      "clip": "HitStab"
+    },
+    {
+      "name": "Swept Off Balance",
+      "cn": "横扫失衡",
+      "clip": "HitSweep"
+    },
+    {
+      "name": "Heavy Stagger",
+      "cn": "重击弓身",
+      "clip": "HitCrush"
+    }
+  ],
+  "deaths": [
+    {
+      "name": "Forward Collapse",
+      "cn": "失力跪倒后前扑",
+      "clip": "DeathFront_R10"
+    },
+    {
+      "name": "Back Fall",
+      "cn": "后仰倒地",
+      "clip": "DeathBack"
+    },
+    {
+      "name": "Side Fall",
+      "cn": "侧斩旋倒",
+      "clip": "DeathSlash"
+    },
+    {
+      "name": "Crushed Down",
+      "cn": "重击伏倒",
+      "clip": "DeathCrush_R10"
+    }
+  ],
+  "hero_demonstrations": {
+    "champion": {
+      "seconds": 13.35,
+      "scenes": [
+        {
+          "name": "CLEAVING SWEEP / FLINCH",
+          "clip": "Attack_PrimaryA",
+          "death": "DeathSlash",
+          "type": 0,
+          "side": 0,
+          "head": false,
+          "lethal": false,
+          "anchor": "spine_03",
+          "setup": 0.25,
+          "at": 0.67,
+          "end": 3.5,
+          "rate": 1.0,
+          "native_begin": 0.15,
+          "native_end": 0.9,
+          "recover": 1.6,
+          "death_contact": 0.1,
+          "death_drop": 0.16,
+          "preset": "/Game/GoblinRebuild/Boneclan_B3/Presets/DA_RotfangRaider.DA_RotfangRaider",
+          "goblin_role": "RotfangRaider",
+          "scale": 1.23
+        },
+        {
+          "name": "OVERHEAD / CRUMPLE",
+          "clip": "Attack_B_Med",
+          "death": "DeathCrush_R10",
+          "type": 3,
+          "side": 0,
+          "head": false,
+          "lethal": true,
+          "anchor": "spine_03",
+          "setup": 3.5,
+          "at": 3.92,
+          "end": 6.75,
+          "rate": 1.0,
+          "native_begin": 0.15,
+          "native_end": 0.9,
+          "recover": 1.6,
+          "death_contact": 0.1,
+          "death_drop": 0.16,
+          "preset": "/Game/GoblinRebuild/Boneclan_B3/Presets/DA_MireHunter.DA_MireHunter",
+          "goblin_role": "MireHunter",
+          "scale": 1.34
+        },
+        {
+          "name": "RIPOSTE / FORWARD COLLAPSE",
+          "clip": "Attack_A_Fast",
+          "death": "DeathFront_R10",
+          "type": 1,
+          "side": 0,
+          "head": false,
+          "lethal": true,
+          "anchor": "pelvis",
+          "setup": 6.75,
+          "at": 7.17,
+          "end": 10.0,
+          "rate": 1.0,
+          "native_begin": 0.1,
+          "native_end": 0.55,
+          "recover": 1.6,
+          "death_contact": 0.1,
+          "death_drop": 0.16,
+          "preset": "/Game/GoblinRebuild/Boneclan_B3/Presets/DA_Bonecaller.DA_Bonecaller",
+          "goblin_role": "Bonecaller",
+          "scale": 1.5,
+          "fixed_mark": [
+            64.87276841703509,
+            -60.02672966229185,
+            0
+          ]
+        },
+        {
+          "name": "HEAVY CUT / BACK FALL",
+          "clip": "Attack_A_Fast",
+          "death": "DeathBack",
+          "type": 2,
+          "side": 0,
+          "head": false,
+          "lethal": true,
+          "anchor": "pelvis",
+          "setup": 10.0,
+          "at": 10.42,
+          "end": 13.25,
+          "rate": 1.0,
+          "native_begin": 0.1,
+          "native_end": 0.55,
+          "recover": 1.6,
+          "death_contact": 0.1,
+          "death_drop": 0.16,
+          "preset": "/Game/GoblinRebuild/Boneclan_B3/Presets/DA_Skullguard.DA_Skullguard",
+          "goblin_role": "Skullguard",
+          "scale": 1.75,
+          "fixed_mark": [
+            24.770006178097844,
+            -52.63110694891383,
+            0
+          ]
+        }
+      ]
+    },
+    "lightblade": {
+      "seconds": 13.35,
+      "scenes": [
+        {
+          "name": "TWIN FANG / SIDE RECOIL",
+          "clip": "Primary_Attack_A_Normal",
+          "death": "DeathSlash",
+          "type": 0,
+          "side": 0,
+          "head": false,
+          "lethal": false,
+          "anchor": "spine_03",
+          "setup": 0.25,
+          "at": 0.67,
+          "end": 3.5,
+          "rate": 1.0,
+          "native_begin": 0.05,
+          "native_end": 0.3,
+          "recover": 1.6,
+          "death_contact": 0.1,
+          "death_drop": 0.16,
+          "preset": "/Game/GoblinRebuild/Boneclan_B3/Presets/DA_RotfangRaider.DA_RotfangRaider",
+          "goblin_role": "RotfangRaider",
+          "scale": 1.23
+        },
+        {
+          "name": "CRESCENT REAP / SIDE FALL",
+          "clip": "Ability_Q",
+          "death": "DeathSlash",
+          "type": 0,
+          "side": 0,
+          "head": false,
+          "lethal": true,
+          "anchor": "spine_03",
+          "setup": 3.5,
+          "at": 3.92,
+          "end": 6.75,
+          "rate": 1.0,
+          "native_begin": 0.12,
+          "native_end": 0.45,
+          "recover": 1.6,
+          "death_contact": 0.1,
+          "death_drop": 0.16,
+          "preset": "/Game/GoblinRebuild/Boneclan_B3/Presets/DA_MireHunter.DA_MireHunter",
+          "goblin_role": "MireHunter",
+          "scale": 1.34
+        },
+        {
+          "name": "REVERSE EDGE / BACK FALL",
+          "clip": "Ability_RMB_InMotion",
+          "death": "DeathBack",
+          "type": 2,
+          "side": 1,
+          "head": false,
+          "lethal": true,
+          "anchor": "spine_03",
+          "setup": 6.75,
+          "at": 7.17,
+          "end": 10.0,
+          "rate": 1.0,
+          "native_begin": 0.4,
+          "native_end": 0.7,
+          "recover": 1.6,
+          "death_contact": 0.1,
+          "death_drop": 0.16,
+          "preset": "/Game/GoblinRebuild/Boneclan_B3/Presets/DA_Bonecaller.DA_Bonecaller",
+          "goblin_role": "Bonecaller",
+          "scale": 1.5
+        },
+        {
+          "name": "WIND CUT / FORWARD COLLAPSE",
+          "clip": "Ability_Ultimate",
+          "death": "DeathFront_R10",
+          "type": 1,
+          "side": 0,
+          "head": false,
+          "lethal": true,
+          "anchor": "thigh_l",
+          "setup": 10.0,
+          "at": 10.42,
+          "end": 13.25,
+          "rate": 1.0,
+          "native_begin": 0.05,
+          "native_end": 1.5,
+          "recover": 1.6,
+          "death_contact": 0.1,
+          "death_drop": 0.16,
+          "preset": "/Game/GoblinRebuild/Boneclan_B3/Presets/DA_Skullguard.DA_Skullguard",
+          "goblin_role": "Skullguard",
+          "scale": 1.75
+        }
+      ]
+    }
+  },
+  "credits": [
+    {
+      "item": "Goblin Shaman with Goat Skull Staff",
+      "author": "Pigcraft",
+      "author_url": "https://sketchfab.com/s8819296",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://sketchfab.com/3d-models/goblin-shaman-with-goat-skull-staff-7de07dc1463647f3b06833fe9170d64a",
+      "changes": "Shared new faction base; mesh reduction, fitted skin/rig, motion retargeting, equipment, pigment and size variants."
+    },
+    {
+      "item": "Cave rocks, boulders, moss, crates, barrels and Rock Ground",
+      "author": "Poly Haven / contributing artists; Rock Ground by Rob Tuytel",
+      "license": "CC0",
+      "url": "https://polyhaven.com/license",
+      "assets": [
+        "https://polyhaven.com/a/rock_face_01",
+        "https://polyhaven.com/a/rock_face_02",
+        "https://polyhaven.com/a/boulder_01",
+        "https://polyhaven.com/a/rock_07",
+        "https://polyhaven.com/a/wooden_barrels_01",
+        "https://polyhaven.com/a/wooden_crate_01",
+        "https://polyhaven.com/a/rock_ground"
+      ]
+    },
+    {
+      "item": "Battle Axe",
+      "author": "VibeAssets",
+      "license": "CC0",
+      "url": "https://vibeassets.io/a/w0umqlvbge"
+    },
+    {
+      "item": "Winged Spear",
+      "author": "VibeAssets",
+      "license": "CC0",
+      "url": "https://vibeassets.io/a/0ixovn92nr"
+    },
+    {
+      "item": "Free Stylized Gladiator Weapon Pack / Khopesh",
+      "author": "Aster Forge Studio",
+      "license": "Project-owned Fab Standard License",
+      "url": "https://www.fab.com/listings/eea655dc-6fce-40e7-aaf4-515a531c2afa"
+    },
+    {
+      "item": "Goblins Sound Pack",
+      "author": "artisticdude",
+      "license": "CC0",
+      "url": "https://opengameart.org/content/goblins-sound-pack"
+    },
+    {
+      "item": "Goblin Cackle, Death, Scream and Breathing",
+      "author": "spookymodem",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "url": "https://opengameart.org/content/goblin-cackle",
+      "other_pages": [
+        "https://opengameart.org/content/goblin-death",
+        "https://opengameart.org/content/goblin-scream",
+        "https://opengameart.org/content/goblin-breathing"
+      ],
+      "changes": "Four modestly shifted registers, filtering and quiet cave echo."
+    },
+    {
+      "item": "Motion references used in the user-provided project",
+      "author": "Quaternius / Kay Lousberg; project-authored acting",
+      "license": "CC0 references and user-provided project work",
+      "url": "https://quaternius.com/packs/universalanimationlibrary.html",
+      "other_pages": [
+        "https://quaternius.com/packs/universalanimationlibrary2.html",
+        "https://kaylousberg.itch.io/kaykit-character-animations"
+      ]
+    },
+    {
+      "item": "Champion / Lightblade, original character animations and existing spell resources",
+      "author": "Epic Games / Paragon and the project-owned Free Spells pack",
+      "license": "Respective project-owned licenses; not CC0",
+      "url": "https://www.fab.com/"
+    },
+    {
+      "item": "Recorded contact and weapon whooshes",
+      "author": "Mixkit / David Dumais Audio official free sample pack",
+      "license": "Respective free sound-effect licenses",
+      "url": "https://mixkit.co/free-sound-effects/",
+      "other_pages": [
+        "https://www.daviddumaisaudio.com/"
+      ]
+    }
+  ],
+  "base_note": "Four equipment/size/pigment roles share the newly selected Pigcraft source base. No rejected old Goblin body appearance is reused.",
+  "film_note": "Fresh UE5 films. The two combat films contain eight confirmed visible-blade contacts and six deaths. Registered reaction inventory is listed separately from filmed nonlethal contacts."
+}

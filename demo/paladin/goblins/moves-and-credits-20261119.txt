@@ -1,0 +1,61 @@
+骨沼部族 / Boneclan — 招式、受击与死亡目录
+
+兵种与专属展示攻击
+骨咒萨满 / Bonecaller — BONE HEX / 诅骨咒
+腐牙掠夺者 / RotfangRaider — RAGGED CUT / 腐牙横切
+沼影猎手 / MireHunter — NEEDLE THRUST / 沼影突刺
+角骨重卫 / Skullguard — BONE BREAKER / 碎骨重劈
+
+已配置近战动作（各兵种共享，不等于全部已经在实拍中展示）
+RAGGED CUT / 腐牙横切
+NEEDLE THRUST / 沼影突刺
+BONE BREAKER / 碎骨重劈
+DIRTY RISER / 阴招挑击
+
+已配置受击动作（非致死）
+斜斩踉跄 / Raking Flinch — HitSlash
+穿刺收腹 / Gut Recoil — HitStab
+横扫失衡 / Swept Off Balance — HitSweep
+重击弓身 / Heavy Stagger — HitCrush
+
+死亡动作
+失力跪倒后前扑 / Forward Collapse — DeathFront_R10
+后仰倒地 / Back Fall — DeathBack
+侧斩旋倒 / Side Fall — DeathSlash
+重击伏倒 / Crushed Down — DeathCrush_R10
+
+CHAMPION 战斗实拍
+CLEAVING SWEEP / FLINCH → RotfangRaider
+OVERHEAD / CRUMPLE → MireHunter
+RIPOSTE / FORWARD COLLAPSE → Bonecaller
+HEAVY CUT / BACK FALL → Skullguard
+
+LIGHTBLADE 战斗实拍
+TWIN FANG / SIDE RECOIL → RotfangRaider
+CRESCENT REAP / SIDE FALL → MireHunter
+REVERSE EDGE / BACK FALL → Bonecaller
+WIND CUT / FORWARD COLLAPSE → Skullguard
+
+Four equipment/size/pigment roles share the newly selected Pigcraft source base. No rejected old Goblin body appearance is reused.
+
+资源与许可
+Goblin Shaman with Goat Skull Staff — Pigcraft / CC BY 4.0
+https://sketchfab.com/3d-models/goblin-shaman-with-goat-skull-staff-7de07dc1463647f3b06833fe9170d64a
+Cave rocks, boulders, moss, crates, barrels and Rock Ground — Poly Haven / contributing artists; Rock Ground by Rob Tuytel / CC0
+https://polyhaven.com/license
+Battle Axe — VibeAssets / CC0
+https://vibeassets.io/a/w0umqlvbge
+Winged Spear — VibeAssets / CC0
+https://vibeassets.io/a/0ixovn92nr
+Free Stylized Gladiator Weapon Pack / Khopesh — Aster Forge Studio / Project-owned Fab Standard License
+https://www.fab.com/listings/eea655dc-6fce-40e7-aaf4-515a531c2afa
+Goblins Sound Pack — artisticdude / CC0
+https://opengameart.org/content/goblins-sound-pack
+Goblin Cackle, Death, Scream and Breathing — spookymodem / CC BY 3.0
+https://opengameart.org/content/goblin-cackle
+Motion references used in the user-provided project — Quaternius / Kay Lousberg; project-authored acting / CC0 references and user-provided project work
+https://quaternius.com/packs/universalanimationlibrary.html
+Champion / Lightblade, original character animations and existing spell resources — Epic Games / Paragon and the project-owned Free Spells pack / Respective project-owned licenses; not CC0
+https://www.fab.com/
+Recorded contact and weapon whooshes — Mixkit / David Dumais Audio official free sample pack / Respective free sound-effect licenses
+https://mixkit.co/free-sound-effects/
