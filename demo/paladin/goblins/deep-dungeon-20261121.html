@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>骨沼地下城 · Paladin UE5</title>
+<style>
+:root{color-scheme:dark;background:#111512;color:#e8e8da;font:16px/1.65 'Segoe UI','Microsoft YaHei',sans-serif}
+*{box-sizing:border-box}body{margin:0}main{max-width:1300px;margin:auto;padding:25px 25px 65px}
+a{color:#c7d5a1}nav,.chapters{display:flex;flex-wrap:wrap;gap:14px}
+header{border-bottom:1px solid #384334;padding:35px 0 21px}
+h1,h2{font:normal 44px/1.25 Georgia,'Microsoft YaHei',serif;margin:0;color:#f0eee4}
+h2{font-size:27px}.title{display:flex;justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap}
+.title span,p{color:#b7beb1}section{padding:30px 0;border-bottom:1px solid #30382c}
+video{background:#070a08;width:100%;display:block;aspect-ratio:16/9;border:1px solid #454d3f;border-radius:8px}
+.chapters{margin:12px 0}.chapters button{background:#20291f;color:#e9e9da;border:1px solid #455341;padding:9px 13px;border-radius:5px;cursor:pointer}
+footer{padding:24px 0;font-size:14px}
+@media(max-width:650px){main{padding:18px 14px 40px}h1{font-size:35px}.title{gap:5px}section{padding:24px 0}}
+</style></head><body><main>
+<nav><a href="../../">全部 demo</a><a href="../">Paladin</a><a href="./">哥布林兵种与动作目录</a></nav>
+<header><h1>骨沼地下城</h1><p>沿守卫大厅后方的石阶进入哥布林深层巢穴。</p></header>
+<section id="tour">
+      <div class="title"><h2>深层巡览</h2><span>11.2 秒 · 1080p / 30 fps</span></div>
+      <p>顺着高差观看住处、工作区域和巢穴深处。</p>
+      <video id="movie-tour" aria-label="深层巡览" controls playsinline preload="metadata" poster="../assets/review-boneclan-deep-dungeon-tour-20261121.jpg">
+        <source src="../assets/review-boneclan-deep-dungeon-tour-20261121.mp4" type="video/mp4">
+      </video>
+      <div class="chapters"><button data-video="tour" data-time="0.000">深矿道</button><button data-video="tour" data-time="2.800">废铁工坊</button><button data-video="tour" data-time="5.600">囚笼区</button><button data-video="tour" data-time="8.400">首领巢室</button></div>
+      <a href="../assets/review-boneclan-deep-dungeon-tour-20261121.mp4" download>下载高清片</a>
+    </section><section id="champion">
+      <div class="title"><h2>Champion · 巢穴近战</h2><span>6.7 秒 · 1080p / 30 fps</span></div>
+      <p>近景展示刀刃接触之后的喷血、伤口和肢体分离。</p>
+      <video id="movie-champion" aria-label="Champion · 巢穴近战" controls playsinline preload="metadata" poster="../assets/review-boneclan-deep-dungeon-champion-20261121.jpg">
+        <source src="../assets/review-boneclan-deep-dungeon-champion-20261121.mp4" type="video/mp4">
+      </video>
+      <div class="chapters"><button data-video="champion" data-time="0.067">RIPOSTE</button><button data-video="champion" data-time="3.317">HEAVY CUT</button></div>
+      <a href="../assets/review-boneclan-deep-dungeon-champion-20261121.mp4" download>下载高清片</a>
+    </section><section id="lightblade">
+      <div class="title"><h2>Lightblade · 蓝晶双剑</h2><span>6.7 秒 · 1080p / 30 fps</span></div>
+      <p>近景展示回刃与跃斩命中后，伤口喷血、断肢和倒地的变化。</p>
+      <video id="movie-lightblade" aria-label="Lightblade · 蓝晶双剑" controls playsinline preload="metadata" poster="../assets/review-boneclan-deep-dungeon-lightblade-20261121.jpg">
+        <source src="../assets/review-boneclan-deep-dungeon-lightblade-20261121.mp4" type="video/mp4">
+      </video>
+      <div class="chapters"><button data-video="lightblade" data-time="0.067">REVERSE EDGE</button><button data-video="lightblade" data-time="3.317">WIND CUT</button></div>
+      <a href="../assets/review-boneclan-deep-dungeon-lightblade-20261121.mp4" download>下载高清片</a>
+    </section><footer><a href="./moves-and-credits-20261119.txt">动作目录</a> · <a href="./moves-and-credits-20261119.json">素材署名</a> · 营火采用 JangaFX Small Camp Fire（CC0）</footer>
+<script>
+document.querySelectorAll('[data-video]').forEach((button) => {
+  button.addEventListener('click', () => {
+    const video = document.getElementById('movie-' + button.dataset.video);
+    video.currentTime = Number(button.dataset.time);
+    video.play().catch(() => {});
+  });
+});
+const movies = document.querySelectorAll('video');
+movies.forEach((movie) => movie.addEventListener('play', () => {
+  movies.forEach((other) => { if (other !== movie) other.pause(); });
+}));
+</script></main></body></html>

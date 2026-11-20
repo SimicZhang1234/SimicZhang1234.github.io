@@ -73,7 +73,10 @@ def main():
         # copies of four older comparison reels. Source files and protected
         # review media retain their original bytes.
         if name.startswith('demo/paladin/assets/paladin-fivecast-repair-r') and before > 68_000_000:
-            archive_ratio = 0.193821
+            archive_ratio = 0.156395
+        elif name in ('demo/paladin/assets/paladin-fivecast-r1.mp4', 'demo/paladin/assets/r5-repair-review-reel-r32.mp4', 'demo/paladin/assets/sovereign-full.mp4', 'demo/paladin/assets/champion-current.mp4', 'demo/paladin/assets/seraph-full.mp4', 'demo/paladin/assets/r5-seraph-native-wick-five-skills-r78.mp4'):
+            # Re-encode these historical comparison copies inside the Pages build.
+            archive_ratio = 0.156865
         else:
             archive_ratio = 0.32
         cap = max(300_000, int(before * archive_ratio * 8 / seconds) - 96_000)
