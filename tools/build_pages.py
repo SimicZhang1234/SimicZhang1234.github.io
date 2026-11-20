@@ -69,7 +69,14 @@ def main():
         seconds, source_video = probe(path)
         # A capped encode bounds the historical film's contribution to the
         # artifact. Resolution, frame rate, audio and public URL are retained.
-        cap = max(300_000, int(before * 0.32 * 8 / seconds) - 96_000)
+        # Make room for the new cave demo by adjusting only the deployment
+        # copies of four older comparison reels. Source files and protected
+        # review media retain their original bytes.
+        if name.startswith('demo/paladin/assets/paladin-fivecast-repair-r') and before > 68_000_000:
+            archive_ratio = 0.193821
+        else:
+            archive_ratio = 0.32
+        cap = max(300_000, int(before * archive_ratio * 8 / seconds) - 96_000)
         temporary = path.with_name(path.stem + '.pages-encode.mp4')
         subprocess.run([
             'ffmpeg', '-nostdin', '-v', 'error', '-threads', '2', '-i', str(path),

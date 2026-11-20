@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>骨沼巢穴扩建 · Paladin UE5</title>
+<style>
+:root{color-scheme:dark;background:#111512;color:#e8e8da;font:16px/1.65 'Segoe UI','Microsoft YaHei',sans-serif}
+*{box-sizing:border-box}body{margin:0}main{max-width:1300px;margin:auto;padding:25px 25px 65px}
+a{color:#c7d5a1}nav,.chapters{display:flex;flex-wrap:wrap;gap:14px}
+header{border-bottom:1px solid #384334;padding:35px 0 21px}
+h1,h2{font:normal 44px/1.25 Georgia,'Microsoft YaHei',serif;margin:0;color:#f0eee4}
+h2{font-size:27px}.title{display:flex;justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap}
+.title span,p{color:#b7beb1}section{padding:30px 0;border-bottom:1px solid #30382c}
+video{background:#070a08;width:100%;display:block;aspect-ratio:16/9;border:1px solid #454d3f;border-radius:8px}
+.chapters{margin:12px 0}.chapters button{background:#20291f;color:#e9e9da;border:1px solid #455341;padding:9px 13px;border-radius:5px;cursor:pointer}
+footer{padding:24px 0;font-size:14px}
+@media(max-width:650px){main{padding:18px 14px 40px}h1{font-size:35px}.title{gap:5px}section{padding:24px 0}}
+</style></head><body><main>
+<nav><a href="../../">全部 demo</a><a href="../">Paladin</a><a href="./">哥布林兵种与动作目录</a></nav>
+<header><h1>骨沼巢穴扩建</h1><p>从外洞裂隙穿过补给营地与骨祭坛，进入哥布林驻守的内厅。</p></header>
+<section id="tour">
+      <div class="title"><h2>巢穴巡览</h2><span>10.4 秒 · 1080p / 30 fps</span></div>
+      <p>四个相连区域。营地里有补给箱、储物桶和木铺，祭坛有骨杖和石台，内厅留出交战空间。</p>
+      <video id="movie-tour" aria-label="巢穴巡览" controls playsinline preload="metadata" poster="../assets/review-boneclan-expanded-tour-20261120.jpg">
+        <source src="../assets/review-boneclan-expanded-tour-20261120.mp4" type="video/mp4">
+      </video>
+      <div class="chapters"><button data-video="tour" data-time="0.000">外洞裂隙</button><button data-video="tour" data-time="2.600">物资营地</button><button data-video="tour" data-time="5.200">骨祭坛</button><button data-video="tour" data-time="7.800">骨沼大厅</button></div>
+      <a href="../assets/review-boneclan-expanded-tour-20261120.mp4" download>下载高清片</a>
+    </section><section id="champion">
+      <div class="title"><h2>Champion · 巢穴近战</h2><span>13.4 秒 · 1080p / 30 fps</span></div>
+      <p>横扫、重劈、反击和终结。出刀、命中、受击声与倒地声在实际接触上对齐。</p>
+      <video id="movie-champion" aria-label="Champion · 巢穴近战" controls playsinline preload="metadata" poster="../assets/review-boneclan-expanded-champion-20261120.jpg">
+        <source src="../assets/review-boneclan-expanded-champion-20261120.mp4" type="video/mp4">
+      </video>
+      <div class="chapters"><button data-video="champion" data-time="0.250">CLEAVING SWEEP</button><button data-video="champion" data-time="3.500">OVERHEAD</button><button data-video="champion" data-time="6.750">RIPOSTE</button><button data-video="champion" data-time="10.000">HEAVY CUT</button></div>
+      <a href="../assets/review-boneclan-expanded-champion-20261120.mp4" download>下载高清片</a>
+    </section><section id="lightblade">
+      <div class="title"><h2>Lightblade · 蓝晶双剑</h2><span>13.4 秒 · 1080p / 30 fps</span></div>
+      <p>双刃试探、弧月斩、回刃和风切。侧身时也能看清脸和两把剑。</p>
+      <video id="movie-lightblade" aria-label="Lightblade · 蓝晶双剑" controls playsinline preload="metadata" poster="../assets/review-boneclan-expanded-lightblade-20261120.jpg">
+        <source src="../assets/review-boneclan-expanded-lightblade-20261120.mp4" type="video/mp4">
+      </video>
+      <div class="chapters"><button data-video="lightblade" data-time="0.250">TWIN FANG</button><button data-video="lightblade" data-time="3.500">CRESCENT REAP</button><button data-video="lightblade" data-time="6.750">REVERSE EDGE</button><button data-video="lightblade" data-time="10.000">WIND CUT</button></div>
+      <a href="../assets/review-boneclan-expanded-lightblade-20261120.mp4" download>下载高清片</a>
+    </section><footer><a href="./moves-and-credits-20261119.txt">动作目录</a> · <a href="./moves-and-credits-20261119.json">素材署名</a> · 营火采用 JangaFX Small Camp Fire（CC0）</footer>
+<script>
+document.querySelectorAll('[data-video]').forEach((button) => {
+  button.addEventListener('click', () => {
+    const video = document.getElementById('movie-' + button.dataset.video);
+    video.currentTime = Number(button.dataset.time);
+    video.play().catch(() => {});
+  });
+});
+const movies = document.querySelectorAll('video');
+movies.forEach((movie) => movie.addEventListener('play', () => {
+  movies.forEach((other) => { if (other !== movie) other.pause(); });
+}));
+</script></main></body></html>
