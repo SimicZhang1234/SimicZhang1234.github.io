@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>骨沼地下城 · 哥布林战斗与兵种</title>
+<style>
+:root{color-scheme:dark;background:#111512;color:#e8e8da;font:16px/1.65 'Segoe UI','Microsoft YaHei',sans-serif}
+*{box-sizing:border-box}body{margin:0}main{max-width:1300px;margin:auto;padding:25px 25px 65px}
+a{color:#c7d5a1}nav,.chapters{display:flex;flex-wrap:wrap;gap:14px}
+header{border-bottom:1px solid #384334;padding:35px 0 21px}
+h1,h2{font:normal 44px/1.25 Georgia,'Microsoft YaHei',serif;margin:0;color:#f0eee4}
+h2{font-size:27px}.title{display:flex;justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap}
+.title span,p{color:#b7beb1}section{padding:30px 0;border-bottom:1px solid #30382c}
+video{background:#070a08;width:100%;display:block;aspect-ratio:16/9;border:1px solid #454d3f;border-radius:8px}
+.chapters{margin:12px 0}.chapters button{background:#20291f;color:#e9e9da;border:1px solid #455341;padding:9px 13px;border-radius:5px;cursor:pointer}
+footer{padding:24px 0;font-size:14px}
+@media(max-width:650px){main{padding:18px 14px 40px}h1{font-size:35px}.title{gap:5px}section{padding:24px 0}}
+</style></head><body><main>
+<nav><a href="../../">全部 demo</a><a href="../">Paladin</a><a href="./">哥布林兵种与动作目录</a></nav>
+<header><h1>哥布林战斗与兵种</h1><p>骨沼地下城的 UE5 实拍。巢穴地面恢复为原版石地材质与纹理比例。</p></header>
+<section id="combat">
+      <div class="title"><h2>Champion · 五种受击</h2><span>16.5 秒 · 1080p / 30 fps</span></div>
+      <p>斩首、重击倒地、胸口刺伤、断臂与踉跄。</p>
+      <video id="movie-combat" aria-label="Champion · 五种受击" controls playsinline preload="metadata" poster="../assets/review-boneclan-combat-20261122.jpg">
+        <source src="../assets/review-boneclan-combat-20261122.mp4" type="video/mp4">
+      </video>
+      <div class="chapters"><button data-video="combat" data-time="0.250">CLEAVING SWEEP</button><button data-video="combat" data-time="3.500">OVERHEAD</button><button data-video="combat" data-time="6.750">RIPOSTE</button><button data-video="combat" data-time="10.000">HEAVY CUT</button><button data-video="combat" data-time="13.250">RETURN SLASH</button></div>
+      <a href="../assets/review-boneclan-combat-20261122.mp4" download>下载高清片</a>
+    </section><section id="roster">
+      <div class="title"><h2>四种哥布林 · 姿态与攻击</h2><span>13.6 秒 · 1080p / 30 fps</span></div>
+      <p>腐牙掠夺者、沼影猎手、骨咒萨满和角骨重卫各自的待战、移动和出招。</p>
+      <video id="movie-roster" aria-label="四种哥布林 · 姿态与攻击" controls playsinline preload="metadata" poster="../assets/review-boneclan-roster-20261122.jpg">
+        <source src="../assets/review-boneclan-roster-20261122.mp4" type="video/mp4">
+      </video>
+      <div class="chapters"><button data-video="roster" data-time="0.000">腐牙掠夺者</button><button data-video="roster" data-time="3.400">沼影猎手</button><button data-video="roster" data-time="6.800">骨咒萨满</button><button data-video="roster" data-time="10.200">角骨重卫</button></div>
+      <a href="../assets/review-boneclan-roster-20261122.mp4" download>下载高清片</a>
+    </section><section id="captive">
+      <div class="title"><h2>囚笼区 · 精灵囚徒</h2><span>4.2 秒 · 1080p / 30 fps</span></div>
+      <p>囚笼内的精灵以微弱呼吸和小幅抬头表现状态。</p>
+      <video id="movie-captive" aria-label="囚笼区 · 精灵囚徒" controls playsinline preload="metadata" poster="../assets/review-boneclan-captive-20261122.jpg">
+        <source src="../assets/review-boneclan-captive-20261122.mp4" type="video/mp4">
+      </video>
+      <div class="chapters"><button data-video="captive" data-time="0.000">精灵囚徒</button></div>
+      <a href="../assets/review-boneclan-captive-20261122.mp4" download>下载高清片</a>
+    </section><footer><a href="./moves-and-credits-20261119.json">原巢穴素材署名</a> · <a href="https://opengameart.org/content/miscblooddecalparticles-bloodsplatter01basepng">地面血迹（CC0）</a> · <a href="https://grab3d.com/models/characters/elf/">精灵模型来源</a></footer>
+<script>
+document.querySelectorAll('[data-video]').forEach((button) => {
+  button.addEventListener('click', () => {
+    const video = document.getElementById('movie-' + button.dataset.video);
+    video.currentTime = Number(button.dataset.time);
+    video.play().catch(() => {});
+  });
+});
+const movies = document.querySelectorAll('video');
+movies.forEach((movie) => movie.addEventListener('play', () => {
+  movies.forEach((other) => { if (other !== movie) other.pause(); });
+}));
+</script></main></body></html>
