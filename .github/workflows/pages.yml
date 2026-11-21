@@ -4,9 +4,15 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      reuse_pages_run:
+        description: Reuse a Pages artifact from an earlier run when only this workflow changed
+        type: string
+        required: false
 
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 
@@ -23,16 +29,71 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
+        if: inputs.reuse_pages_run == ''
         with:
           persist-credentials: false
       - uses: actions/configure-pages@v5
       - name: Install media tools
+        if: inputs.reuse_pages_run == ''
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg python3-pil
       - name: Prepare size-limited website
+        if: inputs.reuse_pages_run == ''
         run: python3 tools/build_pages.py
       - uses: actions/upload-pages-artifact@v3
+        if: inputs.reuse_pages_run == ''
+        id: build
         with:
           path: _site
+      - name: Validate reusable artifact
+        if: inputs.reuse_pages_run != ''
+        id: reusable
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SOURCE_RUN: ${{ inputs.reuse_pages_run }}
+        run: |
+          [[ "$SOURCE_RUN" =~ ^[0-9]+$ ]]
+          repo="repos/$GITHUB_REPOSITORY"
+          source=$(gh api "$repo/actions/runs/$SOURCE_RUN")
+          source_sha=$(jq -er 'select(.status == "completed" and .head_branch == "main" and .path == ".github/workflows/pages.yml") | .head_sha' <<< "$source")
+          comparison=$(gh api "$repo/compare/$source_sha...$GITHUB_SHA")
+          jq -e '.behind_by == 0 and ([.files[].filename] - [".github/workflows/pages.yml"] | length == 0)' <<< "$comparison" >/dev/null
+          artifacts=$(gh api "$repo/actions/runs/$SOURCE_RUN/artifacts?name=github-pages")
+          artifact_id=$(jq -er '[.artifacts[] | select(.name == "github-pages" and .expired == false)] | select(length == 1) | .[0].id' <<< "$artifacts")
+          echo "artifact-id=$artifact_id" >> "$GITHUB_OUTPUT"
+      - uses: actions/download-artifact@v4
+        if: inputs.reuse_pages_run != ''
+        with:
+          artifact-ids: ${{ steps.reusable.outputs.artifact-id }}
+          run-id: ${{ inputs.reuse_pages_run }}
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/reused-pages
+          merge-multiple: true
+      - name: Re-upload the validated Pages tar
+        if: inputs.reuse_pages_run != ''
+        uses: actions/upload-artifact@v4
+        id: reuse
+        with:
+          name: github-pages
+          path: ${{ runner.temp }}/reused-pages/artifact.tar
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 1
+      - name: Wait for Pages artifact metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ARTIFACT_ID: ${{ steps.build.outputs.artifact_id || steps.reuse.outputs.artifact-id }}
+        run: |
+          [[ "$ARTIFACT_ID" =~ ^[0-9]+$ ]]
+          for attempt in {1..36}; do
+            if gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts?name=github-pages" |
+               jq -e --arg id "$ARTIFACT_ID" '.artifacts[] | select((.id | tostring) == $id and .name == "github-pages" and .expired == false)' >/dev/null; then
+              sleep 15
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "The uploaded Pages artifact did not appear in the run metadata." >&2
+          exit 1
       - name: Deploy website
         id: deployment
         uses: actions/deploy-pages@v4
