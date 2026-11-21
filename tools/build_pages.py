@@ -83,12 +83,16 @@ def main():
         reviewed_archive_rates = {'demo/paladin/assets/paladin-fivecast-repair-r96.mp4': 0.115679, 'demo/paladin/assets/paladin-fivecast-repair-r112.mp4': 0.114108, 'demo/paladin/assets/paladin-fivecast-repair-r124.mp4': 0.115526, 'demo/paladin/assets/paladin-fivecast-r1.mp4': 0.108773, 'demo/paladin/assets/paladin-fivecast-repair-r52.mp4': 0.114857, 'demo/paladin/assets/champion-crowd.mp4': 0.09275, 'demo/paladin/assets/r5-repair-review-reel-r32.mp4': 0.109293, 'demo/paladin/assets/champion-execution.mp4': 0.081067, 'demo/paladin/assets/four-deaths.mp4': 0.152626, 'demo/paladin/assets/wound-death-progress.mp4': 0.089094, 'demo/paladin/assets/green-mobility.mp4': 0.086524, 'demo/paladin/assets/fivecast-receivedeath.mp4': 0.079729, 'demo/paladin/assets/outfit-mobility.mp4': 0.081872, 'demo/paladin/assets/green-combat.mp4': 0.110294, 'demo/paladin/assets/sovereign-light-fix.mp4': 0.095332, 'demo/paladin/assets/sovereign-face.mp4': 0.121012, 'demo/paladin/assets/sovereign-expression.mp4': 0.09368, 'demo/paladin/assets/r5-seraph-native-wick-five-skills-r78.mp4': 0.104877, 'demo/paladin/assets/outfit-crystal-mobility.mp4': 0.148327, 'demo/paladin/assets/sovereign-sky-check.mp4': 0.138438, 'demo/paladin/assets/death-chest.mp4': 0.141774, 'demo/paladin/assets/death-head.mp4': 0.151944, 'demo/paladin/assets/death-kneel.mp4': 0.157714, 'demo/paladin/assets/death-bisection.mp4': 0.150862, 'demo/paladin/assets/r5-champion-four-melee-contact-r64.mp4': 0.214482, 'demo/paladin/assets/lightblade-assassin-motion-r9.mp4': 0.209755, 'demo/paladin/assets/lightblade-assassin-lean-motion-r14.mp4': 0.205494}
         archive_ratio = reviewed_archive_rates.get(name, archive_ratio)
         cap = max(300_000, int(before * archive_ratio * 8 / seconds) - 96_000)
+        video_quality = ['-crf', '27', '-maxrate', str(cap), '-bufsize', str(cap * 2)]
+        measured_archive_caps = {'demo/paladin/assets/paladin-fivecast-repair-r96.mp4': 9028239, 'demo/paladin/assets/paladin-fivecast-repair-r112.mp4': 8881438, 'demo/paladin/assets/paladin-fivecast-repair-r124.mp4': 8808038, 'demo/paladin/assets/paladin-fivecast-repair-r52.mp4': 8294236, 'demo/paladin/assets/paladin-fivecast-r1.mp4': 8074035}
+        if name in measured_archive_caps:
+            cap = max(240_000, int(measured_archive_caps[name] * 8 / seconds) - 112_000)
+            video_quality = ['-b:v', str(cap), '-maxrate', str(cap), '-bufsize', str(cap)]
         temporary = path.with_name(path.stem + '.pages-encode.mp4')
         subprocess.run([
             'ffmpeg', '-nostdin', '-v', 'error', '-threads', '2', '-i', str(path),
             '-map', '0:v:0', '-map', '0:a?', '-map_metadata', '0', '-map_chapters', '0',
-            '-c:v', 'libx264', '-threads', '2', '-preset', 'veryfast', '-crf', '27',
-            '-maxrate', str(cap), '-bufsize', str(cap * 2), '-pix_fmt', 'yuv420p',
+            '-c:v', 'libx264', '-threads', '2', '-preset', 'veryfast', *video_quality, '-pix_fmt', 'yuv420p',
             '-c:a', 'aac', '-b:a', '96k', '-movflags', '+faststart', str(temporary)
         ], check=True)
         actual_seconds, actual_video = probe(temporary)
