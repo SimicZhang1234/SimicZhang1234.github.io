@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Paladin · 哥布林巢穴</title>
+<style>
+  :root{--bg:#121310;--panel:#1a1b17;--edge:#34362c;--ink:#f0eee3;--muted:#b9b8aa;--accent:#dfc892;--accent-dim:#9b895d;--focus:#ffe09a}
+  *{box-sizing:border-box}
+  body{margin:0;background:radial-gradient(70rem 35rem at 55% -.5rem,#2d2b20 0%,var(--bg) 70%);color:var(--ink);font:16px/1.65 system-ui,"Microsoft YaHei",sans-serif}
+  a{color:var(--accent);text-underline-offset:.2em}
+  a:hover{color:var(--ink)}
+  :focus-visible{outline:2px solid var(--focus);outline-offset:4px}
+  h1,h2,h3,p{margin:0}
+  main,footer,.mast{width:min(72rem,calc(100% - 3rem));margin-inline:auto}
+  header{border-bottom:1px solid var(--edge)}
+  .mast{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.7rem 1rem;padding:1rem 0}
+  .mark{font:700 1.15rem Georgia,serif;letter-spacing:.15em;color:var(--accent)}
+  nav{display:flex;gap:1.2rem;flex-wrap:wrap;font-size:.9rem}
+  nav a{text-decoration:none}
+  .intro{padding:clamp(2rem,6vw,5rem) 0 2rem;display:grid;gap:.9rem}
+  h1{font-size:clamp(2.4rem,7vw,5.5rem);line-height:1.12;letter-spacing:-.035em;font-weight:750}
+  .intro p,.description,p.detail{color:var(--muted)}
+  .catalog-status{padding:.75rem 1rem;border:1px solid var(--edge);border-left:3px solid var(--accent-dim);max-width:48rem}
+  .section{scroll-margin-top:2rem;margin:1.1rem 0 2.8rem}
+  .section-title{display:flex;flex-wrap:wrap;gap:.4rem 1.2rem;align-items:baseline;margin-bottom:1rem}
+  h2{font-size:clamp(1.55rem,4vw,2.15rem);line-height:1.26}
+  .description{font-size:.91rem}
+  .media{margin-bottom:1rem;overflow:hidden;border:1px solid var(--edge);border-radius:6px;background:#0b0c09}
+  .media video{display:block;width:100%;aspect-ratio:16/9;max-height:80vh}
+  .media-controls{display:flex;flex-wrap:wrap;gap:.4rem 1.1rem;align-items:center;padding:.65rem .9rem;border-top:1px solid var(--edge)}
+  .media-controls small,.chapter-time{color:var(--muted);font-size:.78rem}
+  .contact-sheet{margin:.8rem 0 1rem;color:var(--accent);font-size:.88rem}
+  .contact-sheet summary{cursor:pointer;width:max-content}
+  .contact-sheet img{display:block;width:100%;height:auto;margin:.5rem 0}
+  .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.65rem}
+  .role,.move{border:1px solid var(--edge);border-radius:4px;background:var(--panel);min-width:0}
+  .role{padding:.85rem .95rem;display:grid;gap:.55rem}
+  h3{font-size:1.01rem;line-height:1.4}
+  .english,.variant-id{display:block;color:var(--muted);font-size:.72rem;letter-spacing:.055em;line-height:1.45}
+  .signature{font-size:.86rem;color:var(--accent)}
+  .variant-list{list-style:none;margin:0;padding:0;display:grid;gap:.45rem}
+  .variant-list li{border-top:1px solid var(--edge);padding-top:.45rem;display:grid;gap:.1rem;position:relative}
+  .variant-list strong{font-size:.92rem}
+  .size{float:right;color:var(--muted);font-size:.75rem;font-weight:500}
+  p.detail{font-size:.76rem}
+  .move-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.45rem;list-style:none;padding:0;margin:0}
+  .move{padding:.56rem .72rem;display:flex;gap:.65rem;justify-content:space-between;align-items:center;min-height:3.6rem}
+  .move strong{font-size:.93rem}
+  .seek{font:inherit;background:#23251d;border:1px solid #555642;border-radius:3px;color:var(--accent);padding:.24rem .42rem;cursor:pointer;white-space:nowrap}
+  .seek:hover{background:#34362a;color:var(--ink)}
+  .chapter-buttons{display:flex;flex-wrap:wrap;gap:.4rem;padding:.7rem .9rem;border-top:1px solid var(--edge);font-size:.84rem}
+  .role .seek{width:max-content;font-size:.78rem}
+  footer{border-top:1px solid var(--edge);color:var(--muted);font-size:.83rem;padding:1.2rem 0 2rem}
+  @media(max-width:740px){main,footer,.mast{width:calc(100% - 2rem)}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  @media(max-width:460px){.cards,.move-list{grid-template-columns:1fr}.move,.role{padding:.75rem}}
+  @media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+</style>
+</head>
+<body>
+<header><div class="mast">
+  <div class="mark">PALADIN</div>
+  <nav aria-label="片段目录">
+    <a href="#roster">兵种与招式</a><a href="#reactions">受击动作</a><a href="#champion">Champion 全招式</a>
+  </nav>
+</div></header>
+<main>
+  <div class="intro">
+    <h1>哥布林巢穴</h1>
+    <p id="review-overview">6 个兵种 · 12 个个体 · 9 种受击 · Champion 14 招</p>
+    
+  </div>
+  
+  <section class="section" id="roster" aria-labelledby="roster-title">
+    <div class="section-title"><h2 id="roster-title">兵种与招式</h2><p class="description">12 个 UE5 造型，按兵种分组。厘米数为导入网格高度。 每个兵种各一套走姿与攻击。</p></div>
+    <div class="media"><video id="video-roster" controls playsinline preload="metadata" tabindex="0" aria-label="哥布林兵种与招式"><source src="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-roster-movie.mp4" type="video/mp4"></video><div class="media-controls"><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-roster-movie.mp4">打开完整 MP4</a><small>1920 × 1080 · 0:17 · 含声音</small></div></div><details class="contact-sheet"><summary>查看全部造型对照</summary><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-roster-lineup.jpg"><img src="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-roster-lineup.jpg" loading="lazy" decoding="async" alt="六个哥布林兵种与十二个个体的 UE5 实拍造型对照"></a></details><details class="contact-sheet"><summary>查看关键帧总览</summary><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-roster-contact-sheets-01.jpg"><img src="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-roster-contact-sheets-01.jpg" loading="lazy" decoding="async" alt="哥布林兵种与招式的 UE5 实拍关键帧，第 1 组"></a><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-roster-contact-sheets-02.jpg"><img src="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-roster-contact-sheets-02.jpg" loading="lazy" decoding="async" alt="哥布林兵种与招式的 UE5 实拍关键帧，第 2 组"></a><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-roster-contact-sheets-03.jpg"><img src="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-roster-contact-sheets-03.jpg" loading="lazy" decoding="async" alt="哥布林兵种与招式的 UE5 实拍关键帧，第 3 组"></a></details>
+    <div class="cards"><article class="role"><h3>腐牙掠夺者<span lang="en" class="english">ROTFANG RAIDER</span></h3><p class="signature">锯刃斩 · RAGGED CUT</p><ul class="variant-list"><li><strong>豁牙 <span class="size" title="UE 骨骼网格高度">107 cm</span></strong><span class="variant-id">Ragtooth</span><p class="detail">斜挂旧兽皮，单侧耳环</p></li><li><strong>碎步 <span class="size" title="UE 骨骼网格高度">120 cm</span></strong><span class="variant-id">Scrapstep</span><p class="detail">赭布腰带、劫掠袋与旧臂甲</p></li></ul><button class="seek" type="button" data-seek="0.000" data-video="video-roster" aria-label="播放腐牙掠夺者">0:00</button></article><article class="role"><h3>沼影猎手<span lang="en" class="english">MIRE HUNTER</span></h3><p class="signature">穿针突刺 · NEEDLE THRUST</p><ul class="variant-list"><li><strong>芦踪 <span class="size" title="UE 骨骼网格高度">154 cm</span></strong><span class="variant-id">Reedstalk</span><p class="detail">细长尖兜帽，背负三支沼泽标枪</p></li><li><strong>沼瞳 <span class="size" title="UE 骨骼网格高度">172 cm</span></strong><span class="variant-id">Bogeye</span><p class="detail">开放式苔色兜帽与芦苇披肩</p></li></ul><button class="seek" type="button" data-seek="2.900" data-video="video-roster" aria-label="播放沼影猎手">0:02</button></article><article class="role"><h3>骨咒萨满<span lang="en" class="english">BONECALLER</span></h3><p class="signature">骨咒 · BONE HEX</p><ul class="variant-list"><li><strong>拾骸者 <span class="size" title="UE 骨骼网格高度">161 cm</span></strong><span class="variant-id">Osswright</span><p class="detail">分叉白骨冠与肋骨吊饰</p></li><li><strong>诵骨者 <span class="size" title="UE 骨骼网格高度">172 cm</span></strong><span class="variant-id">Ribchant</span><p class="detail">缺角骨冠、刻纹护符与赭布</p></li></ul><button class="seek" type="button" data-seek="5.800" data-video="video-roster" aria-label="播放骨咒萨满">0:05</button></article><article class="role"><h3>角骨重卫<span lang="en" class="english">SKULLGUARD</span></h3><p class="signature">碎骨重击 · BONE BREAKER</p><ul class="variant-list"><li><strong>砧颚 <span class="size" title="UE 骨骼网格高度">195 cm</span></strong><span class="variant-id">Anviljaw</span><p class="detail">宽盔，双侧铁护肩</p></li><li><strong>铁疤 <span class="size" title="UE 骨骼网格高度">210 cm</span></strong><span class="variant-id">Ironscar</span><p class="detail">断角、高骨眉与单侧三叠铁肩甲</p></li></ul><button class="seek" type="button" data-seek="8.700" data-video="video-roster" aria-label="播放角骨重卫">0:08</button></article><article class="role"><h3>掘穴兵<span lang="en" class="english">BURROWER</span></h3><p class="signature">低位掠斩 · UNDERCUT</p><ul class="variant-list"><li><strong>页岩背 <span class="size" title="UE 骨骼网格高度">115 cm</span></strong><span class="variant-id">Shaleback</span><p class="detail">方形矿囊、石片装具与铜帽</p></li><li><strong>泥扣 <span class="size" title="UE 骨骼网格高度">130 cm</span></strong><span class="variant-id">Mudbuckle</span><p class="detail">交叉卷包、圆盔与铜扣腰带</p></li></ul><button class="seek" type="button" data-seek="11.600" data-video="video-roster" aria-label="播放掘穴兵">0:11</button></article><article class="role"><h3>烬咒师<span lang="en" class="english">ASH HEXER</span></h3><p class="signature">灰烬飞弹 · ASH BOLT</p><ul class="variant-list"><li><strong>烟脉 <span class="size" title="UE 骨骼网格高度">170 cm</span></strong><span class="variant-id">Sootvein</span><p class="detail">灰色尖兜帽、紫披肩与余烬珠</p></li><li><strong>烬纱 <span class="size" title="UE 骨骼网格高度">184 cm</span></strong><span class="variant-id">Cinderveil</span><p class="detail">眉侧面纱、炭灰布摆与双片胸饰</p></li></ul><button class="seek" type="button" data-seek="14.500" data-video="video-roster" aria-label="播放烬咒师">0:14</button></article></div>
+  </section>
+  <section class="section" id="reactions" aria-labelledby="reactions-title">
+    <div class="section-title"><h2 id="reactions-title">受击动作</h2><p class="description">9 种受击，从轻擦、侧斩到重击踉跄。 UE5 预演已核对 9 种命中及对应受击动作。</p></div>
+    <div class="media"><video id="video-reactions" controls playsinline preload="metadata" tabindex="0" aria-label="哥布林受击"><source src="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-reactions-movie.mp4" type="video/mp4"></video><div class="media-controls"><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-reactions-movie.mp4">打开完整 MP4</a><small>1920 × 1080 · 0:21 · 含声音</small></div></div><details class="contact-sheet"><summary>查看关键帧总览</summary><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-reactions-contact-sheets-01.jpg"><img src="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-reactions-contact-sheets-01.jpg" loading="lazy" decoding="async" alt="哥布林受击的 UE5 实拍关键帧，第 1 组"></a><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-reactions-contact-sheets-02.jpg"><img src="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-reactions-contact-sheets-02.jpg" loading="lazy" decoding="async" alt="哥布林受击的 UE5 实拍关键帧，第 2 组"></a><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-reactions-contact-sheets-03.jpg"><img src="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-reactions-contact-sheets-03.jpg" loading="lazy" decoding="async" alt="哥布林受击的 UE5 实拍关键帧，第 3 组"></a><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-reactions-contact-sheets-04.jpg"><img src="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-reactions-contact-sheets-04.jpg" loading="lazy" decoding="async" alt="哥布林受击的 UE5 实拍关键帧，第 4 组"></a></details>
+    <ol class="move-list"><li class="move"><div><strong>擦脸急闪</strong><span lang="en" class="english">Face Snap</span></div><button class="seek" type="button" data-seek="0.180" data-video="video-reactions" aria-label="播放擦脸急闪">0:00</button></li><li class="move"><div><strong>左向挨斩</strong><span lang="en" class="english">Left Rake</span></div><button class="seek" type="button" data-seek="2.500" data-video="video-reactions" aria-label="播放左向挨斩">0:02</button></li><li class="move"><div><strong>右向挨斩</strong><span lang="en" class="english">Right Rake</span></div><button class="seek" type="button" data-seek="4.820" data-video="video-reactions" aria-label="播放右向挨斩">0:04</button></li><li class="move"><div><strong>胸口短促顿挫</strong><span lang="en" class="english">Chest Jam</span></div><button class="seek" type="button" data-seek="7.140" data-video="video-reactions" aria-label="播放胸口短促顿挫">0:07</button></li><li class="move"><div><strong>腹部折身护伤</strong><span lang="en" class="english">Belly Fold</span></div><button class="seek" type="button" data-seek="9.460" data-video="video-reactions" aria-label="播放腹部折身护伤">0:09</button></li><li class="move"><div><strong>架挡重震退步</strong><span lang="en" class="english">Shield Recoil</span></div><button class="seek" type="button" data-seek="11.780" data-video="video-reactions" aria-label="播放架挡重震退步">0:11</button></li><li class="move"><div><strong>背袭前栽两步撑住</strong><span lang="en" class="english">Back Trip</span></div><button class="seek" type="button" data-seek="14.100" data-video="video-reactions" aria-label="播放背袭前栽两步撑住">0:14</button></li><li class="move"><div><strong>腹部重创连退两步</strong><span lang="en" class="english">Gut Stagger</span></div><button class="seek" type="button" data-seek="16.420" data-video="video-reactions" aria-label="播放腹部重创连退两步">0:16</button></li><li class="move"><div><strong>头顶重震伏身回稳</strong><span lang="en" class="english">Hammer Reel</span></div><button class="seek" type="button" data-seek="18.740" data-video="video-reactions" aria-label="播放头顶重震伏身回稳">0:18</button></li></ol>
+  </section>
+  <section class="section" id="champion" aria-labelledby="champion-title">
+    <div class="section-title"><h2 id="champion-title">Champion 全招式</h2><p class="description">14 招，含连击、投射、范围技与终结技。 UE5 预演确认 20 次命中，覆盖全部招式。</p></div>
+    <div class="media"><video id="video-champion" controls playsinline preload="metadata" tabindex="0" aria-label="Champion 全招式"><source src="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-champion-movie.mp4" type="video/mp4"></video><div class="media-controls"><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-champion-movie.mp4">打开完整 MP4</a><small>1920 × 1080 · 0:31 · 含声音</small></div></div><details class="contact-sheet"><summary>查看关键帧总览</summary><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-champion-contact-sheets-01.jpg"><img src="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-champion-contact-sheets-01.jpg" loading="lazy" decoding="async" alt="Champion 全招式的 UE5 实拍关键帧，第 1 组"></a><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-champion-contact-sheets-02.jpg"><img src="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-champion-contact-sheets-02.jpg" loading="lazy" decoding="async" alt="Champion 全招式的 UE5 实拍关键帧，第 2 组"></a><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-champion-contact-sheets-03.jpg"><img src="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-champion-contact-sheets-03.jpg" loading="lazy" decoding="async" alt="Champion 全招式的 UE5 实拍关键帧，第 3 组"></a><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-champion-contact-sheets-04.jpg"><img src="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-champion-contact-sheets-04.jpg" loading="lazy" decoding="async" alt="Champion 全招式的 UE5 实拍关键帧，第 4 组"></a><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-champion-contact-sheets-05.jpg"><img src="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-champion-contact-sheets-05.jpg" loading="lazy" decoding="async" alt="Champion 全招式的 UE5 实拍关键帧，第 5 组"></a><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-champion-contact-sheets-06.jpg"><img src="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-variety-20261122/boneclan-champion-contact-sheets-06.jpg" loading="lazy" decoding="async" alt="Champion 全招式的 UE5 实拍关键帧，第 6 组"></a></details>
+    <ol class="move-list"><li class="move"><div><strong>横劈扫斩</strong><span lang="en" class="english">CLEAVING SWEEP</span></div><button class="seek" type="button" data-seek="0.300" data-video="video-champion" aria-label="播放横劈扫斩">0:00</button></li><li class="move"><div><strong>勇武连击</strong><span lang="en" class="english">VALOR CHAIN</span></div><button class="seek" type="button" data-seek="2.533" data-video="video-champion" aria-label="播放勇武连击">0:02</button></li><li class="move"><div><strong>盾击</strong><span lang="en" class="english">SHIELD BASH</span></div><button class="seek" type="button" data-seek="6.800" data-video="video-champion" aria-label="播放盾击">0:06</button></li><li class="move"><div><strong>招架反击</strong><span lang="en" class="english">PARRY &amp; RIPOSTE</span></div><button class="seek" type="button" data-seek="8.767" data-video="video-champion" aria-label="播放招架反击">0:08</button></li><li class="move"><div><strong>贯穿突刺</strong><span lang="en" class="english">PIERCING THRUST</span></div><button class="seek" type="button" data-seek="9.967" data-video="video-champion" aria-label="播放贯穿突刺">0:09</button></li><li class="move"><div><strong>剑气斩</strong><span lang="en" class="english">BLADE BEAM</span></div><button class="seek" type="button" data-seek="12.000" data-video="video-champion" aria-label="播放剑气斩">0:12</button></li><li class="move"><div><strong>神圣标枪</strong><span lang="en" class="english">HOLY JAVELIN</span></div><button class="seek" type="button" data-seek="13.533" data-video="video-champion" aria-label="播放神圣标枪">0:13</button></li><li class="move"><div><strong>连锁闪电</strong><span lang="en" class="english">CHAIN LIGHTNING</span></div><button class="seek" type="button" data-seek="15.500" data-video="video-champion" aria-label="播放连锁闪电">0:15</button></li><li class="move"><div><strong>圣化领域</strong><span lang="en" class="english">CONSECRATION</span></div><button class="seek" type="button" data-seek="17.067" data-video="video-champion" aria-label="播放圣化领域">0:17</button></li><li class="move"><div><strong>闪现斩</strong><span lang="en" class="english">BLINK STRIKE</span></div><button class="seek" type="button" data-seek="18.733" data-video="video-champion" aria-label="播放闪现斩">0:18</button></li><li class="move"><div><strong>幻影突袭</strong><span lang="en" class="english">PHANTOM RUSH</span></div><button class="seek" type="button" data-seek="20.700" data-video="video-champion" aria-label="播放幻影突袭">0:20</button></li><li class="move"><div><strong>幻影剑阵</strong><span lang="en" class="english">SPECTRAL BLADES</span></div><button class="seek" type="button" data-seek="22.067" data-video="video-champion" aria-label="播放幻影剑阵">0:22</button></li><li class="move"><div><strong>天降斩</strong><span lang="en" class="english">HEAVEN&#x27;S FALL</span></div><button class="seek" type="button" data-seek="24.233" data-video="video-champion" aria-label="播放天降斩">0:24</button></li><li class="move"><div><strong>神圣审判</strong><span lang="en" class="english">DIVINE JUDGEMENT</span></div><button class="seek" type="button" data-seek="27.667" data-video="video-champion" aria-label="播放神圣审判">0:27</button></li></ol>
+  </section>
+</main>
+<footer>
+  <p>基础哥布林模型由 <a href="https://sketchfab.com/3d-models/goblin-shaman-with-goat-skull-staff-7de07dc1463647f3b06833fe9170d64a">Pigcraft</a> 创作，采用 <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> 许可，现版调整体态与服饰。</p>
+  <p>哥布林人声取自 <a href="https://opengameart.org/content/goblins-sound-pack">artisticdude</a>（CC0）及 <a href="https://opengameart.org/content/goblin-cackle">spookymodem</a>（<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>），经音高、滤波及洞穴混响处理。</p>
+  <p><a href="https://simiczhang1234.github.io/demo/paladin/goblins/moves-and-credits-20261119.json">巢穴、武器和其他音效署名</a></p>
+</footer>
+<script>
+  const videos = [...document.querySelectorAll('video')];
+  videos.forEach((video) => video.addEventListener('play', () => {
+    videos.forEach((other) => { if (other !== video && !other.paused) other.pause(); });
+  }));
+  document.querySelectorAll('button[data-seek]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const video = document.getElementById(button.dataset.video);
+      const time = Number(button.dataset.seek);
+      const seek = () => { video.currentTime = time; };
+      if (video.readyState) seek();
+      else video.addEventListener('loadedmetadata', seek, { once:true });
+      video.scrollIntoView({ block:'center' });
+      video.focus({ preventScroll:true });
+      video.play().catch(() => {});
+    });
+  });
+</script>
+</body>
+</html>
