@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>骨沼哥布林 · UE5 动作重制</title>
+<style>
+:root{color-scheme:dark;font:100%/1.55 system-ui,sans-serif;background:#101512;color:#f0f3eb}
+body{max-width:68rem;margin:auto;padding:1.2rem clamp(1rem,4vw,2.5rem) 4rem}
+a{color:#d3eab9;text-underline-offset:.18em}a:hover{color:#f4ffec}
+:focus-visible{outline:.16rem solid #f5d481;outline-offset:.25rem}
+h1{font-size:clamp(1.75rem,6vw,2.65rem);margin-block:.4em}h2{margin-block:0 .5em}
+nav ul,.chapters{display:grid;gap:.55rem;list-style:none;padding:0}
+nav ul{display:flex;flex-wrap:wrap;gap:1rem}
+section{margin-block:1.55rem;padding:clamp(.95rem,3vw,1.6rem);background:#1a231d;border:1px solid #546657;border-radius:.7rem}
+video{display:block;width:100%;aspect-ratio:16/9;background:#0a0e0b;border-radius:.35rem}
+.chapters{grid-template-columns:repeat(auto-fit,minmax(min(100%,18rem),1fr))}
+.chapters a{display:flex;gap:.7rem;align-items:baseline;padding:.5rem .64rem;background:#24342a;border-radius:.38rem}
+.time{font: .9em/1.35 ui-monospace,monospace;color:#f2d698;white-space:nowrap}
+.meta{color:#d0d9ce}
+</style>
+</head>
+<body>
+<header>
+<a href="./index.html">返回哥布林演示</a>
+<h1>骨沼哥布林 · UE5 动作重制</h1>
+<nav aria-label="演示目录"><ul><li><a href="#motion">五类哥布林动作</a></li><li><a href="#champion">Champion 招式与受击</a></li><li><a href="#credits">资源署名</a></li></ul></nav>
+</header>
+<main>
+<section id="motion" aria-labelledby="motion-title">
+<h2 id="motion-title">五类哥布林动作</h2>
+<video id="video-motion" controls playsinline preload="metadata" aria-labelledby="motion-title">
+<source src="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclan-ue5-motion-rebuild.mp4" type="video/mp4">
+</video>
+<p class="meta">1080p · 30 fps · 0:37 · <a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclan-ue5-motion-rebuild.mp4">打开或下载动作 MP4</a></p>
+<ol class="chapters" aria-label="哥布林动作时间点"><li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclan-ue5-motion-rebuild.mp4#t=0.000" data-video="video-motion" data-time="0.000"><span class="time">0:00</span><span>普通兵 / Captured gait</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclan-ue5-motion-rebuild.mp4#t=3.500" data-video="video-motion" data-time="3.500"><span class="time">0:03</span><span>普通兵 / Quick slash</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclan-ue5-motion-rebuild.mp4#t=5.000" data-video="video-motion" data-time="5.000"><span class="time">0:05</span><span>普通兵 / Back away</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclan-ue5-motion-rebuild.mp4#t=7.633" data-video="video-motion" data-time="7.633"><span class="time">0:07</span><span>弹弓兵 / Captured gait</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclan-ue5-motion-rebuild.mp4#t=11.133" data-video="video-motion" data-time="11.133"><span class="time">0:11</span><span>弹弓兵 / Sling shot</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclan-ue5-motion-rebuild.mp4#t=12.967" data-video="video-motion" data-time="12.967"><span class="time">0:12</span><span>弹弓兵 / Side escape</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclan-ue5-motion-rebuild.mp4#t=15.600" data-video="video-motion" data-time="15.600"><span class="time">0:15</span><span>重棍兵 / Cudgel Stalk</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclan-ue5-motion-rebuild.mp4#t=19.067" data-video="video-motion" data-time="19.067"><span class="time">0:19</span><span>重棍兵 / Cudgel Heavy Chop</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclan-ue5-motion-rebuild.mp4#t=21.233" data-video="video-motion" data-time="21.233"><span class="time">0:21</span><span>萨满 / Captured gait</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclan-ue5-motion-rebuild.mp4#t=24.733" data-video="video-motion" data-time="24.733"><span class="time">0:24</span><span>萨满 / Off-Hand Hex</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclan-ue5-motion-rebuild.mp4#t=29.300" data-video="video-motion" data-time="29.300"><span class="time">0:29</span><span>首领 / Captured gait</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclan-ue5-motion-rebuild.mp4#t=32.800" data-video="video-motion" data-time="32.800"><span class="time">0:32</span><span>首领 / Overhand Chop</span></a></li></ol>
+</section>
+<section id="champion" aria-labelledby="combat-title">
+<h2 id="combat-title">Champion 招式与受击</h2>
+<video id="video-champion" controls playsinline preload="metadata" aria-labelledby="combat-title">
+<source src="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclanrecovery-championfinal.mp4" type="video/mp4">
+</video>
+<p class="meta">1080p · 30 fps · 0:36 · <a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclanrecovery-championfinal.mp4">打开或下载战斗 MP4</a></p>
+<ol class="chapters" aria-label="Champion 招式时间点"><li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclanrecovery-championfinal.mp4#t=0.240" data-video="video-champion" data-time="0.240"><span class="time">0:00</span><span>CLEAVING SWEEP</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclanrecovery-championfinal.mp4#t=2.457" data-video="video-champion" data-time="2.457"><span class="time">0:02</span><span>VALOR CHAIN</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclanrecovery-championfinal.mp4#t=6.735" data-video="video-champion" data-time="6.735"><span class="time">0:06</span><span>SHIELD BASH</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclanrecovery-championfinal.mp4#t=8.685" data-video="video-champion" data-time="8.685"><span class="time">0:08</span><span>PARRY &amp; RIPOSTE</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclanrecovery-championfinal.mp4#t=9.909" data-video="video-champion" data-time="9.909"><span class="time">0:09</span><span>PIERCING THRUST</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclanrecovery-championfinal.mp4#t=11.925" data-video="video-champion" data-time="11.925"><span class="time">0:11</span><span>BLADE BEAM</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclanrecovery-championfinal.mp4#t=13.372" data-video="video-champion" data-time="13.372"><span class="time">0:13</span><span>HOLY JAVELIN</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclanrecovery-championfinal.mp4#t=15.262" data-video="video-champion" data-time="15.262"><span class="time">0:15</span><span>CHAIN LIGHTNING</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclanrecovery-championfinal.mp4#t=16.773" data-video="video-champion" data-time="16.773"><span class="time">0:16</span><span>CONSECRATION</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclanrecovery-championfinal.mp4#t=18.414" data-video="video-champion" data-time="18.414"><span class="time">0:18</span><span>BLINK STRIKE</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclanrecovery-championfinal.mp4#t=20.396" data-video="video-champion" data-time="20.396"><span class="time">0:20</span><span>PHANTOM RUSH</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclanrecovery-championfinal.mp4#t=21.746" data-video="video-champion" data-time="21.746"><span class="time">0:21</span><span>SPECTRAL BLADES</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclanrecovery-championfinal.mp4#t=23.885" data-video="video-champion" data-time="23.885"><span class="time">0:23</span><span>HEAVEN&#x27;S FALL</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclanrecovery-championfinal.mp4#t=27.333" data-video="video-champion" data-time="27.333"><span class="time">0:27</span><span>DIVINE JUDGEMENT</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclanrecovery-championfinal.mp4#t=31.203" data-video="video-champion" data-time="31.203"><span class="time">0:31</span><span>BLADE BEAM / 同一目标重击对照</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclanrecovery-championfinal.mp4#t=32.650" data-video="video-champion" data-time="32.650"><span class="time">0:32</span><span>BLADE BEAM / 首领受击对照</span></a></li>
+<li><a href="https://github.com/SimicZhang1234/SimicZhang1234.github.io/releases/download/paladin-goblin-motion-rebuild-20261123/boneclanrecovery-championfinal.mp4#t=34.096" data-video="video-champion" data-time="34.096"><span class="time">0:34</span><span>CHAIN LIGHTNING / 重棍兵受击对照</span></a></li></ol>
+</section>
+<section id="credits" aria-labelledby="credits-title">
+<h2 id="credits-title">资源署名</h2>
+<ul>
+<li>Ian Mason 的 <a href="https://www.ianxmason.com/100style/" lang="en">The 100STYLE Dataset</a>，<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>。从原动作捕捉裁切，重定向到哥布林骨架并调整落脚。</li>
+<li>Quaternius 的 <a href="https://quaternius.itch.io/universal-animation-library-2" lang="en">Universal Animation Library 2</a> 和 <a href="https://github.com/Kinemiq/free-game-animations/releases/tag/v1.0" lang="en">KinemIQ Free Game Animations</a>，<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>。用于弹弓动作改编及战斗动作重定向。</li>
+<li>Darkplates 的 <a href="https://darkplates.itch.io/dark-fantasy-goblin-free" lang="en">Dark Fantasy Goblin Free</a>。使用其角色与动作素材制作 UE5 演示，按原资源包许可使用。</li>
+<li>Daniel Gruginski 的 <a href="https://github.com/danielgruginski/Goblins/tree/080a8e45e0fda8f1cbb269463bd9bd9b6e658b20" lang="en">Goblins</a>，<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>。用于 Hobo 木棍。</li>
+<li>洞穴与早期角色资源的完整署名见<a href="./deep-dungeon-20261121.html">骨沼巢穴前版演示</a>。</li>
+</ul>
+</section>
+</main>
+<script>
+document.addEventListener('click', event => {
+  const link = event.target.closest('a[data-video]');
+  if (!link || event.defaultPrevented || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+  const video = document.getElementById(link.dataset.video);
+  if (!video || video.error) return;
+  event.preventDefault();
+  const seek = () => { video.currentTime = Number(link.dataset.time); };
+  if (video.readyState > 0) seek();
+  else video.addEventListener('loadedmetadata', seek, {once:true});
+  video.focus();
+  video.scrollIntoView({block:'nearest'});
+});
+</script>
+</body>
+</html>
