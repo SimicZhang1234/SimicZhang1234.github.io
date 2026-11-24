@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Archmage Gideon Demo</title>
+<title>Demo Index · Archmage Gideon &amp; Paladin</title>
 <link rel="icon" href="../img/icon.png">
 <style>
 /* The download page's look: one column, each film with its chapters. */
@@ -34,25 +34,68 @@ li button:hover { color: var(--gold); }
 li button:focus-visible { outline: 2px solid #a6e0ff; outline-offset: 2px; }
 .t { flex: 0 0 3.2em; color: var(--gold); font-variant-numeric: tabular-nums; }
 .back { display: inline-block; margin-top: 28px; color: var(--gold); }
+
+.demo-directory { text-align: start; }
+.demo-directory h1 { margin-bottom: 16px; }
+.demo-directory .demo-links { margin: 0; max-width: none; }
+.demo-columns, .demo-links li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.68rem 0.4rem;
+}
+.demo-columns { color: var(--dim); border-bottom: 1px solid var(--line); }
+.demo-links a { color: var(--marble); text-decoration-color: var(--line); text-underline-offset: 0.2em; }
+.demo-links a:hover { color: var(--gold); }
+.demo-links a:focus-visible { outline: 2px solid #a6e0ff; outline-offset: 3px; }
+.demo-links time { color: var(--dim); white-space: nowrap; font-variant-numeric: tabular-nums; }
+@media (max-width: 420px) {
+  .demo-columns, .demo-links li { gap: 0.65rem; padding-inline: 0.15rem; }
+  .demo-links time { font-size: 0.86rem; }
+}
 </style>
 </head>
-<body><section id="lightblade-wind" style="max-width:1120px;margin:24px auto;padding:20px;background:#192a39;border:1px solid #6a99ad;border-radius:10px;text-align:center;color:#eee9df"><strong style="font-size:21px">Lightblade · 回岚连斩衔接修正</strong><p style="margin:10px 0">11 月 18 日 · 第一招旋流与挥剑衔接修正 · 第二招裂空破阵定型</p><a style="color:#c7ecf4;font-size:18px" href="paladin/lightblade/tempest-sync-20261118.html">▶ 观看新版与完整角色展示</a></section><!-- PALADIN_REVIEW_20261112 --><section style="max-width:1120px;margin:24px auto;padding:20px;background:#191e29;border:1px solid #66563b;border-radius:8px;text-align:center;color:#eee9df"><strong>11 月 13 日重做 · 火焰与倒地</strong><p style="margin:10px 0"><a style="color:#e1c587" href="paladin/review-20261112.html#flame-sword">火焰宽剑</a>　·　<a style="color:#e1c587" href="paladin/review-20261112.html#chest-collapse">喷血倒地（三角色）</a></p></section>
-<main><section id="boneclan-combat-roster-20261122" style="margin:24px 0;padding:21px;border:1px solid #647655;border-radius:8px;background:#192119;color:#e8ecdf">
-<h2 style="margin:0 0 9px">骨沼地下城 · 哥布林战斗与兵种</h2><p>Champion 五种受击、四个哥布林兵种的动作，以及囚笼内的精灵囚徒。</p>
-<a style="color:#d1e1ac" href="paladin/goblins/combat-roster-20261122.html">打开最新高清 demo →</a></section><section id="boneclan-deep-dungeon-20261121" style="margin:24px 0;padding:21px;border:1px solid #647655;border-radius:8px;background:#192119;color:#e8ecdf">
-<h2 style="margin:0 0 9px">骨沼地下城</h2><p>深层巢穴巡览和 Champion、Lightblade 近景战斗。</p>
-<a style="color:#d1e1ac" href="paladin/goblins/deep-dungeon-20261121.html">打开最新高清 demo →</a></section><section id="boneclan-expanded-20261120" style="margin:24px 0;padding:21px;border:1px solid #647655;border-radius:8px;background:#192119;color:#e8ecdf">
-<h2 style="margin:0 0 9px">骨沼巢穴扩建</h2><p>四区巡览、Champion 和 Lightblade 巢穴战斗，三段全新 UE5 实拍。</p>
-<a style="color:#d1e1ac" href="paladin/goblins/expanded-20261120.html">打开最新高清 demo →</a></section><section id="boneclan-20261119" style="margin:24px 0;padding:22px;border:1px solid #60744d;border-radius:10px;background:#192118;color:#e5e5d8"><p style="margin:0;color:#bfcf9c;font-size:12px;letter-spacing:.12em">NEW · UE5 · 1080p / 30 fps</p><h2 style="margin:8px 0">骨沼巢穴 · 哥布林部族</h2><p>四种哥布林、岩洞巢穴、攻击与倒地；Champion 和 Lightblade 两段全新战斗实拍。</p><a href="paladin/goblins/" style="color:#d7e6bf">打开三段高清 demo →</a></section>
-  <h1>首席法师吉迪恩 演示</h1>
-  <!-- paladin-review-20261103 -->
-  <section style="margin:24px 0;padding:24px 16px;border:1px solid #d9b45e;border-radius:8px;background:#151c31">
-    <h2 style="margin:0 0 12px">Paladin 五角色统一展示 · 11 月 4 日</h2>
-    <p><a href="paladin/revision-r584.html">11 月 10 日短片 · Seraph 火焰剑与三条胸口死亡 →</a></p>
-    <p class="sub">Seraph、Sovereign、Champion、Dawnknight、Oathbreaker：定型造型、37 招与受击死亡合集。Lightblade 独立定型轻装。</p>
-    <a style="display:inline-block;padding:12px 22px;border-radius:5px;background:#d9b45e;color:#101424;text-decoration:none;font-weight:700" href="paladin/">观看五角色统一 demo →</a>
+<body>
+<main>
+  <section class="demo-directory" aria-labelledby="demo-directory-title">
+    <h1 id="demo-directory-title">演示目录 · Demo Index</h1>
+    <div class="demo-columns"><span>演示 / Demo</span><span>更新日期 / Updated</span></div>
+    <!-- Permanent demo directory. Add newly published demos here in date order, using the Shanghai publication date. -->
+    <ol class="demo-links">
+      <li><a href="paladin/goblins/motion-rebuild-20261123.html">哥布林动作重制与 Champion 十四招</a><time datetime="2026-11-24">2026-11-24</time></li>
+      <li id="boneclan-20261119"><a href="paladin/goblins/">哥布林演示合集</a><time datetime="2026-11-24">2026-11-24</time></li>
+      <li><a href="paladin/goblins/character-combat-20261123.html">哥布林动作与战斗对照</a><time datetime="2026-11-23">2026-11-23</time></li>
+      <li><a href="paladin/goblins/variety-20261122.html">六类哥布林与受击对照</a><time datetime="2026-11-23">2026-11-23</time></li>
+      <li id="boneclan-combat-roster-20261122"><a href="paladin/goblins/combat-roster-20261122.html">哥布林兵种与战斗合集</a><time datetime="2026-11-22">2026-11-22</time></li>
+      <li><a href="paladin/">Paladin 角色与战斗演示合集</a><time datetime="2026-11-22">2026-11-22</time></li>
+      <li id="boneclan-deep-dungeon-20261121"><a href="paladin/goblins/deep-dungeon-20261121.html">骨沼地下城与巢穴战斗</a><time datetime="2026-11-21">2026-11-21</time></li>
+      <li id="boneclan-expanded-20261120"><a href="paladin/goblins/expanded-20261120.html">骨沼巢穴扩建巡览</a><time datetime="2026-11-21">2026-11-21</time></li>
+      <li id="lightblade-wind"><a href="paladin/lightblade/">Lightblade 最新完整演示</a><time datetime="2026-11-18">2026-11-18</time></li>
+      <li><a href="paladin/lightblade/tempest-20261118.html">Lightblade 风系双绝招</a><time datetime="2026-11-18">2026-11-18</time></li>
+      <li><a href="paladin/lightblade/owned-fx-20261118.html">Lightblade 法术特效</a><time datetime="2026-11-18">2026-11-18</time></li>
+      <li><a href="paladin/lightblade/grand-flow-20261117.html">Lightblade 大招衔接</a><time datetime="2026-11-17">2026-11-17</time></li>
+      <li><a href="paladin/lightblade/grand-20261117.html">Lightblade 两套大招</a><time datetime="2026-11-17">2026-11-17</time></li>
+      <li><a href="paladin/lightblade/signatures-20261116.html">Lightblade 招牌技</a><time datetime="2026-11-17">2026-11-17</time></li>
+      <li><a href="paladin/lightblade/wind-20261116.html">Lightblade 风效演示</a><time datetime="2026-11-16">2026-11-16</time></li>
+      <li><a href="paladin/lightblade/wind-20261115.html">Lightblade 早期风效</a><time datetime="2026-11-15">2026-11-15</time></li>
+      <li><a href="paladin/review-20261112.html">Seraph 火焰宽剑与胸口受击倒地</a><time datetime="2026-11-13">2026-11-13</time></li>
+      <li><a href="paladin/revision-r584.html">Seraph 与三角色倒地短片（R584）</a><time datetime="2026-11-10">2026-11-10</time></li>
+      <li><a href="paladin/unified-review.html">Paladin 五角色统一展示</a><time datetime="2026-11-06">2026-11-06</time></li>
+      <li><a href="paladin/revision-r5.html">Paladin 战斗与死亡动作对照（R5）</a><time datetime="2026-11-06">2026-11-06</time></li>
+      <li><a href="paladin/death-refinements-r164.html">Paladin 死亡动作修订（R164）</a><time datetime="2026-11-06">2026-11-06</time></li>
+      <li><a href="paladin/normal-death-release-r148.html">Paladin 常规倒地（R148）</a><time datetime="2026-11-06">2026-11-06</time></li>
+      <li><a href="paladin/lightblade/assassin-compare-r13.html">Lightblade 刺客服装穿法对照</a><time datetime="2026-11-06">2026-11-06</time></li>
+      <li><a href="paladin/lightblade/assassin-lean-motion-r14.html">Lightblade 刺客服装轻装动作</a><time datetime="2026-11-06">2026-11-06</time></li>
+      <li><a href="paladin/lightblade/assassin-fitting-r4.html">Lightblade 刺客服装试穿</a><time datetime="2026-11-06">2026-11-06</time></li>
+      <li><a href="paladin/lightblade/assassin-motion-r9.html">Lightblade 刺客服装动作</a><time datetime="2026-11-06">2026-11-06</time></li>
+      <li><a href="paladin/lightblade/clothing-r44.html">Lightblade 轻甲候选</a><time datetime="2026-11-06">2026-11-06</time></li>
+      <li><a href="#paladin">Paladin 早期演示</a><time datetime="2026-10-27">2026-10-27</time></li>
+      <li><a href="#aurelion">Archmage Gideon v7 · 奥瑞利昂城巡览</a><time datetime="2026-10-23">2026-10-23</time></li>
+      <li><a href="#v7">Archmage Gideon v7 · 大圆顶殿堂巡览</a><time datetime="2026-10-21">2026-10-21</time></li>
+      <li><a href="#v614">Archmage Gideon 6.1.4 · 战斗与音乐</a><time datetime="2026-10-20">2026-10-20</time></li>
+    </ol>
   </section>
-
 
   <h2>圣骑士：早期演示（历史版本）</h2>
   <p class="sub">The Paladin, Archmage Gideon's second class (in development): the Sovereign, the Seraph as an archangel, and the Champion's fourteen attacks with the foes' hit reactions · rendered in 4K · 1:32</p>
